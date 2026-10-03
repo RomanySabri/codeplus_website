@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "quote": {
+      "en": "Code Plus rebuilt our entire scheduling system in 10 weeks. We went from 200 daily bookings to 2,400 — without changing a single server. I've worked with 5 agencies. None come close.",
+      "th": "Code Plus สร้างระบบการจัดตารางทั้งหมดของเราใหม่ภายใน 10 สัปดาห์ เราเพิ่มจาก 200 การจองต่อวันเป็น 2,400 — โดยไม่ต้องเปลี่ยนเซิร์ฟเวอร์เลย ผมทำงานกับ 5 เอเจนซี่ ไม่มีใครเทียบได้"
+    },
+    "author": "Ahmed Kareem",
+    "role": {
+      "en": "CTO",
+      "th": "ประธานเจ้าหน้าที่ฝ่ายเทคโนโลยี"
+    },
+    "company": "Sa3y",
+    "initial": "AK",
+    "avatar": "/images/testimonials/ahmed-kareem.jpg",
+    "rating": 5,
+    "projectSlug": "sa3y"
+  },
+  {
+    "id": 2,
+    "quote": {
+      "en": "Code Plus replaced our unstable donation portal with zero downtime. Managing donor records and tracking contributions is now flawless, and the platform loads in under 200ms even during high-traffic charity campaigns.",
+      "th": "Code Plus เปลี่ยนระบบพอร์ทัลการบริจาคที่ไม่เสถียรของเราโดยไม่มีการหยุดชะงัก การจัดการข้อมูลผู้บริจาคและการติดตามการบริจาคเป็นไปอย่างราบรื่น และระบบโหลดเสร็จใน 200ms แม้ช่วงแคมเปญที่มีผู้บริจาคหนาแน่น"
+    },
+    "author": "Dr. Mohamed Salah",
+    "role": {
+      "en": "IT Director",
+      "th": "ผู้อำนวยการฝ่ายเทคโนโลยีสารสนเทศ"
+    },
+    "company": "Dar Al Akhera",
+    "initial": "MS",
+    "avatar": "/images/testimonials/mohamed-salah.jpg",
+    "rating": 5,
+    "projectSlug": "dar-al-akhera"
+  },
+
+  {
+    "id": 4,
+    "quote": {
+      "en": "Their speed without sacrificing architecture impressed us most. A fully containerized cloud platform in 6 weeks, with CI/CD pipelines that let us deploy in under 3 minutes.",
+      "th": "สิ่งที่ประทับใจเราที่สุดคือความเร็วโดยไม่เสียสละคุณภาพสถาปัตยกรรม แพลตฟอร์มคลาวด์ใน 6 สัปดาห์ พร้อม CI/CD ที่ deploy ได้ใน 3 นาที"
+    },
+    "author": "Sara Al-Rashidi",
+    "role": {
+      "en": "Product Lead",
+      "th": "หัวหน้าฝ่ายผลิตภัณฑ์"
+    },
+    "company": "Takamol",
+    "initial": "SR",
+    "avatar": "/images/testimonials/sara.jpg",
+    "rating": 5,
+    "projectSlug": "takamol"
+  },
+  {
+    "id": 5,
+    "quote": {
+      "en": "True engineering partners — not just developers. They challenged our assumptions, refactored bottlenecks proactively, and delivered an enterprise platform that scales under high traffic.",
+      "th": "พันธมิตรด้านวิศวกรรมที่แท้จริง — ไม่ใช่แค่นักพัฒนา พวกเขาท้าทายสมมติฐานของเรา ปรับปรุงจุดคอขวดเชิงรุก และส่งมอบแพลตฟอร์มองค์กรที่รองรับการขยายตัวได้"
+    },
+    "author": "Khalid Mansour",
+    "role": {
+      "en": "CEO",
+      "th": "ประธานเจ้าหน้าที่บริหาร"
+    },
+    "company": "Mr Vet",
+    "initial": "KM",
+    "avatar": "/images/testimonials/khalid.jpg",
+    "rating": 5,
+    "projectSlug": "mr-vet"
+  },
+  {
+    "id": 6,
+    "quote": {
+      "en": "Our digital sales increased by 180% within four months of launching the new platform. Code Plus built a highly scalable e-commerce system that handles bulk agricultural orders and payment gateways seamlessly.",
+      "th": "ยอดขายดิจิทัลของเราเพิ่มขึ้น 180% ภายในสี่เดือนหลังจากเปิดตัวแพลตฟอร์มใหม่ Code Plus ได้สร้างระบบอีคอมเมิร์ซที่ปรับขนาดได้สูง ซึ่งจัดการคำสั่งซื้อสินค้าเกษตรจำนวนมากและเกตเวย์การชำระเงินได้อย่างราบรื่น"
+    },
+    "author": "Youssef Al-Fayed",
+    "role": {
+      "en": "Managing Director",
+      "th": "กรรมการผู้จัดการ"
+    },
+    "company": "Olive Tree",
+    "initial": "YF",
+    "avatar": "/images/testimonials/youssef.jpg",
+    "rating": 5,
+    "projectSlug": "olive-tree"
+  },
+  {
+    "id": 7,
+    "quote": {
+      "en": "Maskan completely transformed how we manage our residential compounds. Automated invoicing and WhatsApp/SMS payment reminders reduced late payments by 60% and made operations fully transparent.",
+      "th": "Maskan เปลี่ยนแปลงวิธีการจัดการโครงการหมู่บ้านและอาคารชุดของเราโดยสิ้นเชิง ระบบแจ้งหนี้อัตโนมัติและการแจ้งเตือนการชำระเงินผ่าน WhatsApp/SMS ช่วยลดการจ่ายเงินล่าช้าลงได้ถึง 60% และทำให้การดำเนินงานโปร่งใสอย่างสมบูรณ์"
+    },
+    "author": "Eng. Tariq El-Morsy",
+    "role": {
+      "en": "General Manager",
+      "th": "ผู้จัดการทั่วไป"
+    },
+    "company": "Maskan",
+    "initial": "TM",
+    "avatar": "/images/testimonials/tariq.jpg",
+    "rating": 5,
+    "projectSlug": "maskan"
+  }
+]

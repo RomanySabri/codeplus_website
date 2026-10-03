@@ -1,0 +1,45 @@
+# Code Plus Software House
+
+Code Plus Software House is a full-stack software house based in Cairo, Egypt. We build scalable, successful digital products serving startups, businesses, and enterprises across mobile, web, AI, and infrastructure.
+
+The site is fully bilingual, supporting English and Thai.
+
+- English: https://codeplusdev.com/en
+- Thai: https://codeplusdev.com/th
+
+---
+
+## Services
+
+We offer a range of professional software development services:
+
+- **Mobile App Development**: Native Swift/Kotlin and Flutter cross-platform applications.
+  - Path: https://codeplusdev.com/en/services/mobile
+- **Web Platforms & E-Commerce**: High-performance React/Next.js web applications.
+  - Path: https://codeplusdev.com/en/services/web
+- **UI/UX Design & Branding**: Beautiful and premium user experiences.
+  - Path: https://codeplusdev.com/en/services/design
+- **Backend & Infrastructure**: Scalable backends, APIs, database architectures, and cloud hosting.
+  - Path: https://codeplusdev.com/en/services/backend
+- **ERP & Business Systems**: Custom business automation software and management portals.
+  - Path: https://codeplusdev.com/en/services/erp
+- **AI & Smart Solutions**: LLM integrations, retrieval-augmented generation (RAG), and smart agents.
+  - Path: https://codeplusdev.com/en/services/ai
+- **Industry-Specific Platforms**: Purpose-built industry platforms and systems.
+  - Path: https://codeplusdev.com/en/services/industry
+- **Security, Consulting & Support**: Cyber-security posture, consulting, and support agreements.
+  - Path: https://codeplusdev.com/en/services/security
+
+---
+
+## Careers & Internships
+
+We hire ambitious students and graduates to work alongside senior engineers on real client projects.
+
+- **Careers Portal**: https://codeplusdev.com/en/careers
+- Open positions:
+  - **Backend Engineering Intern**: https://codeplusdev.com/en/careers/backend-engineering-intern
+  - **UI/UX Design Intern**: https://codeplusdev.com/en/careers/uiux-design-intern
+  - **Frontend Developer Intern**: https://codeplusdev.com/en/careers/frontend-developer-intern
+  - **Mobile App Intern**: https://codeplusdev.com/en/careers/mobile-app-intern
+  - **General Internship Application**: https://codeplusdev.com/en/careers/general-application

@@ -1,0 +1,278 @@
+{
+  "company": {
+    "name": "Code Plus",
+    "fullName": "Code Plus Software House",
+    "tagline": "Build Better. Faster. Smarter.",
+    "description": "Our goal isn't just delivering projects — it's building scalable, successful digital products. We're a full-stack software house serving startups, businesses, and enterprises across mobile, web, AI, and infrastructure.",
+    "email": "hello@codeplusdev.com",
+    "whatsapp": "+201019422125",
+    "location": "Cairo, Egypt",
+    "locationSub": "Available for remote projects worldwide",
+    "website": "https://codeplusdev.com",
+    "founded": "2021"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/share/1AVF1TpX6X/",
+    "linkedin": "https://www.linkedin.com/company/code-plus-dev/"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Work",
+      "href": "/work"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Team",
+      "href": "/team"
+    }
+  ],
+  "stats": {
+    "projects": "48+",
+    "clients": "98%",
+    "countries": "5",
+    "uptime": "99.9%",
+    "years": "3+",
+    "loadTime": "<1s"
+  },
+  "hero": {
+    "badge": "Now accepting Q3 projects",
+    "headline": "We turn ideas into",
+    "headlineAccent": "software that matters.",
+    "subtext": "From the first sketch to the last deployment — we build the products your business needs to move forward.",
+    "ctaPrimary": { "label": "See our work →", "href": "/work" },
+    "ctaSecondary": { "label": "Let's talk", "href": "/contact" }
+  },
+  "trust": {
+    "label": "Trusted by teams at",
+    "clients": [
+      "Sa3y",
+      "Mr Vet",
+      "Olive Tree",
+      "Takamol",
+      "Dar Al Akhera"
+    ]
+  },
+  "contact": {
+    "email": "hello@codeplusdev.com",
+    "whatsapp": "+20 101 942 2125",
+    "location": "Cairo, Egypt",
+    "locationSub": "Available for remote projects worldwide",
+    "responseTime": "Within 24 hours",
+    "availability": "Currently accepting Q3 2025 projects",
+    "form": {
+      "services": [
+        {
+          "id": "mobile",
+          "label": "Mobile App Development"
+        },
+        {
+          "id": "web",
+          "label": "Web Platforms & E-Commerce"
+        },
+        {
+          "id": "design",
+          "label": "UI/UX Design & Branding"
+        },
+        {
+          "id": "backend",
+          "label": "Backend & Infrastructure"
+        },
+        {
+          "id": "erp",
+          "label": "ERP & Business Systems"
+        },
+        {
+          "id": "ai",
+          "label": "AI & Smart Solutions"
+        },
+        {
+          "id": "industry",
+          "label": "Industry-Specific Platforms"
+        },
+        {
+          "id": "security",
+          "label": "Security, Consulting & Support"
+        },
+        {
+          "id": "other",
+          "label": "Something else"
+        }
+      ],
+      "budgets": [
+        "Under $5,000",
+        "$5,000 – $15,000",
+        "$15,000 – $50,000",
+        "$50,000+",
+        "Not sure yet"
+      ]
+    }
+  },
+  "footer": {
+    "description": "We don't just deliver projects — we build scalable, successful digital products. Trusted by startups and enterprises across Egypt, Saudi Arabia, Thailand, and beyond.",
+    "links": {
+      "Product": [
+        {
+          "label": "Portfolio",
+          "href": "/work"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "Tech Stack",
+          "href": "/#stack"
+        }
+      ],
+      "Company": [
+        {
+          "label": "About",
+          "href": "/about"
+        },
+        {
+          "label": "Team",
+          "href": "/team"
+        },
+        {
+          "label": "Careers",
+          "href": "/careers"
+        }
+      ],
+      "Resources": [
+        {
+          "label": "Contact Us",
+          "href": "/contact"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/code-plus-dev/"
+        }
+      ],
+      "Legal": [
+        {
+          "label": "NDA",
+          "href": "/contact"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/contact"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "/contact"
+        }
+      ]
+    }
+  },
+  "process": [
+    {
+      "step": "01",
+      "title": "Discovery call",
+      "description": "We learn your business, users, and constraints. 60 minutes that shape everything.",
+      "duration": "1-2 days"
+    },
+    {
+      "step": "02",
+      "title": "Architecture & proposal",
+      "description": "Technical spec, timeline, and fixed price. No surprises.",
+      "duration": "3-5 days"
+    },
+    {
+      "step": "03",
+      "title": "Build & iterate",
+      "description": "Weekly demos. You see progress every Friday. Full transparency.",
+      "duration": "4-24 weeks"
+    },
+    {
+      "step": "04",
+      "title": "Launch & support",
+      "description": "Deployment, monitoring, and 3 months of post-launch support included.",
+      "duration": "Ongoing"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a typical project take?",
+      "a": "Most projects take 6-16 weeks depending on scope. We'll give you a precise timeline after our discovery call."
+    },
+    {
+      "q": "Do you work with startups or only enterprises?",
+      "a": "Both. We've built MVPs in 6 weeks and enterprise systems for 40,000+ users. Budget matters more than company size."
+    },
+    {
+      "q": "What's your pricing model?",
+      "a": "We offer fixed-price projects (you know the cost upfront) or time & materials for ongoing work. No hidden fees."
+    },
+    {
+      "q": "Do you sign NDAs?",
+      "a": "Always. We sign before any technical discussions begin."
+    },
+    {
+      "q": "Can you work with our existing team?",
+      "a": "Yes. We integrate with your team, use your tools, and hand off clean, documented code."
+    },
+    {
+      "q": "What happens after launch?",
+      "a": "All projects include 3 months of post-launch support. After that, we offer retainer packages."
+    }
+  ],
+  "techStack": {
+    "categories": [
+      {
+        "label": "Frontend",
+        "items": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "Flutter"
+        ]
+      },
+      {
+        "label": "Backend",
+        "items": [
+          "Node.js",
+          "Bun",
+          "Prisma",
+          "PostgreSQL",
+          "Redis",
+          "GraphQL"
+        ]
+      },
+      {
+        "label": "Infrastructure",
+        "items": [
+          "Vercel",
+          "Docker",
+          "Kubernetes",
+          "Cloudflare",
+          "AWS",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "label": "AI & Data",
+        "items": [
+          "OpenAI",
+          "LangChain",
+          "Pinecone",
+          "Firebase",
+          "Neon DB",
+          "Supabase"
+        ]
+      }
+    ]
+  }
+}

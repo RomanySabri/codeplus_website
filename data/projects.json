@@ -1,0 +1,634 @@
+[
+  {
+    "id": 1,
+    "slug": "sa3y",
+    "tag": {
+      "en": "Healthcare Platform",
+      "th": "Healthcare Platform"
+    },
+    "year": "2025",
+    "title": {
+      "en": "Sa3y",
+      "th": "Sa3y"
+    },
+    "description": {
+      "en": "We built the digital infrastructure connecting patients with certified caregivers, handling peak loads of 2,000+ concurrent users with zero downtime.",
+      "th": "We built the digital infrastructure connecting patients with certified caregivers, handling peak loads of 2,000+ concurrent users with zero downtime."
+    },
+    "longDescription": {
+      "en": "Sa3y approached us with a monumental challenge: their offline caregiver matching service couldn't scale. Care coordinators were manually scheduling appointments via spreadsheets, leading to booking bottlenecks, lost data, and frustrated patients. They needed a high-performance, real-time dispatch and medical records engine that could operate with zero latency.\n\nWe engineered the core platform from the ground up. By utilizing Next.js for the administrative web interface and Flutter for the provider applications, we unified their operations into a single cohesive system. Under the hood, a serverless backend powered by Neon DB and Edge functions handles real-time location matching, automatic scheduling conflicts, and instant push notifications.\n\nToday, Sa3y operates completely digitally. Manual coordination time has plummeted to zero, allowing the business to handle a massive surge in volume. The system is architected for enterprise-grade security and compliance, ensuring patient data is securely encrypted at rest and in transit.",
+      "th": "Sa3y approached us with a monumental challenge: their offline caregiver matching service couldn't scale. Care coordinators were manually scheduling appointments via spreadsheets, leading to booking bottlenecks, lost data, and frustrated patients. They needed a high-performance, real-time dispatch and medical records engine that could operate with zero latency.\n\nWe engineered the core platform from the ground up. By utilizing Next.js for the administrative web interface and Flutter for the provider applications, we unified their operations into a single cohesive system. Under the hood, a serverless backend powered by Neon DB and Edge functions handles real-time location matching, automatic scheduling conflicts, and instant push notifications.\n\nToday, Sa3y operates completely digitally. Manual coordination time has plummeted to zero, allowing the business to handle a massive surge in volume. The system is architected for enterprise-grade security and compliance, ensuring patient data is securely encrypted at rest and in transit."
+    },
+    "challenge": {
+      "en": "Care coordination was entirely manual, causing massive booking friction. The client needed to automate real-time matching between certified caregivers and patients, sync complex recurring schedules, secure sensitive medical records, and guarantee sub-second load times on mobile connections.",
+      "th": "Care coordination was entirely manual, causing massive booking friction. The client needed to automate real-time matching between certified caregivers and patients, sync complex recurring schedules, secure sensitive medical records, and guarantee sub-second load times on mobile connections."
+    },
+    "solution": {
+      "en": "We designed an event-driven serverless architecture on Neon DB and Prisma, orchestrating real-time scheduling through transactional Edge functions. We developed a highly optimized Flutter app for caregivers with offline-first synchronization, paired with a Next.js administrative dashboard.",
+      "th": "We designed an event-driven serverless architecture on Neon DB and Prisma, orchestrating real-time scheduling through transactional Edge functions. We developed a highly optimized Flutter app for caregivers with offline-first synchronization, paired with a Next.js administrative dashboard."
+    },
+    "results": {
+      "en": "After launch, Sa3y saw a 340% increase in caregiver bookings within the first 3 months. The platform handled peak loads of 2,000 concurrent users without a single incident.",
+      "th": "After launch, Sa3y saw a 340% increase in caregiver bookings within the first 3 months. The platform handled peak loads of 2,000 concurrent users without a single incident."
+    },
+    "tech": [
+      "Next.js",
+      "Neon DB",
+      "Prisma",
+      "Flutter",
+      "FCM",
+      "Vercel",
+      "TypeScript"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "en": "Active users",
+          "th": "Active users"
+        },
+        "value": {
+          "en": "12,400",
+          "th": "12,400"
+        }
+      },
+      {
+        "label": {
+          "en": "Booking Increase",
+          "th": "Booking Increase"
+        },
+        "value": {
+          "en": "340%",
+          "th": "340%"
+        }
+      },
+      {
+        "label": {
+          "en": "API Response",
+          "th": "API Response"
+        },
+        "value": {
+          "en": "85ms",
+          "th": "85ms"
+        }
+      },
+      {
+        "label": {
+          "en": "Caregivers",
+          "th": "Caregivers"
+        },
+        "value": {
+          "en": "800+",
+          "th": "800+"
+        }
+      },
+      {
+        "label": {
+          "en": "Cities",
+          "th": "Cities"
+        },
+        "value": {
+          "en": "5",
+          "th": "5"
+        }
+      },
+      {
+        "label": {
+          "en": "Daily Bookings",
+          "th": "Daily Bookings"
+        },
+        "value": {
+          "en": "300+",
+          "th": "300+"
+        }
+      }
+    ],
+    "color": "#0c4a6e",
+    "featured": true,
+    "duration": {
+      "en": "14 weeks",
+      "th": "14 weeks"
+    },
+    "team": {
+      "en": "4 engineers",
+      "th": "4 engineers"
+    },
+    "deliverables": [
+      {
+        "en": "Web platform (Next.js)",
+        "th": "Web platform (Next.js)"
+      },
+      {
+        "en": "Mobile app (Flutter)",
+        "th": "Mobile app (Flutter)"
+      },
+      {
+        "en": "Admin dashboard",
+        "th": "Admin dashboard"
+      },
+      {
+        "en": "Real-time scheduling engine",
+        "th": "Real-time scheduling engine"
+      },
+      {
+        "en": "Notification system",
+        "th": "Notification system"
+      }
+    ],
+    "coverImage": "/projects/sa3y/Home page.png",
+    "images": [
+      "/projects/sa3y/Home page.png",
+      "/projects/sa3y/Home page (1).png",
+      "/projects/sa3y/New Opportunities.png",
+      "/projects/sa3y/New Opportunities (1).png",
+      "/projects/sa3y/Popular Opportunities.png",
+      "/projects/sa3y/Popular Opportunities (1).png",
+      "/projects/sa3y/Deadlines Soon (1).png"
+    ],
+    "testimonial": {
+      "quote": {
+        "en": "Code Plus rebuilt our entire scheduling system in 10 weeks. We went from 200 daily bookings to 2,400 — without changing a single server. I've worked with 5 agencies. None come close.",
+        "th": "Code Plus rebuilt our entire scheduling system in 10 weeks. We went from 200 daily bookings to 2,400 — without changing a single server. I've worked with 5 agencies. None come close."
+      },
+      "author": "Ahmed Kareem",
+      "role": {
+        "en": "CTO of Sanad Care",
+        "th": "CTO of Sanad Care"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "slug": "mr-vet",
+    "tag": {
+      "en": "Veterinary Platform",
+      "th": "Veterinary Platform"
+    },
+    "year": "2024",
+    "title": {
+      "en": "Mr Vet",
+      "th": "Mr Vet"
+    },
+    "description": {
+      "en": "A high-performance digital platform built by Code Plus.",
+      "th": "A high-performance digital platform built by Code Plus."
+    },
+    "longDescription": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "challenge": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "solution": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "results": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "en": "Status",
+          "th": "Status"
+        },
+        "value": {
+          "en": "Live",
+          "th": "Live"
+        }
+      }
+    ],
+    "color": "#e05638",
+    "featured": false,
+    "duration": {
+      "en": "12 weeks",
+      "th": "12 weeks"
+    },
+    "team": {
+      "en": "4 engineers",
+      "th": "4 engineers"
+    },
+    "deliverables": [
+      {
+        "en": "Web platform",
+        "th": "Web platform"
+      }
+    ],
+    "coverImage": "/projects/mr-vet/Cover page.png",
+    "images": [
+      "/projects/mr-vet/Cover page.png",
+      "/projects/mr-vet/Dashboard.png",
+      "/projects/mr-vet/1.png",
+      "/projects/mr-vet/2.png",
+      "/projects/mr-vet/3.png",
+      "/projects/mr-vet/4.png",
+      "/projects/mr-vet/5.png"
+    ],
+    "testimonial": {
+      "quote": {
+        "en": "True engineering partners — not just developers. They challenged our assumptions, refactored bottlenecks proactively, and delivered a veterinary platform that scales under high traffic.",
+        "th": "พันธมิตรด้านวิศวกรรมที่แท้จริง — ไม่ใช่แค่นักพัฒนา พวกเขาท้าทายสมมติฐานของเรา ปรับปรุงจุดคอขวดเชิงรุก และส่งมอบแพลตฟอร์มสัตวแพทย์ที่รองรับการขยายตัวได้ดีภายใต้ทราฟฟิกสูง"
+      },
+      "author": "Khalid Mansour",
+      "role": {
+        "en": "CEO of Mr Vet",
+        "th": "CEO ของ Mr Vet"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "slug": "olive-tree",
+    "tag": {
+      "en": "Agriculture E-Commerce",
+      "th": "Agriculture E-Commerce"
+    },
+    "year": "2024",
+    "title": {
+      "en": "Olive Tree",
+      "th": "Olive Tree"
+    },
+    "description": {
+      "en": "A high-performance digital platform built by Code Plus.",
+      "th": "A high-performance digital platform built by Code Plus."
+    },
+    "longDescription": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "challenge": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "solution": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "results": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "en": "Status",
+          "th": "Status"
+        },
+        "value": {
+          "en": "Live",
+          "th": "Live"
+        }
+      }
+    ],
+    "color": "#65a30d",
+    "featured": false,
+    "duration": {
+      "en": "12 weeks",
+      "th": "12 weeks"
+    },
+    "team": {
+      "en": "4 engineers",
+      "th": "4 engineers"
+    },
+    "deliverables": [
+      {
+        "en": "Web platform",
+        "th": "Web platform"
+      }
+    ],
+    "coverImage": "/projects/olive-tree/Admin Dashboard - Clean & Professional.png",
+    "images": [
+      "/projects/olive-tree/Admin Dashboard - Clean & Professional.png",
+      "/projects/olive-tree/6Cfegyh6x3hg_1024_500.png",
+      "/projects/olive-tree/Hotpot 0.png",
+      "/projects/olive-tree/Hotpot 1.png",
+      "/projects/olive-tree/Hotpot 2.png",
+      "/projects/olive-tree/Hotpot 3.png",
+      "/projects/olive-tree/Hotpot 4.png"
+    ],
+    "testimonial": {
+      "quote": {
+        "en": "Our digital sales increased by 180% within four months of launching the new platform. Code Plus built a highly scalable e-commerce system that handles bulk agricultural orders and payment gateways seamlessly.",
+        "th": "ยอดขายดิจิทัลของเราเพิ่มขึ้น 180% ภายในสี่เดือนหลังจากเปิดตัวแพลตฟอร์มใหม่ Code Plus ได้สร้างระบบอีคอมเมิร์ซที่ปรับขนาดได้สูง ซึ่งจัดการคำสั่งซื้อสินค้าเกษตรจำนวนมากและเกตเวย์การชำระเงินได้อย่างราบรื่น"
+      },
+      "author": "Youssef Al-Fayed",
+      "role": {
+        "en": "Managing Director of Olive Tree Co.",
+        "th": "กรรมการผู้จัดการ ของ Olive Tree Co."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "slug": "takamol",
+    "tag": {
+      "en": "Enterprise Solutions",
+      "th": "Enterprise Solutions"
+    },
+    "year": "2024",
+    "title": {
+      "en": "Takamol",
+      "th": "Takamol"
+    },
+    "description": {
+      "en": "A high-performance digital platform built by Code Plus.",
+      "th": "A high-performance digital platform built by Code Plus."
+    },
+    "longDescription": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "challenge": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "solution": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "results": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "en": "Status",
+          "th": "Status"
+        },
+        "value": {
+          "en": "Live",
+          "th": "Live"
+        }
+      }
+    ],
+    "color": "#7c3aed",
+    "featured": false,
+    "duration": {
+      "en": "12 weeks",
+      "th": "12 weeks"
+    },
+    "team": {
+      "en": "4 engineers",
+      "th": "4 engineers"
+    },
+    "deliverables": [
+      {
+        "en": "Web platform",
+        "th": "Web platform"
+      }
+    ],
+    "coverImage": "/projects/takamol/dashboard.png",
+    "images": [
+      "/projects/takamol/dashboard.png",
+      "/projects/takamol/ChatGPT Image May 25, 2026, 04_31_47 PM.png",
+      "/projects/takamol/ChatGPT Image May 25, 2026, 04_41_28 PM.png",
+      "/projects/takamol/Frame 1000008547.png",
+      "/projects/takamol/Frame 1000008548.png",
+      "/projects/takamol/Frame 1000008549.png",
+      "/projects/takamol/Frame 1000008550.png",
+      "/projects/takamol/Frame 1000008551.png",
+      "/projects/takamol/Frame 1000008552.png"
+    ],
+    "testimonial": {
+      "quote": {
+        "en": "Their speed without sacrificing architecture impressed us most. A fully containerized cloud platform in 6 weeks, with CI/CD pipelines that let us deploy in under 3 minutes.",
+        "th": "สิ่งที่ประทับใจเราที่สุดคือความเร็วโดยไม่เสียสละคุณภาพสถาปัตยกรรม แพลตฟอร์มคลาวด์ใน 6 สัปดาห์ พร้อม CI/CD ที่ deploy ได้ใน 3 นาที"
+      },
+      "author": "Sara Al-Rashidi",
+      "role": {
+        "en": "Product Lead at Takamol",
+        "th": "หัวหน้าฝ่ายผลิตภัณฑ์ ของ Takamol"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "slug": "dar-al-akhera",
+    "tag": {
+      "en": "Non-profit Platform",
+      "th": "Non-profit Platform"
+    },
+    "year": "2024",
+    "title": {
+      "en": "Dar Al Akhera",
+      "th": "Dar Al Akhera"
+    },
+    "description": {
+      "en": "A high-performance digital platform built by Code Plus.",
+      "th": "A high-performance digital platform built by Code Plus."
+    },
+    "longDescription": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "challenge": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "solution": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "results": {
+      "en": "Coming soon.",
+      "th": "Coming soon."
+    },
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "en": "Status",
+          "th": "Status"
+        },
+        "value": {
+          "en": "Live",
+          "th": "Live"
+        }
+      }
+    ],
+    "color": "#059669",
+    "featured": false,
+    "duration": {
+      "en": "12 weeks",
+      "th": "12 weeks"
+    },
+    "team": {
+      "en": "4 engineers",
+      "th": "4 engineers"
+    },
+    "deliverables": [
+      {
+        "en": "Web platform",
+        "th": "Web platform"
+      }
+    ],
+    "coverImage": "/projects/dar-al-akhera/dar-Al_Akhera.png",
+    "images": [
+      "/projects/dar-al-akhera/dar-Al_Akhera.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera1.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera2.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera3.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera4.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera5.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera6.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera7.png",
+      "/projects/dar-al-akhera/Dar_Al_Akhera8.png"
+    ],
+    "testimonial": {
+      "quote": {
+        "en": "Code Plus replaced our unstable donation portal with zero downtime. Managing donor records and tracking contributions is now flawless, and the platform loads in under 200ms even during high-traffic charity campaigns.",
+        "th": "Code Plus เปลี่ยนระบบพอร์ทัลการบริจาคที่ไม่เสถียรของเราโดยไม่มีการหยุดชะงัก การจัดการข้อมูลผู้บริจาคและการติดตามการบริจาคเป็นไปอย่างราบรื่น และระบบโหลดเสร็จใน 200ms แม้ช่วงแคมเปญที่มีผู้บริจาคหนาแน่น"
+      },
+      "author": "Dr. Mohamed Salah",
+      "role": {
+        "en": "IT Director of Dar Al Akhera",
+        "th": "ผู้อำนวยการฝ่ายไอที ของ Dar Al Akhera"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "slug": "maskan",
+    "tag": {
+      "en": "Property Management & Mobile App",
+      "th": "ระบบจัดการอสังหาฯ และแอปมือถือ"
+    },
+    "year": "2024",
+    "title": {
+      "en": "Maskan",
+      "th": "Maskan"
+    },
+    "description": {
+      "en": "A smart SaaS platform and Flutter mobile application for managing residential towers, compounds, and real estate, streamlining billing, payments, and member communications.",
+      "th": "แพลตฟอร์ม SaaS อัจฉริยะและโมบายแอปพลิเคชันด้วย Flutter สำหรับจัดการอาคารชุด คอนโดมิเนียม และหมู่บ้านจัดสรร ครอบคลุมการจัดเก็บค่าส่วนกลาง บิล และการสื่อสาร"
+    },
+    "longDescription": {
+      "en": "Maskan was developed to address the operational challenges of modern real estate and compound management. The platform digitizes community operations, allowing property managers to manage units, generate automated utility/service invoices, track payments, and follow up on arrears. Residents benefit from a cross-platform mobile application built with Flutter, providing a unified portal to view invoices, make secure payments via integrated payment gateways, receive push notifications via FCM, and communicate directly with management. We engineered a responsive web admin dashboard on Next.js, backed by a scalable Node.js and PostgreSQL database engine.",
+      "th": "Maskan ได้รับการพัฒนาเพื่อแก้ปัญหาการดำเนินงานของอสังหาริมทรัพย์และหมู่บ้านจัดสรรในยุคปัจจุบัน แพลตฟอร์มนี้แปลงการจัดการชุมชนให้เป็นระบบดิจิทัล ช่วยให้นิติบุคคลสามารถจัดการยูนิต สร้างใบแจ้งหนี้อัตโนมัติ ติดตามการชำระเงิน และติดตามยอดค้างชำระ ในขณะที่ลูกบ้านได้รับความสะดวกสบายผ่านโมบายแอปพลิเคชันแบบข้ามแพลตฟอร์มที่พัฒนาด้วย Flutter เพื่อเข้าถึงพอร์ทัลเพื่อดูใบแจ้งหนี้ ชำระเงินอย่างปลอดภัยผ่านเกตเวย์ รับการแจ้งเตือนแบบพุชผ่าน FCM และสื่อสารกับฝ่ายบริหารโดยตรง"
+    },
+    "challenge": {
+      "en": "Traditional property management relied on paper receipts, manual Excel tracking, and disjointed communication channels, leading to high administrative overhead, payment delays, and lack of transparency for residents.",
+      "th": "การจัดการอสังหาริมทรัพย์แบบดั้งเดิมอาศัยใบเสร็จกระดาษ การติดตามด้วยมือใน Excel และช่องทางการสื่อสารที่ไม่เป็นระบบ ส่งผลให้เกิดความล่าช้าในการชำระเงิน และขาดความโปร่งใสสำหรับลูกบ้าน"
+    },
+    "solution": {
+      "en": "We developed Maskan as a comprehensive SaaS solution combining a Next.js administrative web portal and a cross-platform Flutter mobile application. The system features automated invoice generation, payment tracking, financial reporting dashboards, push notification systems, and an easy-to-use client interface for residents.",
+      "th": "เราพัฒนา Maskan ให้เป็นโซลูชัน SaaS ที่ครอบคลุม โดยรวมพอร์ทัลเว็บการจัดการ Next.js และโมบายแอปพลิเคชันข้ามแพลตฟอร์มด้วย Flutter ระบบประกอบด้วยฟังก์ชันการสร้างใบแจ้งหนี้อัตโนมัติ การติดตามการชำระเงิน แดชบอร์ดรายงานทางการเงิน ระบบแจ้งเตือน และแอปสำหรับลูกบ้าน"
+    },
+    "results": {
+      "en": "The system reduced billing administrative time by 75% and improved on-time maintenance payment collection rates by over 40% in the first quarter of deployment.",
+      "th": "ระบบช่วยลดเวลาบริหารจัดการการเรียกเก็บเงินลงถึง 75% และเพิ่มอัตราการชำระค่าส่วนกลางตรงเวลามากกว่า 40% ในไตรมาสแรกที่ใช้งาน"
+    },
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "Flutter",
+      "Dart",
+      "FCM"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "en": "Time Saved",
+          "th": "ประหยัดเวลา"
+        },
+        "value": {
+          "en": "75%",
+          "th": "75%"
+        }
+      },
+      {
+        "label": {
+          "en": "On-Time Payments",
+          "th": "ชำระเงินตรงเวลา"
+        },
+        "value": {
+          "en": "+40%",
+          "th": "+40%"
+        }
+      },
+      {
+        "label": {
+          "en": "Status",
+          "th": "สถานะ"
+        },
+        "value": {
+          "en": "Live",
+          "th": "Live"
+        }
+      }
+    ],
+    "color": "#12335b",
+    "featured": false,
+    "duration": {
+      "en": "10 weeks",
+      "th": "10 สัปดาห์"
+    },
+    "team": {
+      "en": "3 engineers",
+      "th": "วิศวกร 3 คน"
+    },
+    "deliverables": [
+      {
+        "en": "SaaS Web Platform",
+        "th": "ระบบเว็บแพลตฟอร์ม SaaS"
+      },
+      {
+        "en": "Administrative Dashboard",
+        "th": "ระบบจัดการสำหรับผู้ดูแลระบบ"
+      },
+      {
+        "en": "Mobile App (Flutter)",
+        "th": "โมบายแอปพลิเคชัน (Flutter)"
+      },
+      {
+        "en": "Billing & Invoicing Engine",
+        "th": "ระบบสร้างบิลและใบแจ้งหนี้อัตโนมัติ"
+      }
+    ],
+    "coverImage": "/projects/maskan/cover.jpeg",
+    "images": [
+      "/projects/maskan/cover.jpeg",
+      "/projects/maskan/image1.jpeg",
+      "/projects/maskan/image2.jpeg",
+      "/projects/maskan/image3.jpeg",
+      "/projects/maskan/image4.jpeg"
+    ],
+    "testimonial": {
+      "quote": {
+        "en": "Maskan completely transformed how we manage our residential compounds. Automated invoicing and WhatsApp/SMS payment reminders reduced late payments by 60% and made operations fully transparent.",
+        "th": "Maskan เปลี่ยนแปลงวิธีการจัดการโครงการหมู่บ้านและอาคารชุดของเราโดยสิ้นเชิง ระบบแจ้งหนี้อัตโนมัติและการแจ้งเตือนการชำระเงินผ่าน WhatsApp/SMS ช่วยลดการจ่ายเงินล่าช้าลงได้ถึง 60% และทำให้การดำเนินงานโปร่งใสอย่างสมบูรณ์"
+      },
+      "author": "Eng. Tariq El-Morsy",
+      "role": {
+        "en": "General Manager of Maskan Group",
+        "th": "ผู้จัดการทั่วไป ของ Maskan Group"
+      }
+    }
+  }
+]

@@ -1,0 +1,570 @@
+[
+  {
+    "id": "mobile",
+    "tag": "01",
+    "icon": "SmartphoneIcon",
+    "title": {
+      "en": "Mobile App Development",
+      "th": "การพัฒนาโมบายแอปพลิเคชัน"
+    },
+    "tagline": {
+      "en": "Native power. Cross-platform reach.",
+      "th": "ประสิทธิภาพเนทีฟ เข้าถึงข้ามแพลตฟอร์ม"
+    },
+    "description": {
+      "en": "We build native iOS/Android and Flutter cross-platform apps that feel fast, work offline, and ship to both stores without compromise.",
+      "th": "เราสร้างแอปพลิเคชันเนทีฟ iOS/Android และแอปข้ามแพลตฟอร์มด้วย Flutter ที่ทำงานได้รวดเร็ว รองรับออฟไลน์ และขึ้นสโตร์ทั้งสองระบบแบบไร้ข้อจำกัด"
+    },
+    "longDescription": {
+      "en": "From native Swift/Kotlin builds to Flutter cross-platform apps, we engineer mobile products that perform like native software. Every app we ship includes push notifications, GPS/tracking where needed, and full App Store and Google Play publishing support.",
+      "th": "ตั้งแต่การพัฒนาแบบเนทีฟด้วย Swift/Kotlin ไปจนถึงแอปข้ามแพลตฟอร์มด้วย Flutter เราสร้างสรรค์โมบายแอปพลิเคชันที่มีประสิทธิภาพเทียบเท่ากับซอฟต์แวร์เนทีฟแท้ๆ ทุกแอปที่เราส่งมอบมาพร้อมระบบแจ้งเตือนแบบพุช ระบบ GPS และการติดตามความเคลื่อนไหว และการช่วยเหลือในการเผยแพร่บน App Store และ Google Play"
+    },
+    "features": [
+      {
+        "en": "Native iOS & Android development",
+        "th": "การพัฒนาแอปเนทีฟ iOS และ Android"
+      },
+      {
+        "en": "Flutter cross-platform applications",
+        "th": "แอปพลิเคชันข้ามแพลตฟอร์มด้วย Flutter"
+      },
+      {
+        "en": "Push notification systems (FCM/APNs)",
+        "th": "ระบบการส่งข้อความแจ้งเตือนทันใจ (FCM/APNs)"
+      },
+      {
+        "en": "GPS & real-time tracking integration",
+        "th": "การรวมระบบ GPS และการติดตามแบบเรียลไทม์"
+      },
+      {
+        "en": "App Store & Google Play publishing",
+        "th": "การเผยแพร่บน App Store และ Google Play"
+      },
+      {
+        "en": "Performance optimization & profiling",
+        "th": "การปรับปรุงและทดสอบประสิทธิภาพการทำงาน"
+      }
+    ],
+    "tech": ["Flutter", "React Native", "Swift", "Kotlin", "Firebase", "APNs & FCM"],
+    "deliverables": [
+      {
+        "en": "Signed iOS & Android app binaries",
+        "th": "ไฟล์แอปพลิเคชัน iOS & Android ที่เข้ารหัสลงทะเบียนดิจิทัล"
+      },
+      {
+        "en": "Successful App Store & Play Store publication",
+        "th": "การนำแอปขึ้น App Store และ Google Play สำเร็จ"
+      },
+      {
+        "en": "Push notification system setup",
+        "th": "ระบบการตั้งค่าการส่งแจ้งเตือนสำเร็จ"
+      },
+      {
+        "en": "Performance audit & profiling report",
+        "th": "รายงานผลการตรวจสอบและปรับแต่งประสิทธิภาพแอป"
+      }
+    ],
+    "timeline": {
+      "en": "8-20 weeks",
+      "th": "8-20 สัปดาห์"
+    },
+    "href": "/services/mobile"
+  },
+  {
+    "id": "web",
+    "tag": "02",
+    "icon": "MonitorIcon",
+    "title": {
+      "en": "Web Platforms & E\u2011Commerce",
+      "th": "เว็บแพลตฟอร์มและอีคอมเมิร์ซ"
+    },
+    "tagline": {
+      "en": "High-conversion web platforms built to scale.",
+      "th": "เว็บแพลตฟอร์มประสิทธิภาพสูงที่ขยายขีดความสามารถได้"
+    },
+    "description": {
+      "en": "We design and develop fast, responsive web applications, dynamic booking systems, and high-performance e-commerce platforms that convert visitors into customers.",
+      "th": "เราออกแบบและพัฒนาเว็บแอปพลิเคชันที่ทำงานได้รวดเร็ว ตอบสนองดีเยี่ยม ระบบจองคิวที่มีความยืดหยุ่น และแพลตฟอร์มอีคอมเมิร์ซประสิทธิภาพสูงเพื่อเปลี่ยนผู้เข้าชมเป็นลูกค้า"
+    },
+    "longDescription": {
+      "en": "We build full-stack web applications designed to load instantly and scale seamlessly. By utilizing modern frameworks like Next.js, integrating secure payment gateways, and developing custom e-commerce engines, we ensure an exceptional user experience that boosts conversions.",
+      "th": "เราพัฒนาเว็บแอปพลิเคชันแบบ Full-stack ที่โหลดได้ทันทีและขยายระบบได้ไร้รอยต่อ ด้วยการใช้เฟรมเวิร์กสมัยใหม่อย่าง Next.js การเชื่อมต่อระบบชำระเงินที่ปลอดภัย และการพัฒนาระบบอีคอมเมิร์ซตามต้องการ เพื่อสร้างประสบการณ์ที่ดึงดูดผู้ใช้งานได้ดีที่สุด"
+    },
+    "features": [
+      {
+        "en": "Website design & development",
+        "th": "การออกแบบและพัฒนาเว็บไซต์"
+      },
+      {
+        "en": "E-commerce store development",
+        "th": "การพัฒนาระบบร้านค้าออนไลน์ (E-Commerce)"
+      },
+      {
+        "en": "Secure payment gateway integration",
+        "th": "การเชื่อมต่อระบบชำระเงินที่ปลอดภัย"
+      },
+      {
+        "en": "Booking & reservation systems",
+        "th": "ระบบการจองและสำรองคิวออนไลน์"
+      },
+      {
+        "en": "SEO-optimized content structures",
+        "th": "การวางโครงสร้างและเนื้อหาให้รองรับ SEO"
+      },
+      {
+        "en": "Headless CMS integrations",
+        "th": "การเชื่อมต่อระบบจัดการข้อมูลแบบ Headless CMS"
+      }
+    ],
+    "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "Prisma"],
+    "deliverables": [
+      {
+        "en": "Production-ready web application",
+        "th": "เว็บแอปพลิเคชันที่พร้อมใช้งานจริงในโปรดักชัน"
+      },
+      {
+        "en": "Tailored admin & store dashboard",
+        "th": "หน้าจัดการสำหรับผู้ดูแลระบบและร้านค้าที่ปรับแต่งเฉพาะ"
+      },
+      {
+        "en": "Secure checkout & payment integration",
+        "th": "ระบบการจ่ายเงินที่รัดกุมและปลอดภัย"
+      },
+      {
+        "en": "SEO setup & Analytics dashboard",
+        "th": "การตั้งค่า SEO และหน้าวิเคราะห์ข้อมูลผู้เยี่ยมชม"
+      }
+    ],
+    "timeline": {
+      "en": "6-16 weeks",
+      "th": "6-16 สัปดาห์"
+    },
+    "href": "/services/web"
+  },
+  {
+    "id": "design",
+    "tag": "03",
+    "icon": "PaletteIcon",
+    "title": {
+      "en": "UI/UX Design & Branding",
+      "th": "การออกแบบ UI/UX และแบรนดิ้ง"
+    },
+    "tagline": {
+      "en": "Stunning interfaces. Intuitive user flows.",
+      "th": "อินเตอร์เฟสที่สวยงาม ลื่นไหล และน่าใช้งาน"
+    },
+    "description": {
+      "en": "We design visual systems that resonate with your users, mapping out intuitive user journeys and creating beautiful, high-fidelity UI designs.",
+      "th": "เราออกแบบระบบภาพและองค์ประกอบที่ตรงใจผู้ใช้งาน วางเส้นทางการเดินทางของผู้ใช้ที่เข้าใจง่าย และสร้างสรรค์ UI ที่สวยงามและมีรายละเอียดสูง"
+    },
+    "longDescription": {
+      "en": "Design is not just how it looks, but how it works. We perform deep user research, define clear wireframes, and design interactive prototypes for dashboards, admin panels, and mobile interfaces. We also develop brand guidelines that establish your digital presence.",
+      "th": "การออกแบบไม่ใช่เพียงแค่เรื่องความสวยงาม แต่เป็นเรื่องระบบการใช้งาน เราทำการศึกษาพฤติกรรมผู้ใช้ วางโครงร่างอย่างชัดเจน และสร้างต้นแบบที่โต้ตอบได้สำหรับแดชบอร์ด แผงควบคุม และอินเตอร์เฟสมือถือ รวมถึงพัฒนาคู่มือแบรนด์เพื่อสร้างตัวตนดิจิทัลของคุณ"
+    },
+    "features": [
+      {
+        "en": "User research & competitor analysis",
+        "th": "การวิจัยผู้ใช้งานและการวิเคราะห์คู่แข่ง"
+      },
+      {
+        "en": "Interactive wireframing & prototyping",
+        "th": "การสร้างโครงร่างจำลองและต้นแบบโต้ตอบได้"
+      },
+      {
+        "en": "Dashboard & admin panel design",
+        "th": "การออกแบบหน้าแดชบอร์ดและแผงควบคุมระบบ"
+      },
+      {
+        "en": "Mobile app interface design",
+        "th": "การออกแบบหน้าจอบนโมบายแอปพลิเคชัน"
+      },
+      {
+        "en": "Branding & digital visual identity",
+        "th": "การสร้างแบรนด์และเอกลักษณ์ด้านทัศนศิลป์ดิจิทัล"
+      },
+      {
+        "en": "Comprehensive design system delivery",
+        "th": "การส่งมอบระบบการออกแบบ (Design System) ครบวงจร"
+      }
+    ],
+    "tech": ["Figma", "Adobe CC", "Prototyping Tools", "Tailwind Design System", "Component Libraries"],
+    "deliverables": [
+      {
+        "en": "High-fidelity Figma source files",
+        "th": "ไฟล์ออกแบบต้นฉบับคุณภาพสูงบน Figma"
+      },
+      {
+        "en": "Interactive clickable prototypes",
+        "th": "ต้นแบบระบบที่คลิกและโต้ตอบได้เสมือนจริง"
+      },
+      {
+        "en": "Comprehensive design system & UI kit",
+        "th": "ระบบดีไซน์และชุดส่วนประกอบ UI ที่สมบูรณ์"
+      },
+      {
+        "en": "Brand guidelines & visual assets",
+        "th": "คู่มือการใช้งานแบรนด์และไฟล์กราฟิกต่างๆ"
+      }
+    ],
+    "timeline": {
+      "en": "4-8 weeks",
+      "th": "4-8 สัปดาห์"
+    },
+    "href": "/services/design"
+  },
+  {
+    "id": "backend",
+    "tag": "04",
+    "icon": "ServerIcon",
+    "title": {
+      "en": "Backend & Infrastructure",
+      "th": "ระบบแบ็คเอนด์และโครงสร้างพื้นฐาน"
+    },
+    "tagline": {
+      "en": "The engine that never stops.",
+      "th": "ระบบหลังบ้านและโครงสร้างที่เสถียรไม่มีหยุดนิ่ง"
+    },
+    "description": {
+      "en": "We build high-availability backend engines, scalable APIs, and automated infrastructure that deploy seamlessly and run without downtime.",
+      "th": "เราสร้างระบบหลังบ้านประสิทธิภาพสูง พัฒนา APIs ที่รองรับการสเกล และวางโครงสร้างพื้นฐานอัตโนมัติที่ทำงานได้อย่างราบรื่นและไม่มีการล่ม"
+    },
+    "longDescription": {
+      "en": "We construct robust backend databases, microservices architectures, and API integrations. We also set up containerized infrastructure (Docker/Kubernetes), secure hosting, servers, domain setups, and custom serverless automated workflows that scale dynamically based on demand.",
+      "th": "เราสร้างระบบฐานข้อมูลที่แข็งแกร่ง สถาปัตยกรรมแบบไมโครเซอร์วิส และการเชื่อมต่อ API นอกจากนี้เรายังตั้งค่าโครงสร้างระบบด้วยคอนเทนเนอร์ (Docker/Kubernetes) ระบบโฮสติ้งและเซิร์ฟเวอร์ที่ปลอดภัย และระบบอัตโนมัติเพื่อรองรับปริมาณการเข้าชมที่เปลี่ยนไปแบบไดนามิก"
+    },
+    "features": [
+      {
+        "en": "Backend development & custom APIs",
+        "th": "การพัฒนาแบ็คเอนด์และออกแบบ APIs ตามต้องการ"
+      },
+      {
+        "en": "Firebase integration & serverless functions",
+        "th": "การเชื่อมต่อ Firebase และฟังก์ชันสไตล์ Serverless"
+      },
+      {
+        "en": "Hosting, servers, & domain setup",
+        "th": "การตั้งค่าระบบโฮสติ้ง เซิร์ฟเวอร์ และโดเมน"
+      },
+      {
+        "en": "CI/CD automation workflows (GitHub Actions)",
+        "th": "การทำระบบส่งงานอัตโนมัติ CI/CD (GitHub Actions)"
+      },
+      {
+        "en": "Dockerization & container orchestration",
+        "th": "การสร้างคอนเทนเนอร์และการจัดระเบียบผ่าน Docker"
+      },
+      {
+        "en": "Scale-out database clustering & caching",
+        "th": "ระบบฐานข้อมูลแบบคลัสเตอร์และการทำแคชเพื่อลดโหลด"
+      }
+    ],
+    "tech": ["Node.js", "PostgreSQL", "Docker", "AWS", "Firebase", "Terraform", "GitHub Actions"],
+    "deliverables": [
+      {
+        "en": "Production-ready API & server code",
+        "th": "โค้ดระบบแบ็คเอนด์และ API ที่พร้อมทำงานจริง"
+      },
+      {
+        "en": "Terraform files for Infrastructure as Code",
+        "th": "ไฟล์การตั้งค่า Terraform สำหรับจัดการโครงสร้างพื้นฐาน"
+      },
+      {
+        "en": "Automated CI/CD deployment pipelines",
+        "th": "ระบบขั้นตอนการส่งงาน (CI/CD Pipeline) อัตโนมัติ"
+      },
+      {
+        "en": "Server monitoring & alerting dashboard",
+        "th": "หน้าแดชบอร์ดตรวจสอบสถานะและระบบแจ้งเตือนเซิร์ฟเวอร์"
+      }
+    ],
+    "timeline": {
+      "en": "4-12 weeks",
+      "th": "4-12 สัปดาห์"
+    },
+    "href": "/services/backend"
+  },
+  {
+    "id": "erp",
+    "tag": "05",
+    "icon": "LayoutDashboardIcon",
+    "title": {
+      "en": "ERP, CRM & Business Systems",
+      "th": "ระบบ ERP, CRM และระบบสำหรับธุรกิจ"
+    },
+    "tagline": {
+      "en": "Streamline workflows. Power business growth.",
+      "th": "จัดระเบียบขั้นตอนการทำงาน ขับเคลื่อนการเติบโตธุรกิจ"
+    },
+    "description": {
+      "en": "We engineer custom ERP, CRM, and management software built around your exact business workflows to automate tasks and secure operations.",
+      "th": "เราสร้างระบบ ERP, CRM และซอฟต์แวร์จัดการภายในที่ออกแบบมาตามขั้นตอนการทำงานจริงของธุรกิจคุณเพื่อลดเวลาการทำงานและเพิ่มความปลอดภัย"
+    },
+    "longDescription": {
+      "en": "Off-the-shelf software rarely fits specialized business logic. We construct inventory tracking, sales portals, and business management systems with granular access control. We also build custom dashboard admin panels for clear operations overview.",
+      "th": "ซอฟต์แวร์สำเร็จรูปมักไม่ตอบโจทย์ตรรกะเฉพาะตัวของธุรกิจ เราสร้างระบบติดตามคลังสินค้า พอร์ทัลการขาย และระบบจัดการการทำงานที่จำกัดสิทธิ์พนักงานอย่างรัดกุม พร้อมการสร้างแผงควบคุมแอดมินเพื่อภาพรวมการปฏิบัติงานที่ชัดเจน"
+    },
+    "features": [
+      {
+        "en": "Custom ERP & CRM architectures",
+        "th": "การวางระบบสถาปัตยกรรม ERP และ CRM เฉพาะตัว"
+      },
+      {
+        "en": "Business & operations management systems",
+        "th": "ระบบการจัดการธุรกิจและขั้นตอนการดำเนินงาน"
+      },
+      {
+        "en": "Inventory & sales tracking platforms",
+        "th": "แพลตฟอร์มสต็อกสินค้าและระบบติดตามยอดขาย"
+      },
+      {
+        "en": "Interactive dashboard & admin panel development",
+        "th": "การพัฒนาแดชบอร์ดแอดมินและแผงควบคุมข้อมูล"
+      },
+      {
+        "en": "Granular role-based access control (RBAC)",
+        "th": "ระบบจำกัดสิทธิ์การเข้าถึงข้อมูลตามบทบาทหน้าที่"
+      },
+      {
+        "en": "Third-party business tool integrations",
+        "th": "การเชื่อมต่อกับเครื่องมือซอฟต์แวร์ธุรกิจอื่นๆ"
+      }
+    ],
+    "tech": ["Next.js", "PostgreSQL", "Prisma", "Zod", "Tailwind CSS", "Recharts"],
+    "deliverables": [
+      {
+        "en": "Custom business management platform",
+        "th": "แพลตฟอร์มจัดการระบบข้อมูลระดับองค์กรที่พัฒนาเฉพาะ"
+      },
+      {
+        "en": "Interactive executive dashboard",
+        "th": "แดชบอร์ดเชิงโต้ตอบสำหรับรายงานผลและผู้บริหาร"
+      },
+      {
+        "en": "Granular user permissions matrix",
+        "th": "ระบบโครงสร้างและสิทธิ์ผู้ใช้งานแยกส่วนอย่างละเอียด"
+      },
+      {
+        "en": "Comprehensive onboarding & video training",
+        "th": "คู่มือแนะนำการใช้งานและวิดีโอเทรนนิ่งพนักงาน"
+      }
+    ],
+    "timeline": {
+      "en": "10-24 weeks",
+      "th": "10-24 สัปดาห์"
+    },
+    "href": "/services/erp"
+  },
+  {
+    "id": "ai",
+    "tag": "06",
+    "icon": "BrainCircuitIcon",
+    "title": {
+      "en": "AI & Smart Solutions",
+      "th": "โซลูชัน AI และเทคโนโลยีอัจฉริยะ"
+    },
+    "tagline": {
+      "en": "Inject intelligence into your products.",
+      "th": "ผสานความฉลาดของปัญญาประดิษฐ์ในระบบคุณ"
+    },
+    "description": {
+      "en": "We build custom AI integrations, smart chatbots, and IoT solutions that automate complex tasks and elevate user engagement.",
+      "th": "เราสร้างสรรค์การผสานรวม AI แชทบอทอัจฉริยะ และระบบ IoT ที่ช่วยทำงานซับซ้อนโดยอัตโนมัติและเพิ่มการมีส่วนร่วมของลูกค้า"
+    },
+    "longDescription": {
+      "en": "We implement advanced language models (LLMs) and smart solutions tailored to business needs. From building intelligent chatbots and virtual assistants to deploying connected IoT devices and smart systems, we help you stay at the forefront of digital innovation.",
+      "th": "เราติดตั้งเชื่อมต่อโมเดลภาษาขนาดใหญ่ (LLMs) และโซลูชันอัจฉริยะที่เหมาะสมกับองค์กร ตั้งแต่การสร้างแชทบอทตอบคำถามและผู้ช่วยเสมือนจริง ไปจนถึงการติดตั้งอุปกรณ์ IoT และระบบอัจฉริยะ เพื่อให้คุณก้าวล้ำในด้านเทคโนโลยีเสมอ"
+    },
+    "features": [
+      {
+        "en": "AI integration & smart solutions",
+        "th": "การรวมระบบ AI และโซลูชันอัจฉริยะ"
+      },
+      {
+        "en": "AI chatbots & virtual assistants",
+        "th": "การสร้างแชทบอท AI และผู้ช่วยเสมือนจริง"
+      },
+      {
+        "en": "IoT & smart systems integration",
+        "th": "การผสานอุปกรณ์ IoT และระบบอัจฉริยะ"
+      },
+      {
+        "en": "Semantic search & LLM pipelines",
+        "th": "ระบบค้นหาความหมายและขั้นตอนประมวลผล LLM"
+      },
+      {
+        "en": "Predictive modeling & analytics",
+        "th": "ระบบจำลองการพยากรณ์และการวิเคราะห์ข้อมูล"
+      },
+      {
+        "en": "Natural Language Processing (NLP)",
+        "th": "การประมวลผลภาษาธรรมชาติ (NLP)"
+      }
+    ],
+    "tech": ["OpenAI", "LangChain", "Pinecone", "Python", "Vercel AI SDK", "MQTT"],
+    "deliverables": [
+      {
+        "en": "Integrated AI agents & API hooks",
+        "th": "เอเจนต์ AI ที่เชื่อมต่อแล้วและ API Hooks"
+      },
+      {
+        "en": "Trained chatbot & evaluation suite",
+        "th": "ระบบแชทบอทที่เรียนรู้ข้อมูลแล้วและชุดทดสอบความถูกต้อง"
+      },
+      {
+        "en": "Vector database & semantic search setup",
+        "th": "การตั้งค่าฐานข้อมูลเวกเตอร์และเครื่องมือค้นหาความหมาย"
+      },
+      {
+        "en": "IoT connection gateway configuration",
+        "th": "ระบบประตูป้อนข้อมูลเครือข่ายสำหรับอุปกรณ์ IoT"
+      }
+    ],
+    "timeline": {
+      "en": "6-14 weeks",
+      "th": "6-14 สัปดาห์"
+    },
+    "href": "/services/ai"
+  },
+  {
+    "id": "industry",
+    "tag": "07",
+    "icon": "LayersIcon",
+    "title": {
+      "en": "Industry-Specific Platforms",
+      "th": "แพลตฟอร์มเฉพาะทางธุรกิจ"
+    },
+    "tagline": {
+      "en": "Tailored software for complex industries.",
+      "th": "ซอฟต์แวร์เฉพาะด้านที่พร้อมแก้โจทย์ยากของอุตสาหกรรม"
+    },
+    "description": {
+      "en": "We engineer specialized solutions for real estate, healthcare, education, delivery, and SaaS businesses that need compliant and robust apps.",
+      "th": "เราสร้างแพลตฟอร์มสำหรับธุรกิจอสังหาริมทรัพย์ การแพทย์ การศึกษา ระบบเดลิเวอรี่ และแอปพลิเคชัน SaaS ที่เน้นความถูกต้องและโครงสร้างที่แข็งแกร่ง"
+    },
+    "longDescription": {
+      "en": "Different industries require unique compliance, interfaces, and database logics. We develop educational e-learning platforms, HIPAA-compliant healthcare applications, real estate tools, on-demand delivery apps, and highly scalable multi-tenant SaaS products.",
+      "th": "อุตสาหกรรมที่ต่างกันต้องการมาตรฐานทางกฎหมาย การใช้งาน และตรรกะข้อมูลที่จำเพาะ เราพัฒนาแพลตฟอร์มเรียนรู้ออนไลน์ แอปพลิเคชันสุขภาพ การแพทย์ ระบบจัดการอสังหาริมทรัพย์ แอปจัดส่งเดลิเวอรี่ตามสั่ง และผลิตภัณฑ์ SaaS แบบผู้เช่าร่วมหลายราย (Multi-tenant)"
+    },
+    "features": [
+      {
+        "en": "Educational & e-learning platforms",
+        "th": "ระบบแพลตฟอร์มเพื่อการเรียนรู้และ e-learning"
+      },
+      {
+        "en": "Medical & healthcare applications",
+        "th": "แอปพลิเคชันเพื่อการดูแลสุขภาพและการแพทย์"
+      },
+      {
+        "en": "Real estate & property systems",
+        "th": "ระบบจัดการข้อมูลและอสังหาริมทรัพย์"
+      },
+      {
+        "en": "Delivery & on-demand applications",
+        "th": "แอปจัดส่งสินค้าเดลิเวอรี่และระบบตามสั่ง"
+      },
+      {
+        "en": "Multi-tenant SaaS platform engineering",
+        "th": "การวิศวกรรมแพลตฟอร์ม SaaS แบบ Multi-tenant"
+      },
+      {
+        "en": "Industry compliance & security standards",
+        "th": "การวางระบบความปลอดภัยตามมาตรฐานของอุตสาหกรรม"
+      }
+    ],
+    "tech": ["Next.js", "Flutter", "PostgreSQL", "Node.js", "WebRTC", "Google Maps API"],
+    "deliverables": [
+      {
+        "en": "Multi-tenant application codebase",
+        "th": "โค้ดเบสของแอปพลิเคชันที่รองรับการใช้งานหลายกลุ่มลูกค้า"
+      },
+      {
+        "en": "Integrated industry APIs & maps",
+        "th": "ระบบแผนที่และ APIs เฉพาะทางของอุตสาหกรรม"
+      },
+      {
+        "en": "Compliance check & alignment report",
+        "th": "รายงานผลและการตรวจสอบมาตรฐานข้อบังคับอุตสาหกรรม"
+      },
+      {
+        "en": "Scale and security validation test",
+        "th": "ผลทดสอบความทนทานและการรองรับการใช้งานขนาดใหญ่"
+      }
+    ],
+    "timeline": {
+      "en": "10-24 weeks",
+      "th": "10-24 สัปดาห์"
+    },
+    "href": "/services/industry"
+  },
+  {
+    "id": "security",
+    "tag": "08",
+    "icon": "ShieldCheckIcon",
+    "title": {
+      "en": "Security, Consulting & Maintenance",
+      "th": "ที่ปรึกษา ความปลอดภัย และการดูแลรักษา"
+    },
+    "tagline": {
+      "en": "Secure your assets. Maintain performance.",
+      "th": "ปกป้องข้อมูลดิจิทัล ดูแลให้คงความเร็วเสมอ"
+    },
+    "description": {
+      "en": "We run cybersecurity penetration tests, security audits, and provide dedicated technical consulting alongside long-term product maintenance.",
+      "th": "เราให้บริการทดสอบเจาะระบบความปลอดภัย ตรวจสอบช่องโหว่ ให้คำปรึกษาทางเทคนิคขั้นสูง และการดูแลรักษาระบบอย่างต่อเนื่องในระยะยาว"
+    },
+    "longDescription": {
+      "en": "Security and reliability must be continuous. We carry out vulnerability assessments, write security audits, and offer MVP development support for startups. We serve as your ongoing technical partner for server health, software updates, and strategic IT advice.",
+      "th": "ความปลอดภัยและความเสถียรต้องได้รับการดูแลอย่างสม่ำเสมอ เราให้บริการทดสอบระบบหาช่องโหว่ ทำการตรวจสอบความปลอดภัย พร้อมรองรับกลุ่มสตาร์ทอัพที่ต้องการพัฒนาเวอร์ชันแรก (MVP) โดยเราทำหน้าที่เป็นพันธมิตรด้านเทคนิคคอยอัปเดตระบบ ดูแลเซิร์ฟเวอร์ และเป็นที่ปรึกษาเชิงกลยุทธ์"
+    },
+    "features": [
+      {
+        "en": "Cybersecurity & penetration testing",
+        "th": "การทดสอบเจาะระบบความปลอดภัยทางไซเบอร์"
+      },
+      {
+        "en": "Security audits & vulnerability assessment",
+        "th": "การตรวจสอบความปลอดภัยและประเมินจุดอ่อน"
+      },
+      {
+        "en": "Technical maintenance & continuous support",
+        "th": "การดูแลรักษาระบบทางเทคนิคและความช่วยเหลือต่อเนื่อง"
+      },
+      {
+        "en": "High-level technical consulting",
+        "th": "การให้คำปรึกษาทางเทคนิคขั้นสูง"
+      },
+      {
+        "en": "MVP development for startups",
+        "th": "การพัฒนาซอฟต์แวร์เวอร์ชันแรก (MVP) สำหรับสตาร์ทอัพ"
+      },
+      {
+        "en": "Server uptime & database health monitoring",
+        "th": "การตรวจสอบอัปไทม์เซิร์ฟเวอร์และความแข็งแกร่งของข้อมูล"
+      }
+    ],
+    "tech": ["Kali Linux", "OWASP Tools", "Prometheus", "Grafana", "AWS CloudWatch", "Docker"],
+    "deliverables": [
+      {
+        "en": "Penetration test & vulnerability report",
+        "th": "รายงานผลการทดสอบเจาะระบบและตรวจหาช่องโหว่"
+      },
+      {
+        "en": "Official security audit documentation",
+        "th": "เอกสารแสดงผลการตรวจสอบความปลอดภัยที่เป็นทางการ"
+      },
+      {
+        "en": "SLA maintenance contract & monitoring dashboard",
+        "th": "ข้อตกลงสัญญาดูแลระบบ (SLA) และหน้าแสดงสถานะอัปไทม์"
+      },
+      {
+        "en": "Startup MVP roadmap & consulting brief",
+        "th": "แผนการพัฒนาระบบขั้นแรกสำหรับสตาร์ทอัพและสรุปการให้คำปรึกษา"
+      }
+    ],
+    "timeline": {
+      "en": "Ongoing / 2-8 weeks",
+      "th": "ดูแลต่อเนื่อง / 2-8 สัปดาห์"
+    },
+    "href": "/services/security"
+  }
+]

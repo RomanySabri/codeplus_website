@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "name": "Mohamed Reda",
+    "role": {
+      "en": "Co-Founder & CEO | Lead Flutter Developer",
+      "th": "ผู้ร่วมก่อตั้ง, ประธานเจ้าหน้าที่บริหาร & นักพัฒนา Flutter"
+    },
+    "bio": {
+      "en": "Mohamed is the Co-Founder and CEO of Code Plus, bringing extensive experience in cross-platform mobile development. As a lead Flutter Developer, he excels at architecting high-performance, responsive mobile applications while driving the company's strategic growth and operational excellence.",
+      "th": "Mohamed เป็นผู้ร่วมก่อตั้งและประธานเจ้าหน้าที่บริหารของ Code Plus โดยมีประสบการณ์กว้างขวางในการพัฒนาแอปพลิเคชันมือถือแบบข้ามแพลตฟอร์ม ในฐานะนักพัฒนา Flutter หลัก เขาเชี่ยวชาญในการออกแบบแอปพลิเคชันมือถือที่มีประสิทธิภาพสูงและตอบสนองได้ดี ควบคู่ไปกับการขับเคลื่อนการเติบโตเชิงกลยุทธ์และความเป็นเลิศในการดำเนินงานของบริษัท"
+    },
+    "image": "/images/team/mohamed-reda/avatar.jpg",
+    "linkedin": "https://www.linkedin.com/in/mohamed-reda-fathi?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "MR",
+    "featured": true,
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Mobile Architecture",
+      "Product Strategy",
+      "Engineering Management"
+    ],
+    "yearsExp": "8+ years",
+    "quote": {
+      "en": "We build seamless mobile experiences that solve real-world business challenges.",
+      "th": "เราสร้างสรรค์ประสบการณ์บนมือถือที่ราบรื่นเพื่อแก้ไขปัญหาทางธุรกิจในโลกแห่งความเป็นจริง"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ahmed Hassen",
+    "role": {
+      "en": "Co-Founder & CTO | Lead Backend Developer",
+      "th": "ผู้ร่วมก่อตั้ง, ประธานเจ้าหน้าที่ฝ่ายเทคโนโลยี & นักพัฒนา Backend"
+    },
+    "bio": {
+      "en": "Ahmed is the Co-Founder and CTO of Code Plus, leading our backend engineering team. He is a performance purist who architectures secure, distributed backend systems and scalable APIs for peak load conditions, ensuring lightning-fast execution and robust system reliability.",
+      "th": "Ahmed เป็นผู้ร่วมก่อตั้งและประธานเจ้าหน้าที่ฝ่ายเทคโนโลยีของ Code Plus โดยเป็นผู้นำทีมวิศวกรรมระบบหลังบ้าน (Backend) เขาเป็นผู้ที่มุ่งมั่นในประสิทธิภาพอย่างแท้จริง โดยออกแบบสถาปัตยกรรมระบบหลังบ้านและ API ที่ปลอดภัยและขยายขนาดได้เพื่อรองรับการใช้งานสูงสุด เพื่อให้มั่นใจถึงการประมวลผลที่รวดเร็วและความน่าเชื่อถือของระบบ"
+    },
+    "image": "/images/team/ahmed-hassen/avatar.jpg",
+    "linkedin": "https://www.linkedin.com/in/ahmedhassen31?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "AH",
+    "featured": true,
+    "skills": [
+      "Node.js",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "System Scaling",
+      "Security",
+      "REST APIs"
+    ],
+    "yearsExp": "10+ years",
+    "quote": {
+      "en": "If a system can't survive a 10x traffic spike, it's not finished.",
+      "th": "หากระบบไม่สามารถรองรับการเข้าชมที่เพิ่มขึ้น 10 เท่าได้ ถือว่ายังไม่เสร็จสมบูรณ์"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Samir Sabry",
+    "role": {
+      "en": "Co-Founder & CPO | Lead Frontend Developer",
+      "th": "ผู้ร่วมก่อตั้ง, ประธานเจ้าหน้าที่ฝ่ายผลิตภัณฑ์ & นักพัฒนา Frontend"
+    },
+    "bio": {
+      "en": "Samir is the Co-Founder and CPO of Code Plus, driving product vision while leading frontend engineering. He specializes in building beautiful, highly interactive, and pixel-perfect user interfaces, ensuring seamless user experiences and modern frontend architecture.",
+      "th": "Samir เป็นผู้ร่วมก่อตั้งและประธานเจ้าหน้าที่ฝ่ายผลิตภัณฑ์ของ Code Plus โดยเป็นผู้ขับเคลื่อนวิสัยทัศน์ของผลิตภัณฑ์พร้อมกับการเป็นผู้นำทีมวิศวกรรมฟรอนต์เอนด์ (Frontend) เขาเชี่ยวชาญในการสร้างอินเทอร์เฟซผู้ใช้ที่สวยงาม มีปฏิสัมพันธ์สูง และมีความแม่นยำในทุกรายละเอียด เพื่อให้มั่นใจถึงประสบการณ์การใช้งานที่ราบรื่นและสถาปัตยกรรมฟรอนต์เอนด์ที่ทันสมัย"
+    },
+    "image": "/images/team/samir-sabry/avatar.jpeg",
+    "linkedin": "https://www.linkedin.com/in/samir-sabry-a55267234?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "SS",
+    "featured": true,
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Product Strategy"
+    ],
+    "yearsExp": "6+ years",
+    "quote": {
+      "en": "Stunning user interfaces and smooth interactivity form the gateway to user adoption.",
+      "th": "อินเทอร์เฟซผู้ใช้ที่สวยงามและการตอบสนองที่ราบรื่นคือประตูสู่การยอมรับของผู้ใช้"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sandy Selim",
+    "role": {
+      "en": "UI/UX Designer",
+      "th": "นักออกแบบอินเตอร์เฟซและประสบการณ์ผู้ใช้"
+    },
+    "bio": {
+      "en": "Sandy has guided 30+ products from abstract concepts into high-engagement market releases. She translates complex client challenges into streamlined user experiences, user flows, and wireframes that prioritize user satisfaction.",
+      "th": "Sandy ได้นำทางผลิตภัณฑ์มากกว่า 30 รายการจากแนวคิดเชิงนามธรรมไปสู่การเปิดตัวสู่ตลาดที่มีความผูกพันกับผู้ใช้สูง เธอแปลงความท้าทายที่ซับซ้อนของลูกค้าให้เป็นประสบการณ์การใช้งาน โฟลว์ผู้ใช้ และโครงร่างที่ราบรื่นและมีประสิทธิภาพเพื่อความพึงพอใจสูงสุดของผู้ใช้"
+    },
+    "image": "/images/team/sandy-selim/avatar.jpg",
+    "linkedin": "https://www.linkedin.com/in/sandy-selim-3b4939277?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "SS",
+    "featured": true,
+    "skills": [
+      "UI/UX Design",
+      "Product Mapping",
+      "User Testing",
+      "Figma",
+      "Design Systems"
+    ],
+    "yearsExp": "7+ years",
+    "quote": {
+      "en": "Great user experience is invisible; frustrating user experience is loud.",
+      "th": "ประสบการณ์การใช้งานที่ยอดเยี่ยมนั้นจะไร้รอยต่อจนมองไม่เห็น แต่ประสบการณ์ที่ขัดใจผู้ใช้นั้นจะส่งเสียงดัง"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Hasnaa Mohamed",
+    "role": {
+      "en": "UI/UX Designer",
+      "th": "นักออกแบบอินเตอร์เฟซและประสบการณ์ผู้ใช้"
+    },
+    "bio": {
+      "en": "Hasnaa is a creative UI/UX Designer who specializes in transforming complex user requirements into elegant, intuitive digital experiences. She focuses on user research, wireframing, high-fidelity interactive prototyping, and crafting comprehensive design systems in Figma.",
+      "th": "Hasnaa เป็นนักออกแบบ UI/UX ที่มีความคิดสร้างสรรค์ เธอเชี่ยวชาญในการเปลี่ยนความต้องการของผู้ใช้ที่ซับซ้อนให้เป็นประสบการณ์ดิจิทัลที่หรูหราและใช้งานง่าย เธอเน้นการวิจัยผู้ใช้ การสร้างโครงร่างร่าง (wireframing) การสร้างต้นแบบเชิงโต้ตอบที่มีความละเอียดสูง และการสร้างระบบการออกแบบที่ครอบคลุมใน Figma"
+    },
+    "image": "/images/team/hasnaa-mohamed/avatar.png",
+    "linkedin": "https://www.linkedin.com/in/hasnaa-mohamed146?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "HM",
+    "featured": true,
+    "skills": [
+      "UI/UX Design",
+      "Figma",
+      "User Research",
+      "Wireframing",
+      "Interactive Prototyping",
+      "Design Systems"
+    ],
+    "yearsExp": "5+ years",
+    "quote": {
+      "en": "Animations must feel completely natural, smooth, and serve the user's action.",
+      "th": "แอนิเมชันต้องรู้สึกเป็นธรรมชาติอย่างสมบูรณ์ ราบรื่น และรองรับการกระทำของผู้ใช้"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Aya Essam",
+    "role": {
+      "en": "Graphic Designer",
+      "th": "นักออกแบบกราฟิก"
+    },
+    "bio": {
+      "en": "Aya is a creative Graphic Designer who crafts unique visual identities and brand assets. She translates complex marketing concepts into compelling digital graphics, marketing materials, and cohesive brand experiences that engage audiences.",
+      "th": "Aya เป็นนักออกแบบกราฟิกที่มีความคิดสร้างสรรค์ เธอสร้างสรรค์เอกลักษณ์ทางภาพและสินทรัพย์ของแบรนด์ที่เป็นเอกลักษณ์ เธอเปลี่ยนแนวคิดการตลาดที่ซับซ้อนให้เป็นกราฟิกดิจิทัล สื่อการตลาด และประสบการณ์แบรนด์ที่กลมกลืนกันเพื่อดึงดูดกลุ่มเป้าหมาย"
+    },
+    "image": "/images/team/aya-essam/avatar.jpeg",
+    "linkedin": "https://www.linkedin.com/in/aya-essam-arts?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "AE",
+    "featured": false,
+    "skills": [
+      "Graphic Design",
+      "Brand Identity",
+      "Illustrator",
+      "Photoshop",
+      "Typography"
+    ],
+    "yearsExp": "3+ years",
+    "quote": {
+      "en": "Design is intelligence made visible.",
+      "th": "การออกแบบคือความฉลาดที่ทำให้มองเห็นได้"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Habiba Taha",
+    "role": {
+      "en": "Penetration Tester",
+      "th": "นักทดสอบการเจาะระบบ"
+    },
+    "bio": {
+      "en": "Habiba is a cybersecurity specialist who performs deep security audits, vulnerability assessments, and ethical hacking on web and mobile systems to ensure robust protection against cyber threats.",
+      "th": "Habiba เป็นผู้เชี่ยวชาญด้านความปลอดภัยทางไซเบอร์ที่ทำการตรวจสอบความปลอดภัยเชิงลึก การประเมินช่องโหว่ และการแฮ็กอย่างมีจริยธรรมบนระบบเว็บและโมบายล์ เพื่อให้มั่นใจว่าได้รับการปกป้องอย่างแข็งแกร่งจากภัยคุกคามทางไซเบอร์"
+    },
+    "image": "/images/team/habiba-taha/avatar.jpg",
+    "linkedin": "https://www.linkedin.com/in/habiba-taha-272520357?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "HT",
+    "featured": false,
+    "skills": [
+      "Penetration Testing",
+      "Network Security",
+      "OWASP",
+      "Vulnerability Assessment",
+      "Ethical Hacking"
+    ],
+    "yearsExp": "4+ years",
+    "quote": {
+      "en": "Security is not a product, but a process.",
+      "th": "ความปลอดภัยไม่ใช่ผลิตภัณฑ์ แต่เป็นกระบวนการ"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Hager Omar",
+    "role": {
+      "en": "Flutter Developer",
+      "th": "นักพัฒนา Flutter"
+    },
+    "bio": {
+      "en": "Hager is a dedicated Flutter Developer who specializes in building highly performant, cross-platform mobile applications. She focuses on clean architecture, smooth state management, and pixel-perfect UI execution for both Android and iOS.",
+      "th": "Hager เป็นนักพัฒนา Flutter ที่มุ่งมั่นทำงาน เธอเชี่ยวชาญในการสร้างแอปพลิเคชันมือถือแบบข้ามแพลตฟอร์มที่มีประสิทธิภาพสูง เธอเน้นการออกแบบสถามัตยกรรมที่สะอาด การจัดการสถานะที่ราบรื่น และการปรับแต่ง UI ที่สมบูรณ์แบบสำหรับทั้ง Android และ iOS"
+    },
+    "image": "/images/team/hager-omar/avatar.jpeg",
+    "linkedin": "https://www.linkedin.com/in/hager-omar-586807364?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "HO",
+    "featured": false,
+    "skills": [
+      "Flutter",
+      "Dart",
+      "State Management",
+      "REST APIs",
+      "Mobile Design"
+    ],
+    "yearsExp": "3+ years",
+    "quote": {
+      "en": "Write once, run everywhere with absolute beauty.",
+      "th": "เขียนครั้งเดียว รันได้ทุกที่ด้วยความสวยงามสมบูรณ์แบบ"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Mohamad Abdullah",
+    "role": {
+      "en": "Managing Director",
+      "th": "กรรมการผู้จัดการ"
+    },
+    "bio": {
+      "en": "Mohamad is the Managing Director, overseeing day-to-day operations and strategic business planning. He excels at managing client relationships, driving operational efficiency, and ensuring that our projects align perfectly with our clients' business objectives.",
+      "th": "Mohamad เป็นกรรมการผู้จัดการที่ดูแลการดำเนินงานแบบวันต่อวันและการวางแผนธุรกิจเชิงกลยุทธ์ เขาเชี่ยวชาญในการจัดการความสัมพันธ์กับลูกค้า ขับเคลื่อนประสิทธิภาพการดำเนินงาน และรับประกันว่าโครงการของเราสอดคล้องกับวัตถุประสงค์ทางธุรกิจของลูกค้าอย่างสมบูรณ์แบบ"
+    },
+    "image": "/images/team/mohamad-abdullah/avatar.png",
+    "linkedin": "https://www.linkedin.com/in/mohamed-abdalla-81532940a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "initial": "MA",
+    "featured": true,
+    "skills": [
+      "Business Operations",
+      "Strategic Planning",
+      "Client Relations",
+      "Project Management"
+    ],
+    "yearsExp": "8+ years",
+    "quote": {
+      "en": "Alignment of strategy and execution is key to scaling.",
+      "th": "การจัดกลยุทธ์และการปฏิบัติงานให้สอดคล้องกันคือกุญแจสำคัญสู่การเติบโต"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Mohamed Elshazly",
+    "role": {
+      "en": "Mobile Application Developer",
+      "th": "นักพัฒนาแอปพลิเคชันมือถือ"
+    },
+    "bio": {
+      "en": "Mohamed is a Senior Mobile Developer specializing in cross-platform and native mobile apps. He architectures robust mobile solutions using Flutter, Swift, and Kotlin, delivering seamless performance and native integration across iOS and Android platforms.",
+      "th": "Mohamed เป็นนักพัฒนาโมบายแอปอาวุโสที่เชี่ยวชาญด้านแอปมือถือทั้งแบบเนทีฟและข้ามแพลตฟอร์ม เขาออกแบบสถาปัตยกรรมโซลูชันมือถือที่แข็งแกร่งโดยใช้ Flutter, Swift และ Kotlin ส่งมอบประสิทธิภาพที่ราบรื่นและการรวมระบบแบบเนทีฟทั้งบนแพลตฟอร์ม iOS และ Android"
+    },
+    "image": "/images/team/mohamed-elshazly/avatar.jpg",
+    "linkedin": "https://linkedin.com/in/mohamed-elshazly",
+    "initial": "ME",
+    "featured": false,
+    "skills": [
+      "Flutter",
+      "iOS Development",
+      "Android Development",
+      "Swift",
+      "Kotlin"
+    ],
+    "yearsExp": "5+ years",
+    "quote": {
+      "en": "Excellent mobile apps are built on robust architectural foundations.",
+      "th": "แอปมือถือที่ยอดเยี่ยมถูกสร้างขึ้นบนรากฐานสถาปัตยกรรมที่แข็งแกร่ง"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Zeyad Nasser",
+    "role": {
+      "en": "Penetration Tester",
+      "th": "นักทดสอบการเจาะระบบ"
+    },
+    "bio": {
+      "en": "Zeyad is an Information Security Engineer and Penetration Tester. He conducts advanced threat assessments, network security audits, and risk evaluations to help organizations identify weaknesses and secure their infrastructure against data breaches.",
+      "th": "Zeyad เป็นวิศวกรความปลอดภัยข้อมูลและนักทดสอบการเจาะระบบ เขาทำการประเมินภัยคุกคามขั้นสูง การตรวจสอบความปลอดภัยเครือข่าย และการประเมินความเสี่ยง เพื่อช่วยให้องค์กรต่างๆ ค้นหาจุดอ่อนและรักษาความปลอดภัยโครงสร้างพื้นฐานจากข้อมูลรั่วไหล"
+    },
+    "image": "/images/team/zeyad-nasser/avatar.jpg",
+    "linkedin": "https://www.linkedin.com/in/0baghdadi?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "ZN",
+    "featured": false,
+    "skills": [
+      "Ethical Hacking",
+      "Security Audits",
+      "Linux",
+      "Cybersecurity",
+      "Risk Assessment"
+    ],
+    "yearsExp": "3+ years",
+    "quote": {
+      "en": "The best defense is a proactive offense.",
+      "th": "การป้องกันที่ดีที่สุดคือการรุกเชิงรุก"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Adel Effat",
+    "role": {
+      "en": "Social Media Specialist",
+      "th": "ผู้เชี่ยวชาญด้านโซเชียลมีเดีย"
+    },
+    "bio": {
+      "en": "Adel is a Digital Marketing and Social Media Specialist. He designs engaging visual content strategies, manages social channels, and analyzes performance metrics to expand Code Plus's online reach and strengthen its digital brand presence.",
+      "th": "Adel เป็นผู้เชี่ยวชาญด้านการตลาดดิจิทัลและโซเชียลมีเดีย เขาออกแบบกลยุทธ์เนื้อหาภาพที่น่าสนใจ จัดการช่องทางโซเชียลมีเดีย และวิเคราะห์เมตริกประสิทธิภาพ เพื่อขยายการเข้าถึงออนไลน์ของ Code Plus และเสริมสร้างแบรนด์ดิจิทัลให้แข็งแกร่ง"
+    },
+    "image": "/images/team/adel-effat/avatar.jpg",
+    "linkedin": "https://www.linkedin.com/in/adel-effat-8a7922355?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "initial": "AE",
+    "featured": false,
+    "skills": [
+      "Social Media Management",
+      "Content Strategy",
+      "Graphic Design",
+      "Copywriting",
+      "Brand Growth"
+    ],
+    "yearsExp": "3+ years",
+    "quote": {
+      "en": "Digital presence is the bridge between technology and community.",
+      "th": "การมีตัวตนในโลกดิจิทัลคือสะพานเชื่อมระหว่างเทคโนโลยีและชุมชน"
+    }
+  }
+]

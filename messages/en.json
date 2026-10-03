@@ -1,0 +1,395 @@
+{
+  "nav": {
+    "startProject": "GET IN TOUCH →",
+    "startProjectMobile": "Start a project"
+  },
+  "hero": {
+    "badge": "Now accepting Q3 projects",
+    "headline": "We turn ideas into",
+    "headlineAccent": "software that matters.",
+    "subtext": "From the first sketch to the last deployment — we build the products your business needs to move forward.",
+    "ctaPrimary": "View our work",
+    "ctaSecondary": "Let's talk",
+    "stats": {
+      "projects": "Projects shipped",
+      "uptime": "Avg. uptime",
+      "countries": "Countries"
+    }
+  },
+  "services": {
+    "tag": "What We Build",
+    "title": "Full-Stack Digital Solutions",
+    "subtitle": "From mobile apps and web platforms to custom ERPs, AI integrations, cybersecurity, and cloud infrastructure — we engineer the complete digital products modern businesses need to compete, operate, and scale.",
+    "exploreDetails": "Explore Details →",
+    "ctaQuestion": "Ready to build something exceptional?",
+    "ctaButton": "Start a project →",
+    "hero": {
+      "tag": "WHAT WE BUILD",
+      "title": "Our Services",
+      "subtitle": "End-to-end software engineering — mobile, web, AI, infrastructure, and security — for businesses that demand performance and precision.",
+      "stats": {
+        "core": "Service categories",
+        "projects": "Projects delivered",
+        "uptime": "Average uptime"
+      }
+    },
+    "whatsIncluded": "What's included",
+    "technologies": "Technologies",
+    "deliverables": "Deliverables",
+    "learnMore": "Learn more →",
+    "startThisProject": "Start this project",
+    "howWeWork": "How we work",
+    "howWeWorkSubtitle": "Our process is simple, transparent, and built for results.",
+    "readyToStart": "Ready to start?",
+    "readyToStartSubtitle": "Let's turn your vision into reality. We're ready to build something extraordinary together.",
+    "startProjectBtn": "Start a project →",
+    "viewOurWork": "View our work",
+    "capabilities": {
+      "tag": "OUR CAPABILITIES",
+      "title": "Comprehensive Solutions Directory",
+      "subtitle": "Our goal is not just delivering projects. Our goal is building scalable and successful digital products.",
+      "searchPlaceholder": "Search capabilities (e.g., Mobile, AI, CRM)...",
+      "groups": {
+        "mobile": "Mobile & App Development",
+        "web": "Web & E-Commerce",
+        "enterprise": "Enterprise & Business Systems",
+        "engineering": "Backend & Cloud Infrastructure",
+        "industries": "Industry Verticals",
+        "security": "Security, Performance & Support"
+      },
+      "items": {
+        "mobileApp": "Mobile App Development (Android & iOS)",
+        "flutter": "Flutter Cross-Platform Applications",
+        "webDesign": "Website Design & Development",
+        "uiux": "UI/UX Design",
+        "dashboards": "Dashboard & Admin Panel Development",
+        "erp": "ERP & CRM Systems",
+        "businessMgmt": "Business Management Systems",
+        "inventory": "Inventory & Sales Management Systems",
+        "booking": "Booking & Reservation Systems",
+        "ecommerce": "E-Commerce Development",
+        "payments": "Payment Gateway Integration",
+        "backend": "Backend Development & APIs",
+        "firebase": "Firebase Integration & Services",
+        "pushNotifications": "Push Notification Systems",
+        "gps": "GPS & Tracking Systems",
+        "delivery": "Delivery & On-Demand Applications",
+        "elearning": "Educational Platforms & E-Learning Systems",
+        "healthcare": "Medical & Healthcare Applications",
+        "realestate": "Real Estate Applications",
+        "saas": "SaaS Platforms Development",
+        "aiSolutions": "AI Integration & Smart Solutions",
+        "aiChatbots": "AI Chatbots & Virtual Assistants",
+        "cybersecurity": "Cybersecurity & Penetration Testing",
+        "securityAudits": "Security Audits & Vulnerability Assessment",
+        "optimization": "App Optimization & Performance Enhancement",
+        "maintenance": "Technical Maintenance & Support",
+        "appPublishing": "Google Play & App Store Publishing",
+        "hosting": "Hosting, Servers & Domain Setup",
+        "consulting": "Technical Consulting",
+        "branding": "Branding & Digital Solutions",
+        "mvp": "MVP Development for Startups",
+        "automation": "Automation Systems",
+        "iot": "IoT & Smart Systems Solutions"
+      }
+    }
+  },
+  "work": {
+    "tag": "SELECTED WORK",
+    "title": "Featured Projects",
+    "viewAll": "View all work →",
+    "caseStudy": "Case study →",
+    "ctaQuestion": "Curious about our development process?",
+    "ctaButton": "All case studies →",
+    "vitals": "Vitals",
+    "heartRate": "Heart Rate",
+    "activeCourses": "Active Courses",
+    "dailySales": "Daily Sales",
+    "stats": {
+      "projects": "Projects delivered",
+      "years": "Years of excellence",
+      "countries": "Countries served"
+    },
+    "all": "All",
+    "featured": "Featured",
+    "viewCaseStudy": "View case study →",
+    "viewProject": "View Project →",
+    "haveProject": "Have a project in mind?",
+    "startProject": "Start a project →"
+  },
+  "techStack": {
+    "badge": "Tech Arsenal",
+    "title": "Built with modern",
+    "titleAccent": "technologies",
+    "subtitle": "We leverage the latest frameworks and tools to build scalable, high-performance, and resilient digital products that stand the test of time.",
+    "technologiesCount": "{count} Technologies",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "infrastructure": "Infrastructure",
+    "aiData": "AI & Data"
+  },
+  "testimonials": {
+    "tag": "CLIENT WORDS",
+    "title": "What clients say"
+  },
+  "team": {
+    "tag": "THE TEAM",
+    "title": "Meet the engineers",
+    "subtitle": "Behind every great project is a team of passionate creators. Get to know the people driving innovation at CodePlus.",
+    "seeAllTeam": "See all team →",
+    "startProject": "Start a project →",
+    "pageTitle": "Our Team",
+    "pageSubtitle": "At CodePlus, our strength lies in our people",
+    "pageDesc1": "We are a diverse group of consultants, trainers, and innovators with years of experience in management, business solutions, and training across different industries.",
+    "pageDesc2": "Together, we combine knowledge, passion, and innovation to deliver the best results for our clients."
+  },
+  "contact": {
+    "tag": "GET IN TOUCH",
+    "title": "Start a project",
+    "heading": "Let's build something together.",
+    "description": "Whether you have a detailed spec or just a rough idea, we'd love to hear about it. Drop us a line and we'll get back to you fast.",
+    "emailLabel": "Email us",
+    "whatsappLabel": "WhatsApp",
+    "basedIn": "Based in",
+    "location": "Cairo, Egypt — Remote worldwide",
+    "responseTime": "Within 24 hours",
+    "contactCards": {
+      "email": {
+        "label": "Email us",
+        "value": "hello@codeplusdev.com"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+20 101 942 2125"
+      },
+      "location": {
+        "label": "Based in",
+        "value": "Cairo, Egypt — Remote worldwide"
+      }
+    },
+    "form": {
+      "success": {
+        "title": "Message sent!",
+        "message": "We'll get back to you within 24 hours."
+      },
+      "name": {
+        "label": "Name *",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "you@company.com"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Company name (optional)"
+      },
+      "service": {
+        "label": "Service needed *",
+        "options": {
+          "mobile": "Mobile App Development",
+          "web": "Web Platforms & E-Commerce",
+          "design": "UI/UX Design & Branding",
+          "backend": "Backend & Infrastructure",
+          "erp": "ERP & Business Systems",
+          "ai": "AI & Smart Solutions",
+          "industry": "Industry-Specific Platforms",
+          "security": "Security, Support & Consulting",
+          "other": "Other"
+        }
+      },
+      "budget": {
+        "label": "Budget range *",
+        "notSure": "Not sure"
+      },
+      "message": {
+        "label": "Message *",
+        "placeholder": "Tell us about your project..."
+      },
+      "submit": "Send message →",
+      "submitting": "Sending...",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailInvalid": "Valid email required",
+        "serviceRequired": "Select a service",
+        "budgetRequired": "Select a budget range",
+        "messageLength": "Tell us about your project (minimum 10 characters)"
+      }
+    }
+  },
+  "finalCTA": {
+    "tag": "LIMITED AVAILABILITY",
+    "headlinePart1": "Let's build something",
+    "headlineAccent": "the world will use.",
+    "headlinePart2": "",
+    "subtitleLine1": "We work with a select few clients each quarter to ensure every project gets our full attention.",
+    "subtitleLine2": "3 spots remaining for Q3 2025.",
+    "startProject": "Claim your spot →",
+    "viewWork": "View our work",
+    "trustSignals": {
+      "response": "Response within 24 hours",
+      "nda": "NDA signed before kickoff",
+      "fixedPrice": "Fixed-price or T&M",
+      "satisfaction": "100% satisfaction guarantee"
+    }
+  },
+  "footer": {
+    "status": "All systems operational",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "caseStudy": {
+    "backToWork": "← Back to work",
+    "duration": "Duration",
+    "teamSize": "Team size",
+    "year": "Year",
+    "overview": "Overview",
+    "challenge": "The challenge",
+    "solution": "Our solution",
+    "results": "The results",
+    "techStack": "Tech stack",
+    "deliverables": "Deliverables",
+    "wantSimilar": "Want something similar?",
+    "startProject": "Start a project →",
+    "nextProject": "Next project"
+  },
+  "about": {
+    "hero": {
+      "tag": "WHO WE ARE",
+      "title": "Engineering the digital future.",
+      "description": "CodePlus is an elite team of senior software engineers, system architects, and product builders. We do not just write code — we design and construct high-performance, resilient software systems for businesses that demand precision, speed, and reliability at scale."
+    },
+    "values": {
+      "tag": "OUR CORE VALUES",
+      "title": "Built on Principles",
+      "subtitle": "The engineering guidelines that govern every single line of code we write and every infrastructure node we deploy.",
+      "quality": {
+        "title": "Absolute Quality",
+        "desc": "Precision is non-negotiable. We adhere to rigorous code reviews, thorough test coverage, and comprehensive, clean documentation."
+      },
+      "scale": {
+        "title": "Engineered for Scale",
+        "desc": "Systems architected from day one to handle extreme load conditions and traffic peaks with predictable sub-second latency."
+      },
+      "reliability": {
+        "title": "Fault Tolerance",
+        "desc": "No single points of failure. High availability, robust monitoring, self-healing architectures, and a 99.9% uptime standard."
+      }
+    },
+    "team": {
+      "tag": "THE TEAM",
+      "title": "Meet the Architects",
+      "subtitle": "A compact team of senior professionals who specialize in building complex B2B systems."
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "CodePlus — Build Better",
+      "description": "We engineer high-performance B2B software, scalable architectures, and intelligent systems for modern enterprises."
+    },
+    "work": {
+      "title": "Work",
+      "description": "Case studies and projects built by Code Plus Software House."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Mobile app development, web platforms, UI/UX design, AI integration, ERP systems, and more."
+    },
+    "team": {
+      "title": "Team",
+      "description": "Meet the engineers behind Code Plus."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Start a project with Code Plus."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about our mission, our core engineering values, and the team driving software innovation at CodePlus."
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Join CodePlus. Start your software engineering or product design career working alongside senior engineers on real client projects."
+    }
+  },
+  "internship": {
+    "eyebrow": "INTERNSHIP PROGRAM",
+    "title": "Start your career with us",
+    "description": "We hire ambitious students and fresh graduates to work alongside senior engineers on real client projects — not busywork.",
+    "highlights": {
+      "realProjects": "Work on real client projects from day one",
+      "mentorship": "1-on-1 mentorship from senior engineers",
+      "fullTimePath": "Top performers get full-time offers"
+    },
+    "cta": "View open internships →",
+    "openCount": "{count} open positions",
+    "cardTitle": "Internship Openings",
+    "status": {
+      "open": "Hiring now",
+      "closed": "Currently closed"
+    },
+    "moreCount": "+ {count} more positions →",
+    "empty": {
+      "title": "No open internships right now",
+      "description": "Send us your CV and we'll reach out when a spot opens up.",
+      "cta": "Send general application →"
+    }
+  },
+  "careers": {
+    "title": "Join Our Team",
+    "subtitle": "We are looking for ambitious builders, problem solvers, and creative minds to help us build the future of software.",
+    "sectionTitle": "Open Opportunities",
+    "sectionSubtitle": "Select a position below to view details and apply.",
+    "roleDetails": "Role Details",
+    "duration": "Duration",
+    "department": "Department",
+    "requirements": "Requirements & Qualifications",
+    "responsibilities": "Key Responsibilities",
+    "applyTitle": "Apply for this position",
+    "applySubtitle": "Please fill out the application form below. We review all applications within 48 hours.",
+    "form": {
+      "name": "Name *",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address *",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number (Optional)",
+      "phonePlaceholder": "+1 234 567 890",
+      "university": "University / College *",
+      "universityPlaceholder": "Your University",
+      "gradYear": "Graduation / Expected Graduation Year *",
+      "gradYearPlaceholder": "2026",
+      "cvLink": "CV / Resume Link *",
+      "cvLinkPlaceholder": "Link to Google Drive, Dropbox, or PDF (must be public)",
+      "message": "Cover Letter / Message",
+      "messagePlaceholder": "Tell us why you are interested in this internship...",
+      "submit": "Submit Application",
+      "submitting": "Submitting...",
+      "success": {
+        "title": "Application Submitted!",
+        "message": "Thank you for applying to CodePlus. We've received your application and our engineering team will get back to you shortly."
+      },
+      "errors": {
+        "nameRequired": "Name must be at least 2 characters",
+        "emailInvalid": "Please enter a valid email address",
+        "universityRequired": "University name is required",
+        "gradYearRequired": "Graduation year is required",
+        "cvLinkRequired": "Please enter a valid URL link to your CV/Resume",
+        "messageLength": "Message must be at least 10 characters",
+        "submitFailed": "Failed to submit application. Please try again or email us directly."
+      }
+    },
+    "back": "Back to Careers",
+    "generalCta": {
+      "title": "Don't see a matching position?",
+      "description": "We are always looking for talented individuals. Send us a general application and we'll keep you in mind.",
+      "cta": "General Application"
+    }
+  },
+  "stats": {
+    "projects": "Projects Shipped",
+    "clients": "Client Satisfaction",
+    "loadTime": "Avg. Page Load",
+    "uptime": "System Uptime"
+  }
+}

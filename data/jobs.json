@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "slug": "backend-engineering-intern",
+    "type": "internship",
+    "isOpen": false,
+    "title": {
+      "en": "Software Engineering Intern (Backend)",
+      "th": "ผู้ช่วยวิศวกรซอฟต์แวร์ (Backend)"
+    },
+    "department": {
+      "en": "Engineering",
+      "th": "วิศวกรรม"
+    },
+    "duration": {
+      "en": "3 months",
+      "th": "3 เดือน"
+    },
+    "description": {
+      "en": "Join our engineering team to build scalable APIs and backend systems using Node.js, PostgreSQL, and Redis. You will work on real client projects under the mentorship of senior engineers.",
+      "th": "เข้าร่วมทีมวิศวกรรมเพื่อสร้าง API และระบบหลังบ้านที่สามารถขยายขนาดได้โดยใช้ Node.js, PostgreSQL และ Redis คุณจะได้ทำงานจริงของลูกค้าภายใต้การดูแลของวิศวกรอาวุโส"
+    },
+    "requirements": [
+      {
+        "en": "Basic understanding of databases (SQL/NoSQL) and RESTful API concepts.",
+        "th": "มีความเข้าใจพื้นฐานเกี่ยวกับฐานข้อมูล (SQL/NoSQL) และแนวคิดเกี่ยวกับ RESTful API"
+      },
+      {
+        "en": "Familiarity with JavaScript, TypeScript, or Node.js.",
+        "th": "มีความคุ้นเคยกับ JavaScript, TypeScript หรือ Node.js"
+      },
+      {
+        "en": "Strong analytical problem-solving skills and eagerness to learn backend patterns.",
+        "th": "มีทักษะการวิเคราะห์และแก้ไขปัญหาที่ดี และกระตือรือร้นในการเรียนรู้ระบบ Backend"
+      },
+      {
+        "en": "Basic familiarity with Git version control.",
+        "th": "มีความคุ้นเคยพื้นฐานเกี่ยวกับระบบควบคุมเวอร์ชัน Git"
+      }
+    ],
+    "responsibilities": [
+      {
+        "en": "Collaborate with senior engineers on database architecture and schema design.",
+        "th": "ร่วมมือกับวิศวกรอาวุโสในการออกแบบสถาปัตยกรรมและโครงสร้างฐานข้อมูล"
+      },
+      {
+        "en": "Implement clean, secure, and documented API endpoints.",
+        "th": "เขียนโค้ดและพัฒนา API endpoints ที่มีความปลอดภัย สะอาด และมีเอกสารประกอบ"
+      },
+      {
+        "en": "Write unit tests and integrate automated backend test suites.",
+        "th": "เขียนการทดสอบยูนิต (Unit Tests) และผสานระบบทดสอบอัตโนมัติของ backend"
+      },
+      {
+        "en": "Participate in backend code reviews and sprint planning sessions.",
+        "th": "เข้าร่วมการรีวิวโค้ดและประชุมวางแผนสปรินต์ระบบหลังบ้าน"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "uiux-design-intern",
+    "type": "internship",
+    "isOpen": false,
+    "title": {
+      "en": "UI/UX Design Intern",
+      "th": "นักศึกษาฝึกงานออกแบบ UI/UX"
+    },
+    "department": {
+      "en": "Product Design",
+      "th": "ออกแบบผลิตภัณฑ์"
+    },
+    "duration": {
+      "en": "3 months",
+      "th": "3 เดือน"
+    },
+    "description": {
+      "en": "Work closely with our product design team to create beautiful, user-centric interfaces and interactive prototypes. You will help turn complex business flows into clear, premium digital products.",
+      "th": "ทำงานอย่างใกล้ชิดกับทีมออกแบบผลิตภัณฑ์เพื่อสร้างอินเทอร์เฟซที่สวยงามและใช้งานง่ายสำหรับผู้ใช้ คุณจะได้ช่วยเปลี่ยนเวิร์กโฟลว์ธุรกิจที่ซับซ้อนให้กลายเป็นผลิตภัณฑ์ดิจิทัลระดับพรีเมียม"
+    },
+    "requirements": [
+      {
+        "en": "Proficiency in Figma and interactive design prototyping tools.",
+        "th": "มีความเชี่ยวชาญใน Figma และเครื่องมือสร้างต้นแบบการออกแบบ"
+      },
+      {
+        "en": "Understanding of responsive grid systems, typography, and color theory.",
+        "th": "มีความเข้าใจเกี่ยวกับระบบกริดแบบตอบสนอง (Responsive Grid), การจัดตัวอักษร และทฤษฎีสี"
+      },
+      {
+        "en": "A portfolio showcasing design tasks, wireframes, or case studies.",
+        "th": "มีพอร์ตโฟลิโอแสดงผลงานการออกแบบ โครงร่าง (wireframes) หรือกรณีศึกษา"
+      },
+      {
+        "en": "Good communication skills to discuss and iterate on design feedback.",
+        "th": "มีทักษะการสื่อสารที่ดีในการพูดคุยแลกเปลี่ยนความคิดเห็นเกี่ยวกับงานออกแบบ"
+      }
+    ],
+    "responsibilities": [
+      {
+        "en": "Create wireframes, user flows, and interactive mockups for web and mobile.",
+        "th": "สร้างโครงร่าง โฟลว์การใช้งาน และม็อคอัพตอบโต้ได้สำหรับเว็บและโมบายล์"
+      },
+      {
+        "en": "Assist in building and maintaining our unified design system components.",
+        "th": "ช่วยในการสร้างและบำรุงรักษาส่วนประกอบระบบการออกแบบ (Design System) ของเรา"
+      },
+      {
+        "en": "Conduct visual audits of built pages to ensure high design fidelity.",
+        "th": "ตรวจสอบความถูกต้องของหน้าเว็บที่พัฒนาขึ้นจริงเพื่อรับประกันคุณภาพงานออกแบบ"
+      },
+      {
+        "en": "Help gather and document feedback from usability test runs.",
+        "th": "ช่วยเก็บรวบรวมข้อมูลและจัดทำบันทึกผลการทดสอบการใช้งานจริง"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "frontend-developer-intern",
+    "type": "internship",
+    "isOpen": false,
+    "title": {
+      "en": "Frontend Developer Intern",
+      "th": "ผู้ช่วยนักพัฒนาเว็บ (Frontend)"
+    },
+    "department": {
+      "en": "Engineering",
+      "th": "วิศวกรรม"
+    },
+    "duration": {
+      "en": "4 months",
+      "th": "4 เดือน"
+    },
+    "description": {
+      "en": "Build fast, responsive, and interactive user interfaces using React, Next.js, and Tailwind CSS. You will learn modern frontend architecture, localization patterns, and SEO optimization practices.",
+      "th": "พัฒนาส่วนต่อประสานผู้ใช้ที่รวดเร็ว ตอบสนองได้ดี และมีปฏิสัมพันธ์สูงโดยใช้ React, Next.js และ Tailwind CSS คุณจะได้เรียนรู้สถาปัตยกรรมฟรอนต์เอนด์ยุคใหม่ ระบบแปลภาษา และการเพิ่มประสิทธิภาพ SEO"
+    },
+    "requirements": [
+      {
+        "en": "Strong knowledge of HTML, CSS, JavaScript, and Modern ES6 syntax.",
+        "th": "มีความรู้ที่มั่นคงเกี่ยวกับ HTML, CSS, JavaScript และไวยากรณ์สมัยใหม่ (ES6)"
+      },
+      {
+        "en": "Basic experience with React or Next.js.",
+        "th": "มีประสบการณ์พื้นฐานเกี่ยวกับการพัฒนาด้วย React หรือ Next.js"
+      },
+      {
+        "en": "Familiarity with Tailwind CSS or utility-first styling patterns.",
+        "th": "มีความคุ้นเคยกับ Tailwind CSS หรือแนวทางการจัดสไตล์แบบ utility-first"
+      },
+      {
+        "en": "Attention to detail for pixel-perfect design implementations.",
+        "th": "ใส่ใจในรายละเอียดเพื่อให้การแปลงดีไซน์เป็นหน้าเว็บมีความถูกต้องแม่นยำสูง"
+      }
+    ],
+    "responsibilities": [
+      {
+        "en": "Develop reusable React UI components and layouts following best practices.",
+        "th": "พัฒนาระบบส่วนประกอบ UI ใน React ให้สามารถนำกลับมาใช้ใหม่ได้ตามแนวทางปฏิบัติที่ดีที่สุด"
+      },
+      {
+        "en": "Implement responsive designs that display beautifully on mobile, tablet, and desktop.",
+        "th": "พัฒนาหน้าเว็บแบบตอบสนองให้แสดงผลอย่างเหมาะสมบนทุกอุปกรณ์ (มือถือ, แท็บเล็ต, เดสก์ท็อป)"
+      },
+      {
+        "en": "Integrate backend APIs into the user interface using React hooks.",
+        "th": "เชื่อมต่อ API หลังบ้านเข้ากับหน้าจอฟรอนต์เอนด์โดยใช้ React hooks"
+      },
+      {
+        "en": "Optimize frontend performance (Lighthouse scores, code splitting, dynamic imports).",
+        "th": "ปรับแต่งประสิทธิภาพของเว็บ (คะแนน Lighthouse, การแบ่งโค้ด, และการนำเข้าแบบไดนามิก)"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "mobile-app-intern",
+    "type": "internship",
+    "isOpen": false,
+    "title": {
+      "en": "Mobile App Developer Intern (Flutter)",
+      "th": "ผู้ช่วยนักพัฒนาโมบายแอป (Flutter)"
+    },
+    "department": {
+      "en": "Engineering",
+      "th": "วิศวกรรม"
+    },
+    "duration": {
+      "en": "6 months",
+      "th": "6 เดือน"
+    },
+    "description": {
+      "en": "Help build native-feeling mobile applications for iOS and Android using Flutter. (Position is currently closed but applications will be kept on file).",
+      "th": "ช่วยพัฒนาโมบายแอปพลิเคชันสำหรับ iOS และ Android ด้วยการใช้ Flutter (ตำแหน่งนี้ปิดรับสมัครอยู่ แต่สามารถส่งใบสมัครเก็บในระบบไว้ก่อนได้)"
+    },
+    "requirements": [
+      {
+        "en": "Familiarity with React, React Native, or Flutter development.",
+        "th": "มีความคุ้นเคยกับการพัฒนาด้วย React, React Native หรือ Flutter"
+      },
+      {
+        "en": "Basic understanding of mobile app development lifecycles and stores.",
+        "th": "มีความเข้าใจพื้นฐานเกี่ยวกับวงจรชีวิตการทำงานของแอปมือถือและการจัดส่งบนสโตร์"
+      },
+      {
+        "en": "Eagerness to write clean, maintainable code with Dart.",
+        "th": "มีความตั้งใจที่จะเขียนโค้ดที่สะอาดและดูแลรักษาง่ายด้วย Dart"
+      }
+    ],
+    "responsibilities": [
+      {
+        "en": "Develop and style mobile application screen mockups and navigators.",
+        "th": "พัฒนาและจัดสไตล์หน้าจอโมบายแอปพลิเคชันและระบบการนำทาง (Navigators)"
+      },
+      {
+        "en": "Integrate device features (Camera, Geolocation, Biometrics) using Flutter plugins.",
+        "th": "เชื่อมโยงคุณลักษณะต่างๆ ของเครื่อง (กล้อง, พิกัด, ลายนิ้วมือ) โดยใช้พลักอินของ Flutter"
+      },
+      {
+        "en": "Help debug device-specific performance issues and testing scenarios.",
+        "th": "ช่วยตรวจสอบความผิดพลาดด้านประสิทธิภาพเฉพาะของอุปกรณ์และจัดทำขั้นตอนทดสอบ"
+      }
+    ]
+  }
+]
