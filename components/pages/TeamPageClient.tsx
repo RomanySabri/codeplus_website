@@ -21,7 +21,7 @@ function MemberImage({ src, alt, initial, sizes }: MemberImageProps) {
     <div className="relative w-full h-full bg-transparent">
       {(!loaded || error) && (
         <div className="absolute inset-0 flex items-center justify-center bg-transparent z-0">
-          <span className="text-3xl font-black text-[#006bfd] tracking-widest select-none">
+          <span className="text-3xl font-black text-[var(--text-brand)] tracking-widest select-none">
             {initial}
           </span>
         </div>
@@ -68,7 +68,7 @@ export function TeamPageClient() {
             transition={{ duration: 0.5 }}
             className="max-w-3xl mx-auto"
           >
-            <span className="text-[9px] font-mono tracking-[0.35em] text-[#006bfd] uppercase mb-4 block">
+            <span className="text-[10px] font-mono tracking-[0.35em] text-[var(--text-brand)] uppercase mb-4 block font-bold">
               {t("tag")}
             </span>
             <h1 className="text-4xl lg:text-5xl font-black tracking-tight mb-6">
@@ -96,10 +96,10 @@ export function TeamPageClient() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.08 }}
-                className="group rounded-xl border border-white/[0.05] bg-[var(--bg-card)] flex flex-col justify-between min-h-[440px] text-center hover:border-[#006bfd]/30 transition-all duration-300 relative overflow-hidden shadow-[var(--card-shadow)]"
+                className="group rounded-xl border border-[var(--border-default)] bg-[var(--bg-card)] flex flex-col justify-between min-h-[440px] text-center hover:border-[var(--border-brand)] transition-all duration-300 relative overflow-hidden shadow-[var(--card-shadow)]"
               >
-                {/* Top portion (Gray background header band) */}
-                <div className="relative w-full h-24 bg-slate-500/[0.06] dark:bg-white/[0.02] flex items-center justify-center overflow-hidden shrink-0" />
+                {/* Top portion (Header band) */}
+                <div className="relative w-full h-24 bg-[var(--bg-tertiary)] flex items-center justify-center overflow-hidden shrink-0 border-b border-[var(--border-subtle)]" />
 
                 {/* Floating Circular Avatar */}
                 <div className="absolute top-10 left-1/2 -translate-x-1/2 z-20">
@@ -112,7 +112,7 @@ export function TeamPageClient() {
                   />
 
                   {/* Photo circle frame */}
-                  <div className="relative w-28 h-28 rounded-full overflow-hidden bg-[var(--bg-secondary)] border-4 border-[var(--bg-card)] shadow-md transition-all duration-300 group-hover:border-[#006bfd]/30">
+                  <div className="relative w-28 h-28 rounded-full overflow-hidden bg-[var(--bg-secondary)] border-4 border-[var(--bg-card)] shadow-md transition-all duration-300 group-hover:border-[var(--border-brand)]">
                     <MemberImage
                       src={member.image}
                       alt={member.name}
@@ -123,12 +123,12 @@ export function TeamPageClient() {
                 </div>
 
                 {/* Bottom portion (Details Box) */}
-                <div className="w-full bg-[var(--bg-secondary)] pt-16 p-6 z-10 flex-grow flex flex-col justify-between transition-colors duration-300">
+                <div className="w-full bg-[var(--bg-card)] pt-16 p-6 z-10 flex-grow flex flex-col justify-between transition-colors duration-300">
                   <div className="flex-grow flex flex-col justify-start mb-4">
-                    <h2 className="text-[16px] font-black text-[var(--text-primary)] group-hover:text-[#006bfd] transition-colors duration-200">
+                    <h2 className="text-[16px] font-black text-[var(--text-primary)] group-hover:text-[var(--text-brand)] transition-colors duration-200">
                       {member.name}
                     </h2>
-                    <p className="text-[11px] font-extrabold tracking-wider text-[#006bfd] uppercase mt-1">
+                    <p className="text-[11px] font-extrabold tracking-wider text-[var(--text-brand)] uppercase mt-1">
                       {member.role[locale]}
                     </p>
                     <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed font-light mt-3 line-clamp-3">
@@ -137,14 +137,14 @@ export function TeamPageClient() {
                   </div>
 
                   {/* Social Links Row (Centered) */}
-                  <div className="flex items-center justify-center gap-3 pt-3 border-t border-white/[0.04]">
+                  <div className="flex items-center justify-center gap-3 pt-3 border-t border-[var(--border-default)]">
                     {/* LinkedIn */}
                     <a
                       href={member.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Follow ${member.name} on LinkedIn`}
-                      className="w-7 h-7 rounded-md border border-[var(--border-default)] flex items-center justify-center text-[var(--text-muted)] hover:text-[#006bfd] hover:border-[#006bfd]/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006bfd] transition-all duration-200"
+                      className="w-7 h-7 rounded-md border border-[var(--border-default)] flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-brand)] hover:border-[var(--border-brand)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200"
                     >
                       <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z M5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452z M22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -156,7 +156,7 @@ export function TeamPageClient() {
                       <a
                         href={`mailto:${member.email}`}
                         aria-label={`Send email to ${member.name}`}
-                        className="w-7 h-7 rounded-md border border-[var(--border-default)] flex items-center justify-center text-[var(--text-muted)] hover:text-[#006bfd] hover:border-[#006bfd]/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006bfd] transition-all duration-200"
+                        className="w-7 h-7 rounded-md border border-[var(--border-default)] flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text-brand)] hover:border-[var(--border-brand)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200"
                       >
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <rect width="20" height="16" x="2" y="4" rx="2" />

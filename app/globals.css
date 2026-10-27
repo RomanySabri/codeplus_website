@@ -48,62 +48,79 @@
 }
 
 :root {
-  /* ── Code Plus brand scale ── */
-  --cp-50:  #f5f7fb;
-  --cp-100: #e6f0ff;
-  --cp-200: #c2dbff;
-  --cp-300: #8fc0ff;
-  --cp-400: #4da3ff;
-  --cp-500: #006bfd;
-  --cp-600: #0056d6;
+  /* ── Code Plus Official Brand Scale (Brand Guidelines) ── */
+  --cp-navy:       #0A1F3D; /* Primary Navy: RGB 10, 31, 61 */
+  --cp-blue:       #007BFF; /* Primary / Electric Blue: RGB 0, 123, 255 */
+  --cp-blue-dark:  #0056D6; /* Deep Blue Shade */
+  --cp-blue-light: #4DA3FF; /* Light Blue Shade */
+  --cp-soft-blue:  #E6F0FF; /* Soft Blue: RGB 230, 240, 255 */
+  --cp-light-gray: #F5F7FB; /* Light Gray: RGB 245, 247, 251 */
+  --cp-gray:       #94A3B8; /* Gray: RGB 148, 163, 184 */
+  --cp-dark-gray:  #334155; /* Dark Gray: RGB 51, 65, 85 */
+  --cp-white:      #FFFFFF; /* Pure White */
+
+  /* Legacy scale compatibility */
+  --cp-50:  #F5F7FB;
+  --cp-100: #E6F0FF;
+  --cp-200: #C2DBFF;
+  --cp-300: #8FC0FF;
+  --cp-400: #4DA3FF;
+  --cp-500: #007BFF;
+  --cp-600: #0056D6;
   --cp-700: #334155;
-  --cp-800: #1b2f4d;
-  --cp-900: #0d1f38;
-  --cp-950: #081528;
+  --cp-800: #1B2F4D;
+  --cp-900: #0A1F3D;
+  --cp-950: #06101E;
 
-  /* ── LIGHT MODE (default) ── */
-  --bg-primary:     #f5f7fb;
-  --bg-secondary:   #ffffff;
-  --bg-tertiary:    #e6f0ff;
-  --bg-card:        #ffffff;
-  --bg-card-hover:  #f5f7fb;
-  --bg-brand:       rgba(0,107,253,0.08);
-  --bg-brand-dark:  rgba(0,86,214,0.12);
+  /* ── Brand Gradients ── */
+  --gradient-brand:   linear-gradient(135deg, #007BFF 0%, #0A1F3D 100%);
+  --gradient-brand-h: linear-gradient(90deg, #007BFF 0%, #0A1F3D 100%);
+  --gradient-accent:  linear-gradient(135deg, #007BFF 0%, #4DA3FF 100%);
+  --gradient-hero:    radial-gradient(ellipse 80% 60% at 70% 40%, rgba(0, 123, 255, 0.15) 0%, transparent 70%);
 
-  --border-default: #d5e4fb;
-  --border-brand:   rgba(0,107,253,0.35);
-  --border-subtle:  rgba(0,107,253,0.15);
+  /* ── LIGHT MODE (Default) ── */
+  --bg-primary:     #F5F7FB; /* Brand Light Gray */
+  --bg-secondary:   #FFFFFF;
+  --bg-tertiary:    #E6F0FF; /* Brand Soft Blue */
+  --bg-card:        #FFFFFF;
+  --bg-card-hover:  #F8FAFC;
+  --bg-brand:       rgba(0, 123, 255, 0.08);
+  --bg-brand-dark:  rgba(0, 86, 214, 0.12);
 
-  --text-primary:   #0d1f38;
-  --text-secondary: #334155;
-  --text-muted:     rgba(13,31,56,0.68);
-  --text-ghost:     rgba(13,31,56,0.65);
-  --text-brand:     #006bfd;
-  --text-brand-bright: #4da3ff;
+  --border-default: #E2EDF9;
+  --border-brand:   rgba(0, 123, 255, 0.35);
+  --border-subtle:  rgba(0, 123, 255, 0.15);
 
-  --btn-primary:            #006bfd;
-  --btn-primary-hover:      #0056d6;
-  --btn-primary-text:       #ffffff;
-  --btn-ghost-border:       rgba(0,107,253,0.25);
+  --text-primary:      #0A1F3D; /* Brand Primary Navy */
+  --text-secondary:    #334155; /* Brand Dark Gray */
+  --text-muted:        #94A3B8; /* Brand Gray */
+  --text-ghost:        rgba(51, 65, 85, 0.60);
+  --text-brand:        #007BFF; /* Brand Primary Blue */
+  --text-brand-bright: #4DA3FF;
+
+  --btn-primary:            #007BFF;
+  --btn-primary-hover:      #0056D6;
+  --btn-primary-text:       #FFFFFF;
+  --btn-ghost-border:       #E2EDF9;
   --btn-ghost-text:         #334155;
-  --btn-ghost-hover-border: rgba(0,107,253,0.5);
-  --btn-ghost-hover-text:   #006bfd;
+  --btn-ghost-hover-border: #007BFF;
+  --btn-ghost-hover-text:   #007BFF;
 
-  --input-bg:          #ffffff;
-  --input-border:      #d5e4fb;
-  --input-focus:       #006bfd;
-  --input-text:        #0d1f38;
-  --input-placeholder: rgba(13,31,56,0.55);
+  --input-bg:          #FFFFFF;
+  --input-border:      #E2EDF9;
+  --input-focus:       #007BFF;
+  --input-text:        #0A1F3D;
+  --input-placeholder: #94A3B8;
 
-  --navbar-bg:     rgba(245,247,251,0.90);
-  --navbar-border: rgba(213,228,251,0.9);
+  --navbar-bg:     rgba(245, 247, 251, 0.92);
+  --navbar-border: rgba(226, 237, 249, 0.95);
 
-  --shadow-brand:        rgba(0,107,253,0.20);
-  --shadow-brand-strong: rgba(0,107,253,0.40);
+  --shadow-brand:        rgba(0, 123, 255, 0.20);
+  --shadow-brand-strong: rgba(0, 123, 255, 0.40);
 
-  --grid-line: rgba(13,31,56,0.05);
-  --card-shadow: 0 1px 3px rgba(13,31,56,0.08),
-                 0 4px 16px rgba(13,31,56,0.06);
+  --grid-line: rgba(10, 31, 61, 0.04);
+  --card-shadow: 0 1px 3px rgba(10, 31, 61, 0.06),
+                 0 8px 24px rgba(10, 31, 61, 0.04);
 
   /* ── Mapping to Tailwind defaults ── */
   --background: var(--bg-primary);
@@ -136,48 +153,48 @@
 }
 
 .dark {
-  /* ── DARK MODE ── */
-  --bg-primary:     #09090b;
-  --bg-secondary:   #0f0f18;
-  --bg-tertiary:    #0c0c14;
-  --bg-card:        #0f0f18;
-  --bg-card-hover:  #111120;
-  --bg-brand:       rgba(0,107,253,0.12);
-  --bg-brand-dark:  rgba(0,86,214,0.35);
+  /* ── DARK MODE (Infused with Brand Primary Navy #0A1F3D) ── */
+  --bg-primary:     #06101E; /* Deep Navy Midnight Canvas */
+  --bg-secondary:   #0A1F3D; /* Official Primary Navy */
+  --bg-tertiary:    #0D2547; /* Elevated Navy */
+  --bg-card:        #0A1F3D; /* Official Primary Navy Card */
+  --bg-card-hover:  #0F2C54;
+  --bg-brand:       rgba(0, 123, 255, 0.16);
+  --bg-brand-dark:  rgba(0, 86, 214, 0.35);
 
-  --border-default: rgba(255,255,255,0.06);
-  --border-brand:   rgba(77,163,255,0.35);
-  --border-subtle:  rgba(77,163,255,0.14);
+  --border-default: rgba(230, 240, 255, 0.08);
+  --border-brand:   rgba(0, 123, 255, 0.45);
+  --border-subtle:  rgba(0, 123, 255, 0.20);
 
-  --text-primary:      rgba(255,255,255,0.94);
-  --text-secondary:    rgba(255,255,255,0.72);
-  --text-muted:        rgba(255,255,255,0.62);
-  --text-ghost:        rgba(255,255,255,0.50);
-  --text-brand:        #4da3ff;
-  --text-brand-bright: #8fc0ff;
+  --text-primary:      #FFFFFF; /* Pure White */
+  --text-secondary:    #94A3B8; /* Official Brand Gray */
+  --text-muted:        rgba(148, 163, 184, 0.75);
+  --text-ghost:        rgba(148, 163, 184, 0.50);
+  --text-brand:        #4DA3FF; /* Bright Blue for high contrast */
+  --text-brand-bright: #8FC0FF;
 
-  --btn-primary:            #006bfd;
-  --btn-primary-hover:      #4da3ff;
-  --btn-primary-text:       #ffffff;
-  --btn-ghost-border:       rgba(255,255,255,0.14);
-  --btn-ghost-text:         rgba(255,255,255,0.60);
-  --btn-ghost-hover-border: rgba(77,163,255,0.50);
-  --btn-ghost-hover-text:   #4da3ff;
+  --btn-primary:            #007BFF;
+  --btn-primary-hover:      #0056D6;
+  --btn-primary-text:       #FFFFFF;
+  --btn-ghost-border:       rgba(230, 240, 255, 0.15);
+  --btn-ghost-text:         #E6F0FF;
+  --btn-ghost-hover-border: #007BFF;
+  --btn-ghost-hover-text:   #4DA3FF;
 
-  --input-bg:          #09090b;
-  --input-border:      rgba(255,255,255,0.10);
-  --input-focus:       #4da3ff;
-  --input-text:        rgba(255,255,255,0.85);
-  --input-placeholder: rgba(255,255,255,0.45);
+  --input-bg:          #08162A;
+  --input-border:      rgba(230, 240, 255, 0.12);
+  --input-focus:       #007BFF;
+  --input-text:        #FFFFFF;
+  --input-placeholder: rgba(148, 163, 184, 0.55);
 
-  --navbar-bg:     rgba(9,9,11,0.85);
-  --navbar-border: rgba(255,255,255,0.08);
+  --navbar-bg:     rgba(6, 16, 30, 0.88);
+  --navbar-border: rgba(230, 240, 255, 0.08);
 
-  --shadow-brand:        rgba(0,107,253,0.30);
-  --shadow-brand-strong: rgba(0,107,253,0.50);
+  --shadow-brand:        rgba(0, 123, 255, 0.30);
+  --shadow-brand-strong: rgba(0, 123, 255, 0.60);
 
-  --grid-line: rgba(255,255,255,0.04);
-  --card-shadow: none;
+  --grid-line: rgba(0, 123, 255, 0.05);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(230, 240, 255, 0.06);
 }
 
 @layer base {

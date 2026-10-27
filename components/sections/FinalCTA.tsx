@@ -25,7 +25,7 @@ export default function FinalCTA() {
           </p>
           <h2 className="text-4xl lg:text-6xl font-black text-[var(--text-primary)] tracking-tight leading-[1.05] mb-6">
             {t("headlinePart1")} <br className="hidden lg:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#006bfd] via-[#006bfd] to-[#4da3ff]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#007BFF] via-[#4DA3FF] to-[#0056D6]">
               {t("headlineAccent")}
             </span>{" "}
             {t("headlinePart2")}
@@ -39,13 +39,13 @@ export default function FinalCTA() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center max-w-sm mx-auto sm:max-w-none">
             <Link
               href="/contact"
-              className="bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] px-8 py-3 rounded-sm text-[11px] font-bold tracking-[0.2em] uppercase text-[var(--btn-primary-text)] transition-all active:scale-[0.98] shadow-[0_0_30px_var(--shadow-brand)] hover:shadow-[0_0_40px_var(--shadow-brand-strong)] w-full sm:w-auto text-center justify-center flex items-center"
+              className="bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] px-8 py-3.5 rounded-lg text-[12px] font-bold tracking-[0.15em] uppercase text-white transition-all active:scale-[0.98] shadow-[0_4px_20px_var(--shadow-brand)] hover:shadow-[0_6px_28px_var(--shadow-brand-strong)] w-full sm:w-auto text-center justify-center flex items-center"
             >
               {t("startProject")}
             </Link>
             <Link
               href="/work"
-              className="border border-[var(--btn-ghost-border)] hover:border-[var(--btn-ghost-hover-border)] px-8 py-3 rounded-sm text-[11px] tracking-[0.2em] uppercase text-[var(--btn-ghost-text)] hover:text-[var(--btn-ghost-hover-text)] transition-all w-full sm:w-auto text-center justify-center flex items-center"
+              className="bg-[var(--bg-card)] border border-[var(--border-default)] hover:border-[var(--border-brand)] px-8 py-3.5 rounded-lg text-[12px] font-semibold tracking-[0.15em] uppercase text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-card-hover)] transition-all shadow-sm w-full sm:w-auto text-center justify-center flex items-center"
             >
               {t("viewWork")}
             </Link>

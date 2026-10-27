@@ -39,7 +39,7 @@ export default function TrustRibbon() {
             {CLIENTS.map((client) => (
               <div
                 key={`set1-${client}`}
-                className="mx-4 md:mx-6 font-mono text-[11px] tracking-[0.2em] uppercase text-[var(--text-secondary)] border border-[var(--border-default)] rounded-sm px-4 py-1.5 hover:text-[var(--text-primary)] hover:border-[var(--border-brand)] transition-colors duration-300 cursor-default whitespace-nowrap"
+                className="mx-4 md:mx-6 font-mono text-[11px] tracking-[0.2em] uppercase text-[var(--text-secondary)] border border-[var(--border-default)] rounded-md px-4 py-1.5 hover:text-[var(--text-primary)] hover:border-[var(--border-brand)] transition-colors duration-300 cursor-default whitespace-nowrap"
               >
                 {client}
               </div>
@@ -50,7 +50,7 @@ export default function TrustRibbon() {
             {CLIENTS.map((client) => (
               <div
                 key={`set2-${client}`}
-                className="mx-4 md:mx-6 font-mono text-[11px] tracking-[0.2em] uppercase text-[var(--text-secondary)] border border-[var(--border-default)] rounded-sm px-4 py-1.5 hover:text-[var(--text-primary)] hover:border-[var(--border-brand)] transition-colors duration-300 cursor-default whitespace-nowrap"
+                className="mx-4 md:mx-6 font-mono text-[11px] tracking-[0.2em] uppercase text-[var(--text-secondary)] border border-[var(--border-default)] rounded-md px-4 py-1.5 hover:text-[var(--text-primary)] hover:border-[var(--border-brand)] transition-colors duration-300 cursor-default whitespace-nowrap"
               >
                 {client}
               </div>

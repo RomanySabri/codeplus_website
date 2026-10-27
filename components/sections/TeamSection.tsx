@@ -61,10 +61,10 @@ export const TeamSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 items-stretch sm:items-center max-w-sm mx-auto sm:max-w-none">
-          <Link href="/team" className="border border-[var(--btn-ghost-border)] rounded-sm px-6 py-2.5 text-[11px] tracking-[0.2em] text-[var(--btn-ghost-text)] uppercase hover:border-[var(--btn-ghost-hover-border)] hover:text-[var(--btn-ghost-hover-text)] transition-all duration-200 w-full sm:w-auto text-center justify-center flex items-center">
+          <Link href="/team" className="bg-[var(--bg-card)] border border-[var(--border-default)] rounded-lg px-6 py-3 text-[11px] font-semibold tracking-[0.15em] text-[var(--text-secondary)] uppercase hover:border-[var(--border-brand)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-card-hover)] transition-all duration-200 shadow-sm w-full sm:w-auto text-center justify-center flex items-center">
             {t("seeAllTeam")}
           </Link>
-          <Link href="/contact" className="bg-[var(--btn-primary)] rounded-sm px-6 py-2.5 text-[11px] font-bold tracking-[0.2em] text-[var(--btn-primary-text)] uppercase hover:bg-[var(--btn-primary-hover)] transition-all duration-200 shadow-[0_0_20px_var(--shadow-brand)] w-full sm:w-auto text-center justify-center flex items-center">
+          <Link href="/contact" className="bg-[var(--btn-primary)] rounded-lg px-6 py-3 text-[11px] font-bold tracking-[0.15em] text-white uppercase hover:bg-[var(--btn-primary-hover)] transition-all duration-200 shadow-[0_4px_20px_var(--shadow-brand)] hover:shadow-[0_6px_28px_var(--shadow-brand-strong)] w-full sm:w-auto text-center justify-center flex items-center">
             {t("startProject")}
           </Link>
         </div>

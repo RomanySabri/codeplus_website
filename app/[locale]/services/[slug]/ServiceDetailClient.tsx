@@ -31,12 +31,12 @@ const ICON_MAP = {
 
 const COLOR_MAP: Record<string, string> = {
   mobile: "#4da3ff",
-  web: "#006bfd",
+  web: "#007BFF",
   design: "#0056d6",
-  backend: "#006bfd",
+  backend: "#007BFF",
   erp: "#4da3ff",
-  ai: "#006bfd",
-  industry: "#006bfd",
+  ai: "#007BFF",
+  industry: "#007BFF",
   security: "#0056d6",
 };
 
@@ -46,7 +46,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
 
   const IconComponent =
     ICON_MAP[service.icon as keyof typeof ICON_MAP] || Server;
-  const accentColor = COLOR_MAP[service.id] || "#006bfd";
+  const accentColor = COLOR_MAP[service.id] || "#007BFF";
 
   return (
     <article className="bg-[var(--bg-primary)] min-h-screen text-[var(--text-primary)] relative">
@@ -64,9 +64,9 @@ export function ServiceDetailClient({ service }: { service: Service }) {
         <div className="mb-12">
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] text-[var(--text-ghost)] uppercase hover:text-[#4da3ff] hover:text-[var(--text-secondary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006bfd] rounded transition-colors"
+            className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] text-[var(--text-muted)] uppercase hover:text-[var(--text-brand)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--border-brand)] rounded transition-colors"
           >
-            <ArrowLeft className="w-3.5 h-3.5" />
+            <ArrowLeft className="w-3.5 h-3.5 rtl:rotate-180" />
             {t("learnMore") ? t("learnMore").replace("→", "").trim() : "Back to Services"}
           </Link>
         </div>
@@ -91,7 +91,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
             {/* Right - Title & Tagline */}
             <div>
               <div className="flex items-center gap-3 mb-2">
-                <span className="text-[10px] font-mono tracking-[0.25em] text-[#006bfd] uppercase">
+                <span className="text-[10px] font-mono tracking-[0.25em] text-[#007BFF] uppercase">
                   Service {service.tag}
                 </span>
               </div>
@@ -179,7 +179,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
               {service.tech.map((techItem) => (
                 <span
                   key={techItem}
-                  className="px-4 py-2 text-[12px] font-mono text-[var(--text-secondary)] bg-[var(--bg-secondary)] border border-[var(--border-default)] rounded-sm hover:border-[#006bfd]/30 hover:text-[var(--text-primary)] transition-all duration-200"
+                  className="px-4 py-2 text-[12px] font-mono text-[var(--text-secondary)] bg-[var(--bg-secondary)] border border-[var(--border-default)] rounded-md hover:border-[#007BFF]/40 hover:text-[var(--text-primary)] transition-all duration-200"
                 >
                   {techItem}
                 </span>
@@ -191,7 +191,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
         {/* DELIVERABLES & TIMELINE */}
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-24">
           {/* Deliverables */}
-          <div className="lg:col-span-2 p-8 rounded-lg border border-[var(--border-default)] bg-[var(--bg-tertiary)]">
+          <div className="lg:col-span-2 p-8 rounded-xl border border-[var(--border-default)] bg-[var(--bg-tertiary)]">
             <h3 className="text-lg font-bold mb-6">
               {t("deliverables") || (locale === "ar" ? "المخرجات الهندسية" : "Engineering Deliverables")}
             </h3>
@@ -211,7 +211,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
           </div>
 
           {/* Timeline Card */}
-          <div className="p-8 rounded-lg border border-[var(--border-default)] bg-[var(--bg-secondary)] flex flex-col justify-between relative overflow-hidden">
+          <div className="p-8 rounded-xl border border-[var(--border-default)] bg-[var(--bg-secondary)] flex flex-col justify-between relative overflow-hidden">
             <div
               className="absolute -right-16 -top-16 w-32 h-32 opacity-10 rounded-full blur-2xl"
               style={{ backgroundColor: accentColor }}
@@ -239,7 +239,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
         </section>
 
         {/* CTA BANNERS */}
-        <section className="p-12 rounded-xl border border-[var(--border-default)] bg-[var(--bg-tertiary)] text-center relative overflow-hidden">
+        <section className="p-12 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-tertiary)] text-center relative overflow-hidden">
           <div
             className="absolute inset-0 pointer-events-none opacity-5 blur-[100px] -z-10"
             style={{
@@ -256,10 +256,10 @@ export function ServiceDetailClient({ service }: { service: Service }) {
           </p>
           <Link
             href="/contact"
-            className="inline-flex bg-[#006bfd] hover:bg-[#4da3ff] px-8 py-3.5 rounded-sm text-[11px] font-bold tracking-[0.2em] uppercase text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006bfd] transition-all duration-200 shadow-[0_0_25px_rgba(0,107,253,0.3)] hover:shadow-[0_0_40px_rgba(0,107,253,0.5)]"
-            style={{ backgroundColor: accentColor }}
+            className="inline-flex items-center gap-2 bg-[#007BFF] hover:bg-[#0056D6] px-8 py-3.5 rounded-lg text-[13px] font-bold text-white transition-all duration-200 shadow-[0_4px_20px_var(--shadow-brand)] hover:scale-[1.02]"
           >
-            {t("startThisProject") || (locale === "ar" ? "ابدأ هذا المشروع" : "Start this project")} →
+            <span>{t("startThisProject") || (locale === "ar" ? "ابدأ هذا المشروع" : "Start this project")}</span>
+            <span className="rtl:rotate-180">→</span>
           </Link>
         </section>
         </div>

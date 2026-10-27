@@ -237,7 +237,7 @@ export default function HeroSection() {
                 <br />
                 <span
                   style={{
-                    background: "linear-gradient(135deg, #0056d6 0%, #4da3ff 60%, #4da3ff 100%)",
+                    background: "linear-gradient(135deg, #007BFF 0%, #4DA3FF 50%, #0056D6 100%)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     backgroundClip: "text",
@@ -252,7 +252,7 @@ export default function HeroSection() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="mt-6 max-w-[340px] rtl:max-w-[440px] text-[14px] leading-[1.8] text-[var(--text-secondary)]"
+                className="mt-6 max-w-[340px] rtl:max-w-[440px] text-[14px] leading-[1.8] text-[var(--text-secondary)] font-normal"
               >
                 {t("subtext")}
               </motion.p>
@@ -267,12 +267,12 @@ export default function HeroSection() {
                 {/* Primary CTA */}
                 <Link
                   href="/work"
-                  className="group border border-[var(--border-brand)] relative overflow-hidden inline-flex items-center justify-center gap-2 bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] text-[var(--btn-primary-text)] text-[11px] font-bold tracking-[0.2em] uppercase px-7 py-3.5 rounded-sm transition-all duration-300 shadow-[0_0_30px_var(--shadow-brand)] hover:shadow-[0_0_50px_var(--shadow-brand-strong)] active:scale-[0.98] w-full sm:w-auto text-center"
+                  className="group relative overflow-hidden inline-flex items-center justify-center gap-2.5 bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] text-white text-[12px] font-bold tracking-[0.15em] uppercase px-7 py-3.5 rounded-lg transition-all duration-300 shadow-[0_4px_20px_var(--shadow-brand)] hover:shadow-[0_6px_28px_var(--shadow-brand-strong)] active:scale-[0.98] w-full sm:w-auto text-center"
                 >
                   {/* shimmer */}
-                  <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />
+                  <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />
                   <span className="relative">{t("ctaPrimary")}</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="relative rtl:-scale-x-100 group-hover:translate-x-0.5 transition-transform duration-200">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="relative rtl:-scale-x-100 group-hover:translate-x-1 transition-transform duration-200">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
                 </Link>
@@ -280,7 +280,7 @@ export default function HeroSection() {
                 {/* Secondary CTA */}
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 border border-[var(--btn-ghost-border)] text-[var(--btn-ghost-text)] text-[11px] tracking-[0.2em] uppercase px-7 py-3.5 rounded-sm hover:border-[var(--btn-ghost-hover-border)] hover:text-[var(--btn-ghost-hover-text)] transition-all duration-200 w-full sm:w-auto text-center"
+                  className="inline-flex items-center justify-center gap-2 bg-[var(--bg-card)] border border-[var(--border-default)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-card-hover)] text-[12px] font-semibold tracking-[0.15em] uppercase px-7 py-3.5 rounded-lg transition-all duration-200 shadow-sm w-full sm:w-auto text-center"
                 >
                   {t("ctaSecondary")}
                 </Link>

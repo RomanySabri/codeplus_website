@@ -34,7 +34,7 @@ export function WorkPageClient() {
               {t("tag")}
             </p>
             <h1 className="text-5xl lg:text-7xl font-black text-[var(--text-primary)] tracking-tight leading-[1.1]">
-              Our <span className="bg-gradient-to-r from-[#006bfd] to-[#4da3ff] bg-clip-text text-transparent">Featured Work</span>
+              Our <span className="bg-gradient-to-r from-[#007BFF] to-[#4DA3FF] bg-clip-text text-transparent">Featured Work</span>
             </h1>
             <p className="text-[15px] text-[var(--text-secondary)] max-w-2xl leading-relaxed mt-6 font-light">
               Discover how we engineer high-performance B2B platforms, enterprise systems, and custom applications built to scale.
@@ -62,7 +62,7 @@ export function WorkPageClient() {
                 className="relative rounded-2xl border border-[var(--border-default)] bg-gradient-to-b from-[var(--bg-card)] to-[var(--bg-tertiary)] overflow-hidden group hover:border-[var(--border-brand)] hover:-translate-y-1 hover:shadow-[var(--card-shadow)] transition-all duration-500 grid grid-cols-1 lg:grid-cols-[1fr_400px]"
               >
                 {/* Hover line glow effect */}
-                <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--border-brand)]/0 group-hover:via-[var(--border-brand)] to-transparent transition-all duration-500 pointer-events-none" />
+                <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--border-brand)] to-transparent transition-all duration-500 pointer-events-none" />
 
                 {/* LEFT */}
                 <div className="p-8 lg:p-12 flex flex-col justify-between z-10 relative">
@@ -89,11 +89,11 @@ export function WorkPageClient() {
                       {project.description[locale]}
                     </p>
 
-                    <div className="flex flex-wrap gap-2.5">
+                    <div className="flex flex-wrap gap-2">
                       {project.tech.map((t) => (
                         <span
                           key={t}
-                          className="px-3 py-1.5 text-[9px] font-mono tracking-wider text-[var(--text-secondary)] uppercase bg-[var(--bg-tertiary)] border border-[var(--border-default)] group-hover:border-[var(--border-brand)] transition-colors duration-200"
+                          className="px-3 py-1 text-[10px] font-mono tracking-wider text-[var(--text-secondary)] uppercase bg-[var(--bg-tertiary)] border border-[var(--border-default)] rounded-md group-hover:border-[var(--border-brand)] transition-colors duration-200"
                         >
                           {t}
                         </span>

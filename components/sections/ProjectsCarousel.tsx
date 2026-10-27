@@ -278,16 +278,17 @@ export function ProjectsCarousel() {
                     >
                       <Link
                         href={`/work/${project.slug}`}
-                        className="inline-flex items-center gap-1.5 mt-2 text-[10px] tracking-[0.2em] uppercase border border-white/20 rounded-sm px-3 py-1.5 text-white/70 backdrop-blur-sm bg-white/[0.05] hover:border-white/40 hover:text-white hover:bg-white/[0.1] transition-all duration-200"
+                        className="inline-flex items-center gap-2 mt-3 text-[11px] font-bold tracking-[0.15em] uppercase rounded-lg px-4 py-2 text-white bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] shadow-[0_2px_12px_var(--shadow-brand)] hover:shadow-[0_4px_20px_var(--shadow-brand-strong)] transition-all duration-200"
                       >
                         {t("viewProject")}
                         <svg
-                          width="10"
-                          height="10"
+                          width="11"
+                          height="11"
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
                           strokeWidth="2.5"
+                          className="rtl:-scale-x-100"
                         >
                           <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
@@ -304,7 +305,7 @@ export function ProjectsCarousel() {
         <button
           onClick={goPrev}
           aria-label="Previous project"
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[var(--bg-card)]/80 backdrop-blur-md border border-[var(--border-default)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-brand)] flex items-center justify-center text-[var(--text-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200 -translate-x-2 sm:translate-x-0"
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[var(--bg-card)]/80 backdrop-blur-md border border-[var(--border-default)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-brand)] flex items-center justify-center text-[var(--text-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200 -translate-x-2 sm:translate-x-0 shadow-md"
         >
           <svg
             width="18"
@@ -313,6 +314,7 @@ export function ProjectsCarousel() {
             fill="none"
             stroke="currentColor"
             strokeWidth="2.5"
+            className="rtl:-scale-x-100"
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
@@ -321,7 +323,7 @@ export function ProjectsCarousel() {
         <button
           onClick={goNext}
           aria-label="Next project"
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[var(--bg-card)]/80 backdrop-blur-md border border-[var(--border-default)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-brand)] flex items-center justify-center text-[var(--text-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200 translate-x-2 sm:translate-x-0"
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[var(--bg-card)]/80 backdrop-blur-md border border-[var(--border-default)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-brand)] flex items-center justify-center text-[var(--text-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200 translate-x-2 sm:translate-x-0 shadow-md"
         >
           <svg
             width="18"
@@ -330,24 +332,25 @@ export function ProjectsCarousel() {
             fill="none"
             stroke="currentColor"
             strokeWidth="2.5"
+            className="rtl:-scale-x-100"
           >
             <path d="M9 18l6-6-6-6" />
           </svg>
         </button>
 
         {/* ── DOT INDICATORS ── */}
-        <div className="flex items-center justify-center gap-1 mt-10">
+        <div className="flex items-center justify-center gap-1.5 mt-10">
           {projects.map((project, index) => (
             <button
               key={project.slug}
               onClick={() => goTo(index)}
               aria-label={`Go to ${getLocalized(project.title, locale)}`}
-              className="relative flex items-center justify-center w-11 h-11 -m-[10px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[var(--text-brand)] focus-visible:outline-offset-2"
+              className="relative flex items-center justify-center w-10 h-10 -m-[8px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[var(--text-brand)] focus-visible:outline-offset-2"
             >
               <span className={`rounded-full transition-all duration-300 ${
                 index === activeIndex
-                  ? "w-8 h-1.5 bg-[var(--text-brand)]"
-                  : "w-1.5 h-1.5 bg-white/20 hover:bg-white/40"
+                  ? "w-8 h-1.5 bg-[var(--text-brand)] shadow-[0_0_10px_var(--shadow-brand)]"
+                  : "w-1.5 h-1.5 bg-[var(--text-muted)]/30 hover:bg-[var(--text-muted)]/70"
               }`} />
             </button>
           ))}

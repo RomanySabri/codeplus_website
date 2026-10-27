@@ -29,8 +29,8 @@ export function AboutPageClient() {
       />
 
       {/* Decorative ambient background glows */}
-      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] pointer-events-none opacity-20 blur-[120px] bg-[radial-gradient(circle,_#006bfd_0%,_transparent_80%)]" />
-      <div className="absolute top-[40%] right-10 w-[400px] h-[400px] pointer-events-none opacity-10 blur-[120px] bg-[radial-gradient(circle,_#4da3ff_0%,_transparent_80%)]" />
+      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] pointer-events-none opacity-20 blur-[120px] bg-[radial-gradient(circle,_#007BFF_0%,_transparent_80%)]" />
+      <div className="absolute top-[40%] right-10 w-[400px] h-[400px] pointer-events-none opacity-10 blur-[120px] bg-[radial-gradient(circle,_#4DA3FF_0%,_transparent_80%)]" />
 
       {/* HERO SECTION */}
       <section className="relative z-10 px-4 lg:px-8 xl:px-12 pt-16 pb-12">
@@ -41,7 +41,7 @@ export function AboutPageClient() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <span className="text-[10px] font-mono tracking-[0.35em] text-[#006bfd] uppercase mb-4 block">
+            <span className="text-[10px] font-mono tracking-[0.35em] text-[var(--text-brand)] uppercase mb-4 block">
               {t("hero.tag")}
             </span>
             <h1 className="text-5xl lg:text-7xl font-black tracking-tight leading-[1.1] mb-6">
@@ -79,18 +79,18 @@ export function AboutPageClient() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="group relative rounded-lg border border-[var(--border-default)] bg-[var(--bg-tertiary)] p-8 hover:border-[#006bfd]/30 transition-all duration-300"
+                  className="group relative rounded-xl border border-[var(--border-default)] bg-[var(--bg-card)] p-8 hover:border-[var(--border-brand)] hover:bg-[var(--bg-card-hover)] transition-all duration-300 shadow-[var(--card-shadow)]"
                 >
                   {/* Accent glow on hover */}
                   <div
-                    className="absolute top-0 left-0 w-full h-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[#006bfd] to-[#4da3ff]"
+                    className="absolute top-0 left-0 w-full h-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[#007BFF] to-[#4DA3FF] rounded-t-xl"
                   />
 
-                  <div className="w-12 h-12 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-default)] flex items-center justify-center mb-6 group-hover:border-[#006bfd]/30 transition-all duration-300">
-                    <Icon className="w-5 h-5 text-[#006bfd] group-hover:scale-110 transition-transform duration-300" />
+                  <div className="w-12 h-12 rounded-lg bg-[var(--bg-tertiary)] border border-[var(--border-default)] flex items-center justify-center mb-6 group-hover:border-[var(--border-brand)] transition-all duration-300">
+                    <Icon className="w-5 h-5 text-[var(--text-brand)] group-hover:scale-110 transition-transform duration-300" />
                   </div>
 
-                  <h3 className="text-[16px] font-bold mb-3 text-[var(--text-primary)] group-hover:text-[#006bfd] transition-colors">
+                  <h3 className="text-[16px] font-bold mb-3 text-[var(--text-primary)] group-hover:text-[var(--text-brand)] transition-colors">
                     {t(`values.${key}.title`)}
                   </h3>
                   <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed font-light">

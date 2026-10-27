@@ -195,7 +195,7 @@ export function Navbar() {
                 className={cn(
                   "text-[11px] tracking-[0.15em] uppercase transition-colors duration-200 font-medium whitespace-nowrap",
                   checkActive(link.href)
-                    ? "text-[var(--text-primary)]"
+                    ? "text-[var(--text-brand)] font-semibold"
                     : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 )}
               >
@@ -212,7 +212,7 @@ export function Navbar() {
             </div>
             <Link
               href="/contact"
-              className="hidden md:inline-flex items-center justify-center h-9 rounded-md border border-[var(--border-default)] bg-transparent px-4 text-[10px] tracking-[0.2em] text-[var(--text-secondary)] uppercase hover:border-[var(--border-brand)] hover:bg-[var(--bg-brand)] hover:text-[var(--text-brand)] transition-all duration-200 whitespace-nowrap"
+              className="hidden md:inline-flex items-center justify-center h-9 rounded-lg bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] px-4 text-[11px] font-bold tracking-[0.15em] text-white uppercase shadow-[0_2px_12px_var(--shadow-brand)] hover:shadow-[0_4px_20px_var(--shadow-brand-strong)] active:scale-[0.98] transition-all duration-200 whitespace-nowrap"
             >
               {t("startProject")}
             </Link>

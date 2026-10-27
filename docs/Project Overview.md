@@ -2,18 +2,28 @@
 1. Executive Summary
 بناء المقر الرقمي (Digital HQ) لشركة Code Plus. الموقع سيعمل كواجهة احترافية تعكس قدرات الشركة في تقديم حلول برمجية متكاملة، ويستعرض الـ Portfolio الخاص بها (مثل أنظمة הـ ERP، منصات الرعاية الصحية، والبنية التحتية للمؤسسات التعليمية) من خلال دراسات حالة (Case Studies) مفصلة. الهدف هو بناء ثقة فورية مع عملاء الـ B2B وتوضيح الثقل التقني للفريق.
 
-2. Brand Identity & Design System (الهوية البصرية)
-التصميم سيستلهم روح منصات مثل resend.com و shadcn/ui، مع توظيف ألوان اللوجو بشكل يبرز الاحترافية:
+2. Brand Identity & Design System (الهوية البصرية الرسمية لـ Code Plus)
+التصميم مبني بالكامل على السيستم ديزاين الرسمي للشركة (Official Brand Design System) مع تطبيق نسب توزيع الألوان وتجربة مستخدم عالمية فائقة الفخامة:
 
-Colors (Color Palette):
+Colors & Palette:
+- Primary Navy: `#0A1F3D` (RGB: 10, 31, 61) / `#0D1F38` — كحلي داكن عميق وراقي يمثل اللون الأساسي للعلامة والدارك مود.
+- Primary Blue / Electric Blue: `#007BFF` (RGB: 0, 123, 255) / `#006BFD` — الأزرق الكهربائي الحيوي للأزرار والـ CTAs والإضاءات التفاعلية.
+- Soft Blue: `#E6F0FF` (RGB: 230, 240, 255) — خلفيات الأيقونات واللمسات الهادئة في اللايت مود.
+- Light Gray: `#F5F7FB` (RGB: 245, 247, 251) — خلفية اللايت مود وبطاقات الأزرار الثانوية.
+- Gray: `#94A3B8` (RGB: 148, 163, 184) — نصوص الشرح والأوصاف والحدود الهادئة.
+- Dark Gray: `#334155` (RGB: 51, 65, 85) — النصوص الداكنة والعناصر الثانوية.
+- Pure White: `#FFFFFF` — النصوص البارزة في الدارك مود والخلفيات النظيفة.
 
-Primary Brand: درجة الـ Deep Blue المستوحاة من اللوجو (ستُستخدم في الـ Call-to-Actions، والـ Hover effects الدقيقة، ولمسات الإضاءة في الـ Dark Mode).
+Brand Color Usage Ratio:
+- 60% Primary (Deep Navy `#0A1F3D`)
+- 25% Secondary (Electric Blue `#007BFF`)
+- 10% Background (`#F5F7FB` في اللايت مود / `#06101E` كحلي ملكي في الدارك مود)
+- 5% Text & Accents
 
-Backgrounds & Neutrals: الاعتماد على درجات الـ Zinc أو الـ Slate من Tailwind. الـ Dark Mode سيكون هو البطل (خلفيات شديدة السواد مثل #09090b مع نصوص بيضاء/رمادية لتباين عالي High Contrast).
-
-Typography: استخدام خطوط هندسية نظيفة مثل Geist أو Inter لتعكس الطابع البرمجي الصارم والحديث.
-
-Components: استخدام أنماط الـ Bento Grids لعرض الخدمات، مع Micro-interactions ناعمة (Borders خفيفة تضيء عند مرور الماوس).
+UI Elements:
+- Buttons: أزرار أساسية صلبة بلون الـ Primary Blue `#007BFF` مع نص أبيض وحواف عصرية `rounded-lg` وظل إشعاعي ناعم `shadow-[0_4px_20px_var(--shadow-brand)]`.
+- Secondary Buttons: لون بطاقة مائل للهوية (`#F5F7FB` أو كحلي بطاقات) مع نص أنيق.
+- Logo: في الخلفيات الفاتحة حرف C كحلي وحرف P أزرق؛ وفي الخلفيات الداكنة حرف C أبيض وحرف P أزرق.
 
 3. Tech Stack & Architecture (البنية التقنية)
 بيئة عمل موحدة تعتمد على الـ Clean Architecture لضمان الأداء وسرعة التطوير:

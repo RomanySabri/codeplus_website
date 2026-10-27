@@ -35,8 +35,8 @@ export function CareersPageClient() {
   return (
     <div className="bg-[var(--bg-primary)] text-[var(--text-primary)] min-h-screen relative overflow-hidden py-16 px-4 lg:px-8 xl:px-12">
       {/* Background glow */}
-      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] pointer-events-none opacity-10 blur-[150px] bg-[#006bfd] rounded-full" />
-      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] pointer-events-none opacity-10 blur-[150px] bg-[#006bfd] rounded-full" />
+      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] pointer-events-none opacity-15 blur-[150px] bg-[#007BFF] rounded-full" />
+      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] pointer-events-none opacity-15 blur-[150px] bg-[#007BFF] rounded-full" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* HERO */}
@@ -46,10 +46,10 @@ export function CareersPageClient() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-[9px] tracking-[0.35em] text-[#006bfd] dark:text-[#4da3ff] uppercase mb-4 font-mono">
+            <p className="text-[10px] tracking-[0.35em] text-[var(--text-brand)] uppercase mb-4 font-mono font-bold">
               {locale === "ar" ? "الوظائف في CODEPLUS" : "CAREERS @ CODEPLUS"}
             </p>
-            <h1 className="text-5xl lg:text-6xl font-black tracking-tight mb-6 bg-gradient-to-r from-[var(--text-primary)] via-[var(--text-primary)] to-[#006bfd] dark:to-[#4da3ff] bg-clip-text text-transparent">
+            <h1 className="text-5xl lg:text-6xl font-black tracking-tight mb-6 bg-gradient-to-r from-[var(--text-primary)] via-[var(--text-primary)] to-[#007BFF] dark:to-[#4DA3FF] bg-clip-text text-transparent">
               {t("title")}
             </h1>
             <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed font-light">
@@ -69,13 +69,13 @@ export function CareersPageClient() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: idx * 0.1 }}
-                className="p-8 rounded-xl border border-[var(--border-default)] bg-[var(--bg-tertiary)] relative group overflow-hidden"
+                className="p-8 rounded-xl border border-[var(--border-default)] bg-[var(--bg-card)] relative group overflow-hidden shadow-[var(--card-shadow)] hover:border-[var(--border-brand)] transition-all duration-300"
               >
-                <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#006bfd] to-[#4da3ff] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="w-12 h-12 rounded-lg bg-[#006bfd]/10 border border-[#006bfd]/20 flex items-center justify-center text-[#006bfd] dark:text-[#4da3ff] mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#007BFF] to-[#4DA3FF] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-xl" />
+                <div className="w-12 h-12 rounded-lg bg-[var(--bg-tertiary)] border border-[var(--border-default)] flex items-center justify-center text-[var(--text-brand)] mb-6 group-hover:scale-110 group-hover:border-[var(--border-brand)] transition-transform duration-300">
                   <Icon size={22} />
                 </div>
-                <h2 className="text-[16px] font-bold mb-3">{item.title}</h2>
+                <h2 className="text-[16px] font-bold mb-3 text-[var(--text-primary)]">{item.title}</h2>
                 <p className="text-[12px] text-[var(--text-secondary)] leading-relaxed font-light">{item.desc}</p>
               </motion.div>
             );
@@ -102,7 +102,7 @@ export function CareersPageClient() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: idx * 0.08 }}
-                  className="group rounded-xl border border-[var(--border-default)] bg-[var(--bg-secondary)] p-6 flex flex-col justify-between hover:border-[#006bfd]/50 shadow-[var(--card-shadow)] hover:shadow-[0_0_30px_rgba(0,107,253,0.1)] transition-all duration-300"
+                  className="group rounded-xl border border-[var(--border-default)] bg-[var(--bg-card)] p-6 flex flex-col justify-between hover:border-[var(--border-brand)] shadow-[var(--card-shadow)] hover:shadow-[0_4px_30px_var(--shadow-brand)] transition-all duration-300"
                 >
                   <div>
                     <div className="flex items-center gap-3 mb-4">
@@ -114,7 +114,7 @@ export function CareersPageClient() {
                       </span>
                     </div>
 
-                    <h3 className="text-[18px] font-bold mb-3 text-[var(--text-primary)] group-hover:text-[#006bfd] dark:group-hover:text-[#4da3ff] transition-colors">
+                    <h3 className="text-[18px] font-bold mb-3 text-[var(--text-primary)] group-hover:text-[var(--text-brand)] transition-colors">
                       {job.title[locale]}
                     </h3>
                     <p className="text-[12px] text-[var(--text-secondary)] leading-relaxed mb-6 font-light">
@@ -136,10 +136,10 @@ export function CareersPageClient() {
 
                     <Link
                       href={`/${locale}/careers/${job.slug}`}
-                      className="inline-flex items-center gap-1 text-[11px] font-bold tracking-widest text-[#006bfd] dark:text-[#4da3ff] group-hover:text-[#006bfd] dark:group-hover:text-[#4da3ff] uppercase transition-colors"
+                      className="inline-flex items-center gap-1 text-[11px] font-bold tracking-widest text-[var(--text-brand)] hover:text-[var(--text-brand-bright)] uppercase transition-colors"
                     >
                       {t("roleDetails")}
-                      <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                      <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform rtl:-scale-x-100" />
                     </Link>
                   </div>
                 </motion.div>
@@ -188,15 +188,15 @@ export function CareersPageClient() {
         )}
 
         {/* GENERAL APPLICATION CTA */}
-        <section className="p-10 rounded-xl border border-[var(--border-default)] bg-gradient-to-r from-[#006bfd]/[0.04] via-[var(--bg-tertiary)] to-[#4da3ff]/[0.04] dark:from-[#006bfd]/15 dark:to-[#4da3ff]/10 relative overflow-hidden text-center max-w-4xl mx-auto">
-          <div className="absolute top-0 right-0 w-24 h-24 bg-[#006bfd]/10 blur-xl rounded-full" />
+        <section className="p-10 rounded-2xl border border-[var(--border-default)] bg-gradient-to-r from-[#007BFF]/[0.05] via-[var(--bg-tertiary)] to-[#4DA3FF]/[0.05] dark:from-[#007BFF]/15 dark:to-[#4DA3FF]/10 relative overflow-hidden text-center max-w-4xl mx-auto shadow-[var(--card-shadow)]">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-[#007BFF]/15 blur-xl rounded-full" />
           <h2 className="text-2xl font-black mb-3">{t("generalCta.title")}</h2>
           <p className="text-[13px] text-[var(--text-secondary)] max-w-md mx-auto leading-relaxed mb-6 font-light">
             {t("generalCta.description")}
           </p>
           <Link
             href={`/${locale}/careers/general-application`}
-            className="inline-flex bg-[var(--bg-secondary)] hover:bg-[var(--bg-tertiary)] border border-[var(--border-default)] px-6 py-3 rounded-sm text-[11px] font-bold tracking-widest uppercase text-[var(--text-primary)] transition-all duration-200"
+            className="inline-flex bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] px-7 py-3.5 rounded-lg text-[11px] font-bold tracking-widest uppercase text-white shadow-[0_4px_16px_var(--shadow-brand)] hover:shadow-[0_6px_24px_var(--shadow-brand-strong)] transition-all duration-200"
           >
             {t("generalCta.cta")}
           </Link>

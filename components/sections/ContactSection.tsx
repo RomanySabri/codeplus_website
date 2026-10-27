@@ -329,7 +329,7 @@ export function ContactSection() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="relative overflow-hidden group bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] w-full py-4 rounded-lg text-[11px] font-bold tracking-[0.25em] uppercase text-[var(--btn-primary-text)] transition-all duration-300 shadow-[0_0_30px_var(--shadow-brand)] hover:shadow-[0_0_50px_var(--shadow-brand-strong)] active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed"
+                      className="relative overflow-hidden group bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] w-full py-4 rounded-lg text-[12px] font-bold tracking-[0.15em] uppercase text-[var(--btn-primary-text)] transition-all duration-300 shadow-[0_4px_20px_var(--shadow-brand)] hover:shadow-[0_6px_25px_var(--shadow-brand-strong)] active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed"
                     >
                       {/* Shimmer */}
                       <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />

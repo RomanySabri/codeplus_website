@@ -163,16 +163,16 @@ export default function TestimonialsSection() {
                   }}
                   role="button"
                   tabIndex={0}
-                  className={`group relative rounded-xl p-4 cursor-pointer outline-none border focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-500 overflow-hidden shrink-0 ${isActive
-                    ? "border-[var(--border-brand)] bg-gradient-to-r from-[var(--bg-brand)]/60 to-[var(--bg-brand)]/20 shadow-[0_12px_24px_rgba(0,0,0,0.15)]"
-                    : "border-white/[0.04] bg-white/[0.01] hover:border-white/[0.12] hover:bg-white/[0.03] shadow-sm"
+                  className={`group relative rounded-xl p-4 cursor-pointer outline-none border focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-300 overflow-hidden shrink-0 ${isActive
+                    ? "border-[var(--border-brand)] bg-gradient-to-r from-[var(--bg-brand)]/80 to-[var(--bg-brand)]/20 shadow-[0_12px_24px_rgba(0,0,0,0.15)]"
+                    : "border-[var(--border-default)] bg-[var(--bg-card)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-card-hover)] shadow-sm"
                     }`}
                 >
                   {/* Left sliding border active indicator */}
                   {isActive && (
                     <motion.div
                       layoutId="active-indicator-bar"
-                      className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[var(--text-brand)] to-[#006bfd]"
+                      className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[var(--text-brand-bright)] to-[var(--btn-primary)]"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}

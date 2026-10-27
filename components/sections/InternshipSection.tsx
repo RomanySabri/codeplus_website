@@ -128,7 +128,7 @@ export function InternshipSection() {
             <div className="flex items-center gap-4 flex-wrap">
               <Link
                 href="/careers"
-                className="group relative overflow-hidden inline-flex items-center gap-2 bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] text-white text-[11px] font-bold tracking-[0.2em] uppercase px-6 py-3 rounded-sm transition-all duration-300 shadow-[0_0_25px_var(--shadow-brand)] hover:shadow-[0_0_40px_var(--shadow-brand-strong)] active:scale-[0.98]"
+                className="group relative overflow-hidden inline-flex items-center gap-2 bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] text-white text-[12px] font-bold tracking-[0.1em] px-6 py-3.5 rounded-lg transition-all duration-300 shadow-[0_4px_20px_var(--shadow-brand)] hover:scale-[1.02] active:scale-[0.98]"
               >
                 <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent group-hover:translate-x-full transition-transform duration-700" />
                 <span className="relative">{t("cta")}</span>

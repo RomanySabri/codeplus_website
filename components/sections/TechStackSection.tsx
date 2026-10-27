@@ -123,7 +123,7 @@ export default function TechStackSection() {
             className="text-4xl md:text-5xl lg:text-6xl font-black text-[var(--text-primary)] tracking-tight mb-6"
           >
             {t("title")} <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#006bfd] to-[#006bfd]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#007BFF] via-[#4DA3FF] to-[#007BFF]">
               {t("titleAccent")}
             </span>
           </motion.h2>

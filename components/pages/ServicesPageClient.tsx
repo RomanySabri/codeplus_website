@@ -188,7 +188,7 @@ export function ServicesPageClient() {
                     {/* CTA */}
                     <Link
                       href={`/${locale}/contact?service=${service.id}`}
-                      className="w-full text-center border border-[var(--btn-ghost-border)] text-[var(--btn-ghost-text)] text-[11px] tracking-widest uppercase py-2.5 rounded-sm hover:border-[var(--btn-ghost-hover-border)] hover:bg-[var(--bg-brand)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200 mt-auto"
+                      className="w-full text-center bg-[var(--bg-card)] border border-[var(--border-default)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-brand)] hover:text-[var(--text-brand)] text-[var(--text-secondary)] text-[11px] font-semibold tracking-wider uppercase py-2.5 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] transition-all duration-200 mt-auto"
                     >
                       {t("startThisProject")}
                     </Link>
@@ -199,10 +199,6 @@ export function ServicesPageClient() {
           </div>
         </div>
       </section>
-
-
-
-
 
       {/* FINAL CTA */}
       <section className="py-16 px-4 lg:px-8 xl:px-12 text-center border-t border-[var(--border-default)] bg-[var(--bg-primary)]">
@@ -216,13 +212,13 @@ export function ServicesPageClient() {
           <div className="flex flex-col sm:flex-row justify-center gap-4 items-stretch sm:items-center max-w-sm mx-auto sm:max-w-none w-full">
             <Link
               href={`/${locale}/contact`}
-              className="bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] px-8 py-4 rounded-sm text-[11px] font-bold tracking-[0.2em] uppercase text-[var(--btn-primary-text)] transition-all duration-200 shadow-[0_0_25px_var(--shadow-brand)] hover:shadow-[0_0_40px_var(--shadow-brand-strong)] w-full sm:w-auto text-center justify-center flex items-center"
+              className="bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)] px-8 py-3.5 rounded-lg text-[12px] font-bold tracking-[0.15em] uppercase text-white transition-all duration-200 shadow-[0_4px_20px_var(--shadow-brand)] hover:shadow-[0_6px_28px_var(--shadow-brand-strong)] w-full sm:w-auto text-center justify-center flex items-center"
             >
               {t("startProjectBtn")}
             </Link>
             <Link
               href={`/${locale}/work`}
-              className="border border-[var(--btn-ghost-border)] hover:bg-[var(--bg-brand)] px-8 py-4 rounded-sm text-[11px] font-bold tracking-[0.2em] uppercase text-[var(--btn-ghost-text)] hover:text-[var(--btn-ghost-hover-text)] transition-colors w-full sm:w-auto text-center justify-center flex items-center"
+              className="bg-[var(--bg-card)] border border-[var(--border-default)] hover:border-[var(--border-brand)] hover:bg-[var(--bg-card-hover)] px-8 py-3.5 rounded-lg text-[12px] font-semibold tracking-[0.15em] uppercase text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all shadow-sm w-full sm:w-auto text-center justify-center flex items-center"
             >
               {t("viewOurWork")}
             </Link>

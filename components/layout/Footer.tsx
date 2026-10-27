@@ -74,8 +74,8 @@ export function Footer() {
             opacity: isHovered ? 1 : 0,
             background: `radial-gradient(
               circle 300px at ${glowPos.x}px ${glowPos.y}px,
-              rgba(0, 107, 253, 0.12) 0%,
-              rgba(0, 107, 253, 0.04) 40%,
+              rgba(0, 123, 255, 0.18) 0%,
+              rgba(0, 123, 255, 0.05) 40%,
               transparent 70%
             )`,
             filter: "blur(24px)",
@@ -90,7 +90,7 @@ export function Footer() {
             opacity: isHovered ? 1 : 0,
             background: `radial-gradient(
               circle 120px at ${glowPos.x}px ${glowPos.y}px,
-              rgba(0, 107, 253, 0.20) 0%,
+              rgba(0, 123, 255, 0.28) 0%,
               transparent 70%
             )`,
             zIndex: 0,
@@ -113,12 +113,12 @@ export function Footer() {
               fontSize: "clamp(80px, 18vw, 220px)",
               color: "var(--text-ghost)",
               opacity: 0.25,
-              textShadow: "0 4px 12px var(--shadow-brand)",
+              textShadow: "0 4px 16px var(--shadow-brand)",
               display: "block",
               lineHeight: 1,
             }}
           >
-            CodePlus
+            Code Plus
           </span>
         </div>
 

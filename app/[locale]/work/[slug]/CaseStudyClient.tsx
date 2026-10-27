@@ -39,7 +39,7 @@ export function CaseStudyClient({ project }: { project: Project }) {
             <span
               className="text-[9px] font-mono tracking-[0.2em]
               text-[var(--text-secondary)] uppercase border border-[var(--border-default)]
-              px-3 py-1.5 rounded-sm"
+              px-3 py-1.5 rounded-md"
             >
               {project.tag[locale]}
             </span>
@@ -282,7 +282,7 @@ export function CaseStudyClient({ project }: { project: Project }) {
                     key={tech}
                     className="text-[10px] font-mono tracking-wide
                       text-[var(--text-secondary)] border border-[var(--border-default)]
-                      bg-[var(--bg-tertiary)] px-2.5 py-1.5 rounded-sm"
+                      bg-[var(--bg-tertiary)] px-2.5 py-1.5 rounded-md"
                   >
                     {tech}
                   </span>
@@ -326,9 +326,9 @@ export function CaseStudyClient({ project }: { project: Project }) {
               <Link
                 href="/contact"
                 className="block w-full bg-[var(--btn-primary)] hover:bg-[var(--btn-primary-hover)]
-                  text-[var(--btn-primary-text)] text-[11px] font-bold tracking-[0.2em]
-                  uppercase py-3 rounded-sm transition-all duration-200
-                  shadow-[0_0_20px_var(--shadow-brand)] hover:shadow-[0_0_40px_var(--shadow-brand-strong)]"
+                  text-[var(--btn-primary-text)] text-[12px] font-bold tracking-[0.1em]
+                  py-3 rounded-lg transition-all duration-200
+                  shadow-[0_4px_20px_var(--shadow-brand)] hover:scale-[1.02]"
               >
                 {t("startProject")}
               </Link>
@@ -344,7 +344,7 @@ export function CaseStudyClient({ project }: { project: Project }) {
           className="group flex flex-col sm:flex-row items-start
             sm:items-center justify-between gap-6
             py-12 max-w-7xl mx-auto
-            hover:bg-[var(--bg-card-hover)] transition-colors duration-300 rounded-lg px-4"
+            hover:bg-[var(--bg-card-hover)] transition-colors duration-300 rounded-xl px-4"
         >
           <div>
             <p
@@ -365,7 +365,7 @@ export function CaseStudyClient({ project }: { project: Project }) {
           </div>
           <span
             className="text-[var(--text-brand)] text-2xl
-            group-hover:translate-x-2 transition-transform duration-300"
+            group-hover:translate-x-2 rtl:rotate-180 rtl:group-hover:-translate-x-2 transition-transform duration-300"
           >
             →
           </span>

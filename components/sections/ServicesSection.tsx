@@ -67,8 +67,11 @@ export default function ServicesSection() {
                   aria-label={service.title[locale]}
                 />
 
+                {/* Top brand gradient line on hover */}
+                <div className="absolute top-0 inset-x-0 h-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[var(--text-brand)] via-[var(--text-brand-bright)] to-transparent rounded-t-xl" />
+
                 {/* Icon */}
-                <div className="w-12 h-12 shrink-0 rounded-lg bg-[var(--bg-tertiary)] flex items-center justify-center border border-[var(--border-subtle)]">
+                <div className="w-12 h-12 shrink-0 rounded-lg bg-[var(--bg-tertiary)] flex items-center justify-center border border-[var(--border-subtle)] group-hover:border-[var(--border-brand)] group-hover:shadow-[0_0_15px_var(--shadow-brand)] transition-all">
                   <Icon size={20} className="text-[var(--text-secondary)] group-hover:text-[var(--text-brand)] transition-colors" />
                 </div>
 

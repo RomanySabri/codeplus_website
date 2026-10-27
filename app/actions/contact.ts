@@ -11,18 +11,18 @@ export async function sendContactEmail(data: ContactFormData) {
       replyTo: data.email,
       subject: `New inquiry from ${data.name}`,
       html: `
-        <div style="font-family: monospace; background: #09090b;
-          color: #fff; padding: 40px; border-radius: 8px;
-          max-width: 600px;">
+        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0A1F3D;
+          color: #fff; padding: 40px; border-radius: 12px;
+          max-width: 600px; border: 1px solid rgba(0,123,255,0.2);">
 
-          <h2 style="color: #006bfd; font-size: 20px;
-            margin: 0 0 24px; letter-spacing: 0.1em;">
+          <h2 style="color: #007BFF; font-size: 20px;
+            margin: 0 0 24px; letter-spacing: 0.1em; font-weight: bold;">
             NEW PROJECT INQUIRY
           </h2>
 
           <table style="width: 100%; border-collapse: collapse;">
             <tr>
-              <td style="padding: 10px 0; color: rgba(255,255,255,0.4);
+              <td style="padding: 10px 0; color: #94A3B8;
                 font-size: 11px; letter-spacing: 0.2em;
                 text-transform: uppercase; width: 140px;">
                 Name
@@ -31,20 +31,20 @@ export async function sendContactEmail(data: ContactFormData) {
                 ${data.name}
               </td>
             </tr>
-            <tr style="border-top: 1px solid rgba(255,255,255,0.06);">
-              <td style="padding: 10px 0; color: rgba(255,255,255,0.4);
+            <tr style="border-top: 1px solid rgba(255,255,255,0.08);">
+              <td style="padding: 10px 0; color: #94A3B8;
                 font-size: 11px; letter-spacing: 0.2em;
                 text-transform: uppercase;">
                 Email
               </td>
-              <td style="padding: 10px 0; color: #006bfd; font-size: 14px;">
+              <td style="padding: 10px 0; color: #007BFF; font-size: 14px;">
                 <a href="mailto:${data.email}"
-                  style="color: #006bfd;">${data.email}</a>
+                  style="color: #007BFF; text-decoration: none;">${data.email}</a>
               </td>
             </tr>
             ${data.company ? `
-            <tr style="border-top: 1px solid rgba(255,255,255,0.06);">
-              <td style="padding: 10px 0; color: rgba(255,255,255,0.4);
+            <tr style="border-top: 1px solid rgba(255,255,255,0.08);">
+              <td style="padding: 10px 0; color: #94A3B8;
                 font-size: 11px; letter-spacing: 0.2em;
                 text-transform: uppercase;">
                 Company
@@ -56,25 +56,24 @@ export async function sendContactEmail(data: ContactFormData) {
           </table>
 
           <div style="margin-top: 24px; padding-top: 24px;
-            border-top: 1px solid rgba(255,255,255,0.06);">
-            <p style="color: rgba(255,255,255,0.4); font-size: 11px;
+            border-top: 1px solid rgba(255,255,255,0.08);">
+            <p style="color: #94A3B8; font-size: 11px;
               letter-spacing: 0.2em; text-transform: uppercase;
               margin: 0 0 12px;">
               Message
             </p>
-            <p style="color: rgba(255,255,255,0.7); font-size: 14px;
+            <p style="color: #E6F0FF; font-size: 14px;
               line-height: 1.7; margin: 0; white-space: pre-wrap;">
               ${data.message}
             </p>
           </div>
 
           <div style="margin-top: 32px; padding: 16px;
-            background: rgba(0,107,253,0.05);
-            border: 1px solid rgba(0,107,253,0.15);
-            border-radius: 6px; text-align: center;">
+            background: #007BFF;
+            border-radius: 8px; text-align: center;">
             <a href="mailto:${data.email}"
-              style="color: #006bfd; font-size: 12px;
-              text-decoration: none; letter-spacing: 0.1em;">
+              style="color: #FFFFFF; font-size: 13px; font-weight: bold;
+              text-decoration: none; letter-spacing: 0.1em; display: block;">
               REPLY TO ${data.email} →
             </a>
           </div>
