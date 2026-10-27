@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params
   const project = projects.find((p) => p.slug === slug)
   if (!project) return {}
-  const activeLocale = (locale === "th" ? "th" : "en") as "en" | "th"
+  const activeLocale = (locale === "ar" ? "ar" : "en") as "en" | "ar"
   const title = `${project.title[activeLocale]} - Code Plus`
   return {
     title,
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/${locale}/work/${slug}`,
       languages: {
         en: `/en/work/${slug}`,
-        th: `/th/work/${slug}`,
+        ar: `/ar/work/${slug}`,
       },
     },
     openGraph: {
@@ -51,12 +51,12 @@ export default async function CaseStudyPage({ params }: Props) {
   const project = projects.find((p) => p.slug === slug)
   if (!project) notFound()
 
-  const activeLocale = (locale === "th" ? "th" : "en") as "en" | "th"
+  const activeLocale = (locale === "ar" ? "ar" : "en") as "en" | "ar"
   const projectTitle = project.title[activeLocale]
 
   const breadcrumbs = [
-    { name: locale === "th" ? "หน้าแรก" : "Home", url: `/${locale}` },
-    { name: locale === "th" ? "ผลงานของเรา" : "Work", url: `/${locale}/work` },
+    { name: locale === "ar" ? "الرئيسية" : "Home", url: `/${locale}` },
+    { name: locale === "ar" ? "أعمالنا" : "Work", url: `/${locale}/work` },
     { name: projectTitle, url: `/${locale}/work/${slug}` },
   ]
 

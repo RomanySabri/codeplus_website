@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/routing";
@@ -36,7 +36,7 @@ export default function HeroSection() {
     >
       {/* LAYER 1: Base gradient */}
       <div
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none rtl:-scale-x-100"
         style={{
           background: `radial-gradient(
             ellipse 80% 60% at 70% 40%,
@@ -48,7 +48,7 @@ export default function HeroSection() {
 
       {/* LAYER 2: Grid pattern */}
       <div
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none rtl:-scale-x-100"
         style={{
           backgroundImage: `
             linear-gradient(var(--grid-line) 1px, transparent 1px),
@@ -63,7 +63,7 @@ export default function HeroSection() {
       />
 
       {/* LAYER 3: Floating geometric shapes (SVG) */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none overflow-visible">
+      <svg className="absolute inset-0 w-full h-full pointer-events-none overflow-visible rtl:-scale-x-100">
         {/* Large slow-rotating hexagon */}
         <polygon
           points="700,120 760,155 760,225 700,260 640,225 640,155"
@@ -208,7 +208,7 @@ export default function HeroSection() {
         style={{
           background: `radial-gradient(
             circle 300px at ${mousePos.x}px ${mousePos.y}px,
-            rgba(26, 122, 181, 0.08) 0%,
+            rgba(0, 107, 253, 0.08) 0%,
             transparent 70%
           )`,
         }}
@@ -217,7 +217,7 @@ export default function HeroSection() {
       {/* UI Overlay */}
       <div className="absolute inset-0 z-10 flex flex-col pointer-events-none">
         {/* LAYER 6: Left fade */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[var(--bg-primary)] via-[var(--bg-primary)]/70 to-transparent w-[55%] pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r rtl:bg-gradient-to-l from-[var(--bg-primary)] via-[var(--bg-primary)]/70 to-transparent w-[55%] pointer-events-none" />
         {/* LAYER 5: Bottom fade */}
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-primary)] via-transparent to-transparent pointer-events-none" />
 
@@ -230,14 +230,14 @@ export default function HeroSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="font-black leading-[0.95] tracking-tight text-[var(--text-primary)]"
+                className="font-black leading-[0.95] rtl:leading-[1.25] tracking-tight text-[var(--text-primary)]"
                 style={{ fontSize: "clamp(36px, 6vw, 72px)" }}
               >
                 {t("headline")}
                 <br />
                 <span
                   style={{
-                    background: "linear-gradient(135deg, #165f8e 0%, #2894cf 60%, #4faee1 100%)",
+                    background: "linear-gradient(135deg, #0056d6 0%, #4da3ff 60%, #4da3ff 100%)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     backgroundClip: "text",
@@ -252,7 +252,7 @@ export default function HeroSection() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="mt-6 max-w-[340px] text-[14px] leading-[1.8] text-[var(--text-secondary)]"
+                className="mt-6 max-w-[340px] rtl:max-w-[440px] text-[14px] leading-[1.8] text-[var(--text-secondary)]"
               >
                 {t("subtext")}
               </motion.p>
@@ -272,7 +272,7 @@ export default function HeroSection() {
                   {/* shimmer */}
                   <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />
                   <span className="relative">{t("ctaPrimary")}</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="relative group-hover:translate-x-0.5 transition-transform duration-200">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="relative rtl:-scale-x-100 group-hover:translate-x-0.5 transition-transform duration-200">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
                 </Link>

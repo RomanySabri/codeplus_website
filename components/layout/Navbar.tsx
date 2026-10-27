@@ -16,7 +16,7 @@ const navLinks = site.nav;
 
 const languages = [
   { code: "en", label: "EN" },
-  { code: "th", label: "TH" },
+  { code: "ar", label: "AR" },
 ] as const;
 
 function LanguageSwitcher() {
@@ -95,7 +95,7 @@ function LanguageSwitcher() {
               }
             `}
           >
-            <span>{lang.code === "en" ? "English" : "ไทย"}</span>
+            <span>{lang.code === "en" ? "English" : "العربية"}</span>
             {locale === lang.code && (
               <span className="ml-auto text-[9px] text-[var(--text-brand)]">✓</span>
             )}
@@ -111,6 +111,8 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
   const t = useTranslations("nav");
+  const tl = useTranslations("labels");
+  const tr = (label: string) => (tl.has(label) ? tl(label) : label);
   const locale = useLocale();
 
   const checkActive = (href: string) => {
@@ -162,21 +164,25 @@ export function Navbar() {
               aria-label="CodePlus — Home"
             >
               <Image
-                src="/code plus logo white RGB.png"
-                alt="Code Plus Software House"
-                width={160}
+                src="/logo-icon-dark.png"
+                alt=""
+                width={64}
                 height={40}
-                className="object-contain w-auto h-8 opacity-90 hover:opacity-100 transition-opacity duration-200 hidden dark:block"
+                className="object-contain w-auto h-8 hidden dark:block"
                 priority
               />
               <Image
-                src="/code plus logo black color RGP.png"
-                alt="Code Plus Software House"
-                width={160}
+                src="/logo-icon-light.png"
+                alt=""
+                width={64}
                 height={40}
-                className="object-contain w-auto h-8 opacity-90 hover:opacity-100 transition-opacity duration-200 block dark:hidden"
+                className="object-contain w-auto h-8 block dark:hidden"
                 priority
               />
+              <span className="ms-2.5 flex flex-col leading-none">
+                <span className="text-[17px] font-bold tracking-tight text-[var(--text-primary)]">Code Plus</span>
+                <span className="mt-1 text-[7px] tracking-[0.32em] uppercase text-[var(--text-ghost)]">Software House</span>
+              </span>
             </Link>
           </div>
 
@@ -193,7 +199,7 @@ export function Navbar() {
                     : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 )}
               >
-                {link.label}
+                {tr(link.label)}
               </Link>
             ))}
           </nav>
@@ -260,7 +266,7 @@ export function Navbar() {
                       : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                   )}
                 >
-                  {link.label}
+                  {tr(link.label)}
                 </Link>
               ))}
 

@@ -5,7 +5,7 @@ Code Plus Software House is a full-stack software house based in Cairo, Egypt. W
 The site is fully bilingual, supporting English and Thai.
 
 - English: https://codeplusdev.com/en
-- Thai: https://codeplusdev.com/th
+- Arabic: https://codeplusdev.com/ar
 
 ---
 

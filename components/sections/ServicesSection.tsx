@@ -30,7 +30,7 @@ const ICON_MAP = {
 
 export default function ServicesSection() {
   const t = useTranslations("services");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   return (
     <section className="py-16 px-4 lg:px-8 xl:px-12 bg-[var(--bg-primary)]">

@@ -9,7 +9,7 @@ import { useTranslations, useLocale } from "next-intl"
 
 export function ProjectsCarousel() {
   const t = useTranslations("work")
-  const locale = useLocale() as "en" | "th"
+  const locale = useLocale() as "en" | "ar"
   const [activeIndex, setActiveIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
@@ -57,7 +57,7 @@ export function ProjectsCarousel() {
 
   // Helper function to extract translation or return string
   const getLocalized = useCallback(
-    (field: string | LocalizedString | null | undefined, currentLocale: "en" | "th"): string => {
+    (field: string | LocalizedString | null | undefined, currentLocale: "en" | "ar"): string => {
       if (typeof field === "object" && field !== null) {
         return (field as LocalizedString)[currentLocale] || (field as LocalizedString)["en"] || ""
       }

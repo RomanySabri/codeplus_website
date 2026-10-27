@@ -9,7 +9,7 @@ import { projects } from "@/data";
 
 export function WorkPageClient() {
   const t = useTranslations("work");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   return (
     <>
@@ -34,7 +34,7 @@ export function WorkPageClient() {
               {t("tag")}
             </p>
             <h1 className="text-5xl lg:text-7xl font-black text-[var(--text-primary)] tracking-tight leading-[1.1]">
-              Our <span className="bg-gradient-to-r from-[#0ea5c8] to-[#22d3ee] bg-clip-text text-transparent">Featured Work</span>
+              Our <span className="bg-gradient-to-r from-[#006bfd] to-[#4da3ff] bg-clip-text text-transparent">Featured Work</span>
             </h1>
             <p className="text-[15px] text-[var(--text-secondary)] max-w-2xl leading-relaxed mt-6 font-light">
               Discover how we engineer high-performance B2B platforms, enterprise systems, and custom applications built to scale.

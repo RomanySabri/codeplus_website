@@ -8,7 +8,7 @@ import { jobs } from "@/data";
 
 export function CareersPageClient() {
   const t = useTranslations("careers");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   // Filter internships
   const openPositions = jobs.filter((job) => job.type === "internship" && job.isOpen);
@@ -17,26 +17,26 @@ export function CareersPageClient() {
   const highlights = [
     {
       icon: Code,
-      title: locale === "th" ? "โปรเจกต์จริงของลูกค้า" : "Real Client Projects",
-      desc: locale === "th" ? "คุณจะได้ทำงานในโค้ดเบสจริง ฟีเจอร์จริงที่ลูกค้าใช้งาน ไม่ใช่งานสมมติ" : "Work on real production codebases and features that ship to clients, not toy projects.",
+      title: locale === "ar" ? "مشاريع عملاء حقيقية" : "Real Client Projects",
+      desc: locale === "ar" ? "ستعمل على قواعد كود حقيقية وميزات حقيقية تُسلَّم للعملاء، وليس مشاريع تجريبية." : "Work on real production codebases and features that ship to clients, not toy projects.",
     },
     {
       icon: Users,
-      title: locale === "th" ? "พี่เลี้ยงวิศวกรอาวุโส" : "1-on-1 Mentorship",
-      desc: locale === "th" ? "ได้รับการประกบคู่กับวิศวกรอาวุโสที่จะคอยชี้แนะ รีวิวโค้ด และช่วยคุณเติบโตอย่างใกล้ชิด" : "Get paired with a senior engineer who guides you, reviews your code, and supports your growth.",
+      title: locale === "ar" ? "توجيه فردي" : "1-on-1 Mentorship",
+      desc: locale === "ar" ? "ستعمل بجانب مهندس كبير يوجّهك ويراجع كودك ويدعم نموك." : "Get paired with a senior engineer who guides you, reviews your code, and supports your growth.",
     },
     {
       icon: GraduationCap,
-      title: locale === "th" ? "โอกาสเข้าทำงานประจำ" : "Path to Full-Time",
-      desc: locale === "th" ? "เราใช้โครงการฝึกงานนี้เป็นช่องทางหลักในการเฟ้นหาคนเก่งเพื่อบรรจุเป็นพนักงานประจำ" : "Our internship is our primary pipeline for hiring full-time junior developers.",
+      title: locale === "ar" ? "طريق إلى الوظيفة الدائمة" : "Path to Full-Time",
+      desc: locale === "ar" ? "برنامج التدريب هو مصدرنا الرئيسي لتوظيف المطورين المبتدئين بدوام كامل." : "Our internship is our primary pipeline for hiring full-time junior developers.",
     },
   ];
 
   return (
     <div className="bg-[var(--bg-primary)] text-[var(--text-primary)] min-h-screen relative overflow-hidden py-16 px-4 lg:px-8 xl:px-12">
       {/* Background glow */}
-      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] pointer-events-none opacity-10 blur-[150px] bg-purple-600 rounded-full" />
-      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] pointer-events-none opacity-10 blur-[150px] bg-cyan-600 rounded-full" />
+      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] pointer-events-none opacity-10 blur-[150px] bg-[#006bfd] rounded-full" />
+      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] pointer-events-none opacity-10 blur-[150px] bg-[#006bfd] rounded-full" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* HERO */}
@@ -46,10 +46,10 @@ export function CareersPageClient() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-[9px] tracking-[0.35em] text-purple-500 dark:text-purple-400 uppercase mb-4 font-mono">
-              {locale === "th" ? "มาร่วมงานกับพวกเรา" : "CAREERS @ CODEPLUS"}
+            <p className="text-[9px] tracking-[0.35em] text-[#006bfd] dark:text-[#4da3ff] uppercase mb-4 font-mono">
+              {locale === "ar" ? "الوظائف في CODEPLUS" : "CAREERS @ CODEPLUS"}
             </p>
-            <h1 className="text-5xl lg:text-6xl font-black tracking-tight mb-6 bg-gradient-to-r from-[var(--text-primary)] via-[var(--text-primary)] to-purple-500 dark:to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-5xl lg:text-6xl font-black tracking-tight mb-6 bg-gradient-to-r from-[var(--text-primary)] via-[var(--text-primary)] to-[#006bfd] dark:to-[#4da3ff] bg-clip-text text-transparent">
               {t("title")}
             </h1>
             <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed font-light">
@@ -71,8 +71,8 @@ export function CareersPageClient() {
                 transition={{ duration: 0.4, delay: idx * 0.1 }}
                 className="p-8 rounded-xl border border-[var(--border-default)] bg-[var(--bg-tertiary)] relative group overflow-hidden"
               >
-                <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-purple-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="w-12 h-12 rounded-lg bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-500 dark:text-purple-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#006bfd] to-[#4da3ff] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="w-12 h-12 rounded-lg bg-[#006bfd]/10 border border-[#006bfd]/20 flex items-center justify-center text-[#006bfd] dark:text-[#4da3ff] mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Icon size={22} />
                 </div>
                 <h2 className="text-[16px] font-bold mb-3">{item.title}</h2>
@@ -102,19 +102,19 @@ export function CareersPageClient() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: idx * 0.08 }}
-                  className="group rounded-xl border border-[var(--border-default)] bg-[var(--bg-secondary)] p-6 flex flex-col justify-between hover:border-purple-500/50 shadow-[var(--card-shadow)] hover:shadow-[0_0_30px_rgba(168,85,247,0.1)] transition-all duration-300"
+                  className="group rounded-xl border border-[var(--border-default)] bg-[var(--bg-secondary)] p-6 flex flex-col justify-between hover:border-[#006bfd]/50 shadow-[var(--card-shadow)] hover:shadow-[0_0_30px_rgba(0,107,253,0.1)] transition-all duration-300"
                 >
                   <div>
                     <div className="flex items-center gap-3 mb-4">
                       <span className="px-2.5 py-1 text-[9px] font-semibold uppercase tracking-widest text-emerald-500 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full">
-                        {locale === "th" ? "เปิดรับสมัคร" : "Hiring"}
+                        {locale === "ar" ? "التوظيف مفتوح" : "Hiring"}
                       </span>
                       <span className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-widest">
                         {job.department[locale]}
                       </span>
                     </div>
 
-                    <h3 className="text-[18px] font-bold mb-3 text-[var(--text-primary)] group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors">
+                    <h3 className="text-[18px] font-bold mb-3 text-[var(--text-primary)] group-hover:text-[#006bfd] dark:group-hover:text-[#4da3ff] transition-colors">
                       {job.title[locale]}
                     </h3>
                     <p className="text-[12px] text-[var(--text-secondary)] leading-relaxed mb-6 font-light">
@@ -130,13 +130,13 @@ export function CareersPageClient() {
                       </span>
                       <span className="flex items-center gap-1">
                         <MapPin size={13} className="text-[var(--text-muted)]/60" />
-                        {locale === "th" ? "รีโมท / กรุงเทพฯ" : "Remote / Cairo"}
+                        {locale === "ar" ? "عن بُعد / القاهرة" : "Remote / Cairo"}
                       </span>
                     </div>
 
                     <Link
                       href={`/${locale}/careers/${job.slug}`}
-                      className="inline-flex items-center gap-1 text-[11px] font-bold tracking-widest text-purple-500 dark:text-purple-400 group-hover:text-purple-600 dark:group-hover:text-purple-300 uppercase transition-colors"
+                      className="inline-flex items-center gap-1 text-[11px] font-bold tracking-widest text-[#006bfd] dark:text-[#4da3ff] group-hover:text-[#006bfd] dark:group-hover:text-[#4da3ff] uppercase transition-colors"
                     >
                       {t("roleDetails")}
                       <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
@@ -147,7 +147,7 @@ export function CareersPageClient() {
             </div>
           ) : (
             <div className="text-center py-16 border border-[var(--border-default)] rounded-xl bg-[var(--bg-tertiary)]">
-              <p className="text-[14px] text-[var(--text-secondary)] mb-4">{locale === "th" ? "ขณะนี้ยังไม่มีตำแหน่งที่เปิดรับสมัคร" : "No open roles at the moment."}</p>
+              <p className="text-[14px] text-[var(--text-secondary)] mb-4">{locale === "ar" ? "لا توجد وظائف متاحة حاليًا." : "No open roles at the moment."}</p>
             </div>
           )}
         </section>
@@ -157,10 +157,10 @@ export function CareersPageClient() {
           <section className="mb-24 opacity-70">
             <div className="mb-8">
               <h2 className="text-xl font-bold tracking-tight mb-1">
-                {locale === "th" ? "ตำแหน่งอื่นๆ (ปิดรับสมัครชั่วคราว)" : "Other Roles (Currently Closed)"}
+                {locale === "ar" ? "وظائف أخرى (مغلقة حاليًا)" : "Other Roles (Currently Closed)"}
               </h2>
               <p className="text-[12px] text-[var(--text-muted)]">
-                {locale === "th" ? "ตำแหน่งฝึกงานที่เราเปิดรับเป็นระยะๆ คุณสามารถสมัครเก็บข้อมูลไว้ก่อนได้" : "Roles we hire for periodically. You can submit a general application to be notified."}
+                {locale === "ar" ? "وظائف نوظف لها بشكل دوري. يمكنك إرسال طلب عام ليتم إشعارك." : "Roles we hire for periodically. You can submit a general application to be notified."}
               </p>
             </div>
 
@@ -179,7 +179,7 @@ export function CareersPageClient() {
                     </span>
                   </div>
                   <span className="text-[9px] tracking-widest uppercase text-[var(--text-muted)] px-2 py-1 rounded bg-[var(--bg-secondary)] border border-[var(--border-default)]">
-                    {locale === "th" ? "ปิดรับสมัคร" : "Closed"}
+                    {locale === "ar" ? "مغلق" : "Closed"}
                   </span>
                 </div>
               ))}
@@ -188,8 +188,8 @@ export function CareersPageClient() {
         )}
 
         {/* GENERAL APPLICATION CTA */}
-        <section className="p-10 rounded-xl border border-[var(--border-default)] bg-gradient-to-r from-purple-500/[0.04] via-[var(--bg-tertiary)] to-cyan-500/[0.04] dark:from-purple-900/20 dark:to-cyan-950/20 relative overflow-hidden text-center max-w-4xl mx-auto">
-          <div className="absolute top-0 right-0 w-24 h-24 bg-purple-500/10 blur-xl rounded-full" />
+        <section className="p-10 rounded-xl border border-[var(--border-default)] bg-gradient-to-r from-[#006bfd]/[0.04] via-[var(--bg-tertiary)] to-[#4da3ff]/[0.04] dark:from-[#006bfd]/15 dark:to-[#4da3ff]/10 relative overflow-hidden text-center max-w-4xl mx-auto">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-[#006bfd]/10 blur-xl rounded-full" />
           <h2 className="text-2xl font-black mb-3">{t("generalCta.title")}</h2>
           <p className="text-[13px] text-[var(--text-secondary)] max-w-md mx-auto leading-relaxed mb-6 font-light">
             {t("generalCta.description")}

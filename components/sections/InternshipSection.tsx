@@ -7,7 +7,7 @@ import { useTranslations, useLocale } from "next-intl"
 
 export function InternshipSection() {
   const t = useTranslations("internship")
-  const locale = useLocale() as "en" | "th"
+  const locale = useLocale() as "en" | "ar"
 
   const internships = jobs.filter((job) => job.type === "internship")
   const openInternships = internships.filter((job) => job.isOpen)

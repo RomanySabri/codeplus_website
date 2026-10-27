@@ -20,7 +20,7 @@ export function JobPostingSchema({ title, description, slug, datePosted = "2026-
       "@type": "Organization",
       "name": "Code Plus Software House",
       "url": "https://codeplusdev.com",
-      "logo": "https://codeplusdev.com/logo.png"
+      "logo": "https://codeplusdev.com/app-icon.png"
     },
     "jobLocation": {
       "@type": "Place",

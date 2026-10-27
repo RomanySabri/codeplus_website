@@ -9,7 +9,7 @@ import { useTranslations, useLocale } from "next-intl";
 
 export default function TestimonialsSection() {
   const t = useTranslations("testimonials");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
   const [active, setActive] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
 
@@ -172,7 +172,7 @@ export default function TestimonialsSection() {
                   {isActive && (
                     <motion.div
                       layoutId="active-indicator-bar"
-                      className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[var(--text-brand)] to-purple-500"
+                      className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[var(--text-brand)] to-[#006bfd]"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}

@@ -6,9 +6,9 @@ export const metadata: Metadata = {
     template: "%s | CodePlus",
   },
   icons: {
-    icon: "/only icon full color RGB.png",
-    shortcut: "/only icon full color RGB.png",
-    apple: "/only icon full color RGB.png",
+    icon: "/app-icon.png",
+    shortcut: "/app-icon.png",
+    apple: "/app-icon.png",
   },
 }
 

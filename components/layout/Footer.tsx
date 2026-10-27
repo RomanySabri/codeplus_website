@@ -40,6 +40,8 @@ const socialLinks = [
 
 export function Footer() {
   const t = useTranslations("footer");
+  const tl = useTranslations("labels");
+  const tr = (label: string) => (tl.has(label) ? tl(label) : label);
   const giantTextRef = useRef<HTMLDivElement>(null);
   const [glowPos, setGlowPos] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);
@@ -72,8 +74,8 @@ export function Footer() {
             opacity: isHovered ? 1 : 0,
             background: `radial-gradient(
               circle 300px at ${glowPos.x}px ${glowPos.y}px,
-              rgba(26, 122, 181, 0.12) 0%,
-              rgba(26, 122, 181, 0.04) 40%,
+              rgba(0, 107, 253, 0.12) 0%,
+              rgba(0, 107, 253, 0.04) 40%,
               transparent 70%
             )`,
             filter: "blur(24px)",
@@ -88,7 +90,7 @@ export function Footer() {
             opacity: isHovered ? 1 : 0,
             background: `radial-gradient(
               circle 120px at ${glowPos.x}px ${glowPos.y}px,
-              rgba(26, 122, 181, 0.20) 0%,
+              rgba(0, 107, 253, 0.20) 0%,
               transparent 70%
             )`,
             zIndex: 0,
@@ -188,28 +190,32 @@ export function Footer() {
           <div className="col-span-2 lg:col-span-1 flex flex-col gap-0">
 
             {/* Logo */}
-            <Link href="/" aria-label="CodePlus — Home" className="w-fit group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] rounded">
+            <Link href="/" aria-label="CodePlus — Home" className="w-fit flex items-center group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] rounded">
               <Image
-                src="/code plus logo white RGB.png"
-                alt={site.company.name}
-                width={110}
-                height={28}
+                src="/logo-icon-dark.png"
+                alt=""
+                width={64}
+                height={40}
                 priority
-                className="object-contain w-auto h-auto opacity-90 group-hover:opacity-100 transition-opacity duration-200 hidden dark:block"
+                className="object-contain w-auto h-8 hidden dark:block"
               />
               <Image
-                src="/code plus logo black color RGP.png"
-                alt={site.company.name}
-                width={110}
-                height={28}
+                src="/logo-icon-light.png"
+                alt=""
+                width={64}
+                height={40}
                 priority
-                className="object-contain w-auto h-auto opacity-90 group-hover:opacity-100 transition-opacity duration-200 block dark:hidden"
+                className="object-contain w-auto h-8 block dark:hidden"
               />
+              <span className="ms-2.5 flex flex-col leading-none">
+                <span className="text-[17px] font-bold tracking-tight text-[var(--text-primary)]">{site.company.name}</span>
+                <span className="mt-1 text-[7px] tracking-[0.32em] uppercase text-[var(--text-ghost)]">Software House</span>
+              </span>
             </Link>
 
             {/* Tagline */}
             <p className="mt-4 text-[12px] leading-relaxed text-[var(--text-secondary)] max-w-[190px]">
-              {site.company.description}
+              {t.has("description") ? t("description") : site.company.description}
             </p>
 
             {/* Social icons */}
@@ -245,7 +251,7 @@ export function Footer() {
             ([category, links]) => (
               <div key={category} className="flex flex-col gap-4">
                 <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
-                  {category}
+                  {tr(category)}
                 </h3>
                 <ul className="flex flex-col gap-3">
                   {links.map((link) => (
@@ -254,7 +260,7 @@ export function Footer() {
                         href={link.href}
                         className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--text-brand)] rounded transition-colors duration-200"
                       >
-                        {link.label}
+                        {tr(link.label)}
                       </Link>
                     </li>
                   ))}

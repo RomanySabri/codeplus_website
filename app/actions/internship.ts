@@ -15,7 +15,7 @@ export async function sendInternshipApplication(data: InternshipFormData) {
           color: #fff; padding: 40px; border-radius: 8px;
           max-width: 600px; border: 1px solid rgba(255,255,255,0.06);">
 
-          <h2 style="color: #a855f7; font-size: 20px;
+          <h2 style="color: #006bfd; font-size: 20px;
             margin: 0 0 24px; letter-spacing: 0.1em; text-transform: uppercase;">
             NEW INTERNSHIP APPLICATION
           </h2>
@@ -37,8 +37,8 @@ export async function sendInternshipApplication(data: InternshipFormData) {
                 text-transform: uppercase;">
                 Email Address
               </td>
-              <td style="padding: 10px 0; color: #a855f7; font-size: 14px;">
-                <a href="mailto:${data.email}" style="color: #a855f7; text-decoration: none;">${data.email}</a>
+              <td style="padding: 10px 0; color: #006bfd; font-size: 14px;">
+                <a href="mailto:${data.email}" style="color: #006bfd; text-decoration: none;">${data.email}</a>
               </td>
             </tr>
             <tr style="border-top: 1px solid rgba(255,255,255,0.06);">
@@ -47,7 +47,7 @@ export async function sendInternshipApplication(data: InternshipFormData) {
                 text-transform: uppercase;">
                 Target Position
               </td>
-              <td style="padding: 10px 0; color: #a855f7; font-size: 14px; font-weight: bold;">
+              <td style="padding: 10px 0; color: #006bfd; font-size: 14px; font-weight: bold;">
                 ${data.position}
               </td>
             </tr>
@@ -58,7 +58,7 @@ export async function sendInternshipApplication(data: InternshipFormData) {
                 CV / Resume Link
               </td>
               <td style="padding: 10px 0; font-size: 14px;">
-                <a href="${data.cvLink}" target="_blank" style="color: #a855f7; text-decoration: underline;">
+                <a href="${data.cvLink}" target="_blank" style="color: #006bfd; text-decoration: underline;">
                   View CV / Resume
                 </a>
               </td>
@@ -79,11 +79,11 @@ export async function sendInternshipApplication(data: InternshipFormData) {
           </div>
 
           <div style="margin-top: 32px; padding: 16px;
-            background: rgba(168,85,247,0.05);
-            border: 1px solid rgba(168,85,247,0.15);
+            background: rgba(0,107,253,0.05);
+            border: 1px solid rgba(0,107,253,0.15);
             border-radius: 6px; text-align: center;">
             <a href="mailto:${data.email}"
-              style="color: #a855f7; font-size: 12px;
+              style="color: #006bfd; font-size: 12px;
               text-decoration: none; letter-spacing: 0.1em; font-weight: bold;">
               REPLY TO APPLICANT →
             </a>

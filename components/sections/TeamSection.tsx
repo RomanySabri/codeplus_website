@@ -12,7 +12,7 @@ import { useTranslations, useLocale } from "next-intl"
 
 export const TeamSection = () => {
   const t = useTranslations("team");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   // Slider Refs and State
   const scrollRef = useRef<HTMLDivElement>(null);

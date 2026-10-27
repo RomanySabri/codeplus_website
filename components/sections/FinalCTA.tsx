@@ -25,7 +25,7 @@ export default function FinalCTA() {
           </p>
           <h2 className="text-4xl lg:text-6xl font-black text-[var(--text-primary)] tracking-tight leading-[1.05] mb-6">
             {t("headlinePart1")} <br className="hidden lg:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1a7ab5] via-[#0ea5c8] to-[#22d3ee]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#006bfd] via-[#006bfd] to-[#4da3ff]">
               {t("headlineAccent")}
             </span>{" "}
             {t("headlinePart2")}

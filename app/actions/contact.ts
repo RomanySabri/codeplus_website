@@ -15,7 +15,7 @@ export async function sendContactEmail(data: ContactFormData) {
           color: #fff; padding: 40px; border-radius: 8px;
           max-width: 600px;">
 
-          <h2 style="color: #0ea5c8; font-size: 20px;
+          <h2 style="color: #006bfd; font-size: 20px;
             margin: 0 0 24px; letter-spacing: 0.1em;">
             NEW PROJECT INQUIRY
           </h2>
@@ -37,9 +37,9 @@ export async function sendContactEmail(data: ContactFormData) {
                 text-transform: uppercase;">
                 Email
               </td>
-              <td style="padding: 10px 0; color: #0ea5c8; font-size: 14px;">
+              <td style="padding: 10px 0; color: #006bfd; font-size: 14px;">
                 <a href="mailto:${data.email}"
-                  style="color: #0ea5c8;">${data.email}</a>
+                  style="color: #006bfd;">${data.email}</a>
               </td>
             </tr>
             ${data.company ? `
@@ -69,11 +69,11 @@ export async function sendContactEmail(data: ContactFormData) {
           </div>
 
           <div style="margin-top: 32px; padding: 16px;
-            background: rgba(14,165,200,0.05);
-            border: 1px solid rgba(14,165,200,0.15);
+            background: rgba(0,107,253,0.05);
+            border: 1px solid rgba(0,107,253,0.15);
             border-radius: 6px; text-align: center;">
             <a href="mailto:${data.email}"
-              style="color: #0ea5c8; font-size: 12px;
+              style="color: #006bfd; font-size: 12px;
               text-decoration: none; letter-spacing: 0.1em;">
               REPLY TO ${data.email} →
             </a>

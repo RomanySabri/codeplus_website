@@ -19,34 +19,34 @@ const getJob = (slug: string): Job | null => {
       isOpen: true,
       title: {
         en: "General Internship Application",
-        th: "ใบสมัครฝึกงานทั่วไป"
+        ar: "طلب تدريب عام"
       },
       department: {
         en: "General",
-        th: "ทั่วไป"
+        ar: "عام"
       },
       duration: {
         en: "Flexible",
-        th: "ยืดหยุ่น"
+        ar: "مرن"
       },
       description: {
         en: "Don't see an internship position that perfectly matches your skills? Submit a general application here. Our engineering and design teams will review your profile and contact you if a suitable spot opens up.",
-        th: "ไม่พบตำแหน่งฝึกงานที่ตรงกับทักษะของคุณใช่หรือไม่? ส่งใบสมัครทั่วไปได้ที่นี่ ทีมวิศวกรและนักออกแบบของเราจะตรวจสอบโปรไฟล์ของคุณและติดต่อกลับเมื่อมีตำแหน่งงานที่เหมาะสม"
+        ar: "لا تجد وظيفة تدريب تناسب مهاراتك تمامًا؟ أرسل طلبًا عامًا من هنا. سيراجع فريقا الهندسة والتصميم ملفك ويتواصلان معك عند توفر مكان مناسب."
       },
       requirements: [
         {
           en: "Strong desire to learn and collaborate with a professional engineering team.",
-          th: "มีความต้องการอย่างแรงกล้าที่จะเรียนรู้และร่วมงานกับทีมวิศวกรมืออาชีพ"
+          ar: "رغبة قوية في التعلم والتعاون مع فريق هندسي محترف."
         },
         {
           en: "Basic familiarity with software development, programming languages, or design principles.",
-          th: "มีความคุ้นเคยพื้นฐานเกี่ยวกับความรู้ด้านไอที การพัฒนาซอฟต์แวร์ หรือการออกแบบ"
+          ar: "إلمام أساسي بتطوير البرمجيات أو لغات البرمجة أو مبادئ التصميم."
         }
       ],
       responsibilities: [
         {
           en: "Contribute to client projects, participate in standups, and assist senior developers.",
-          th: "มีส่วนร่วมในโครงการของลูกค้า เข้าร่วมประชุมทีม และช่วยเหลือนักพัฒนาอาวุโส"
+          ar: "المساهمة في مشاريع العملاء وحضور الاجتماعات اليومية ومساعدة المطورين الكبار."
         }
       ]
     }
@@ -56,7 +56,7 @@ const getJob = (slug: string): Job | null => {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params
-  const activeLocale = (locale === "th" ? "th" : "en") as "en" | "th"
+  const activeLocale = (locale === "ar" ? "ar" : "en") as "en" | "ar"
   const job = getJob(slug)
   if (!job) return {}
   const title = `${job.title[activeLocale]} - CodePlus`
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/${locale}/careers/${slug}`,
       languages: {
         en: `/en/careers/${slug}`,
-        th: `/th/careers/${slug}`,
+        ar: `/ar/careers/${slug}`,
       },
     },
     openGraph: {
@@ -95,13 +95,13 @@ export default async function InternshipDetailPage({ params }: Props) {
   const job = getJob(slug)
   if (!job) notFound()
 
-  const activeLocale = (locale === "th" ? "th" : "en") as "en" | "th"
+  const activeLocale = (locale === "ar" ? "ar" : "en") as "en" | "ar"
   const jobTitle = job.title[activeLocale]
   const jobDesc = job.description?.[activeLocale] || ""
 
   const breadcrumbs = [
-    { name: locale === "th" ? "หน้าแรก" : "Home", url: `/${locale}` },
-    { name: locale === "th" ? "ร่วมงานกับเรา" : "Careers", url: `/${locale}/careers` },
+    { name: locale === "ar" ? "الرئيسية" : "Home", url: `/${locale}` },
+    { name: locale === "ar" ? "الوظائف" : "Careers", url: `/${locale}/careers` },
     { name: jobTitle, url: `/${locale}/careers/${slug}` },
   ]
 

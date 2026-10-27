@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params
   const service = services.find((s) => s.id === slug)
   if (!service) return {}
-  const activeLocale = (locale === "th" ? "th" : "en") as "en" | "th"
+  const activeLocale = (locale === "ar" ? "ar" : "en") as "en" | "ar"
   const title = `${service.title[activeLocale]} - CodePlus`
   return {
     title,
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/${locale}/services/${slug}`,
       languages: {
         en: `/en/services/${slug}`,
-        th: `/th/services/${slug}`,
+        ar: `/ar/services/${slug}`,
       },
     },
     openGraph: {
@@ -50,13 +50,13 @@ export default async function ServiceDetailPage({ params }: Props) {
   const service = services.find((s) => s.id === slug)
   if (!service) notFound()
 
-  const activeLocale = (locale === "th" ? "th" : "en") as "en" | "th"
+  const activeLocale = (locale === "ar" ? "ar" : "en") as "en" | "ar"
   const serviceName = service.title[activeLocale]
   const serviceDesc = service.description[activeLocale]
 
   const breadcrumbs = [
-    { name: locale === "th" ? "หน้าแรก" : "Home", url: `/${locale}` },
-    { name: locale === "th" ? "บริการ" : "Services", url: `/${locale}/services` },
+    { name: locale === "ar" ? "الرئيسية" : "Home", url: `/${locale}` },
+    { name: locale === "ar" ? "الخدمات" : "Services", url: `/${locale}/services` },
     { name: serviceName, url: `/${locale}/services/${slug}` },
   ]
 

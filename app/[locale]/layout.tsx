@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Geist_Mono, Inter } from "next/font/google"
-import { Sarabun } from "next/font/google"
+import { Cairo } from "next/font/google"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
 import { notFound } from "next/navigation"
@@ -25,10 +25,10 @@ const fontMono = Geist_Mono({
   display: "swap",
 })
 
-const sarabun = Sarabun({
-  subsets: ["thai", "latin"],
+const cairo = Cairo({
+  subsets: ["arabic", "latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
-  variable: "--font-thai",
+  variable: "--font-arabic",
   display: "swap",
 })
 
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     canonical: "/",
     languages: {
       en: "/en",
-      th: "/th",
+      ar: "/ar",
     },
   },
 }
@@ -69,18 +69,18 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      dir="ltr"
+      dir={locale === "ar" ? "rtl" : "ltr"}
       suppressHydrationWarning
       className={cn(
         "antialiased",
         fontMono.variable,
         "font-sans",
         inter.variable,
-        locale === "th" ? sarabun.variable : ""
+        locale === "ar" ? cairo.variable : ""
       )}
     >
       <body
-        className={`bg-[var(--bg-primary)] antialiased ${locale === "th" ? "font-[var(--font-thai)]" : ""}`}
+        className={`bg-[var(--bg-primary)] antialiased ${locale === "ar" ? "font-[var(--font-arabic)]" : ""}`}
       >
         <a
           href="#main-content"

@@ -7,7 +7,7 @@ import { Project, projects } from "@/data";
 
 export function CaseStudyClient({ project }: { project: Project }) {
   const t = useTranslations("caseStudy");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   // Next project for bottom navigation
   const currentIndex = projects.findIndex((p) => p.slug === project.slug);

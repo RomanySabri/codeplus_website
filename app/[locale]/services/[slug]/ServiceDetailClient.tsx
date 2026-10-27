@@ -30,23 +30,23 @@ const ICON_MAP = {
 };
 
 const COLOR_MAP: Record<string, string> = {
-  mobile: "#ec4899",
-  web: "#3b82f6",
-  design: "#d946ef",
-  backend: "#0ea5c8",
-  erp: "#f59e0b",
-  ai: "#a855f7",
-  industry: "#10b981",
-  security: "#6366f1",
+  mobile: "#4da3ff",
+  web: "#006bfd",
+  design: "#0056d6",
+  backend: "#006bfd",
+  erp: "#4da3ff",
+  ai: "#006bfd",
+  industry: "#006bfd",
+  security: "#0056d6",
 };
 
 export function ServiceDetailClient({ service }: { service: Service }) {
   const t = useTranslations("services");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   const IconComponent =
     ICON_MAP[service.icon as keyof typeof ICON_MAP] || Server;
-  const accentColor = COLOR_MAP[service.id] || "#0ea5c8";
+  const accentColor = COLOR_MAP[service.id] || "#006bfd";
 
   return (
     <article className="bg-[var(--bg-primary)] min-h-screen text-[var(--text-primary)] relative">
@@ -64,7 +64,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
         <div className="mb-12">
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] text-[var(--text-ghost)] uppercase hover:text-[#22d3ee] hover:text-[var(--text-secondary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0ea5c8] rounded transition-colors"
+            className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] text-[var(--text-ghost)] uppercase hover:text-[#4da3ff] hover:text-[var(--text-secondary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006bfd] rounded transition-colors"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             {t("learnMore") ? t("learnMore").replace("→", "").trim() : "Back to Services"}
@@ -91,7 +91,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
             {/* Right - Title & Tagline */}
             <div>
               <div className="flex items-center gap-3 mb-2">
-                <span className="text-[10px] font-mono tracking-[0.25em] text-[#0ea5c8] uppercase">
+                <span className="text-[10px] font-mono tracking-[0.25em] text-[#006bfd] uppercase">
                   Service {service.tag}
                 </span>
               </div>
@@ -117,7 +117,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div>
               <h2 className="text-[11px] tracking-[0.25em] text-[var(--text-muted)] uppercase font-mono">
-                {locale === "th" ? "ภาพรวมและแนวทาง" : "Overview & Approach"}
+                {locale === "ar" ? "نظرة عامة ونهج العمل" : "Overview & Approach"}
               </h2>
             </div>
             <div className="lg:col-span-2">
@@ -132,10 +132,10 @@ export function ServiceDetailClient({ service }: { service: Service }) {
         <section className="mb-20">
           <div className="mb-10">
             <h2 className="text-[11px] tracking-[0.25em] text-[var(--text-muted)] uppercase font-mono mb-2">
-              {locale === "th" ? "ขีดความสามารถหลัก" : "Core Capabilities"}
+              {locale === "ar" ? "القدرات الأساسية" : "Core Capabilities"}
             </h2>
             <h3 className="text-2xl font-bold">
-              {locale === "th" ? "สิ่งที่เราเชี่ยวชาญเป็นพิเศษ" : "What We Specialize In"}
+              {locale === "ar" ? "ما نتخصص فيه" : "What We Specialize In"}
             </h3>
           </div>
 
@@ -169,17 +169,17 @@ export function ServiceDetailClient({ service }: { service: Service }) {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div>
               <h2 className="text-[11px] tracking-[0.25em] text-[var(--text-muted)] uppercase font-mono mb-2">
-                {locale === "th" ? "เครื่องมือและเทคโนโลยี" : "Tech Arsenal"}
+                {locale === "ar" ? "ترسانة التقنيات" : "Tech Arsenal"}
               </h2>
               <h3 className="text-2xl font-bold">
-                {locale === "th" ? "พัฒนาด้วยความทันสมัย" : "Modern Tech Stack"}
+                {locale === "ar" ? "حزمة تقنيات حديثة" : "Modern Tech Stack"}
               </h3>
             </div>
             <div className="lg:col-span-2 flex flex-wrap gap-2.5 items-center">
               {service.tech.map((techItem) => (
                 <span
                   key={techItem}
-                  className="px-4 py-2 text-[12px] font-mono text-[var(--text-secondary)] bg-[var(--bg-secondary)] border border-[var(--border-default)] rounded-sm hover:border-[#0ea5c8]/30 hover:text-[var(--text-primary)] transition-all duration-200"
+                  className="px-4 py-2 text-[12px] font-mono text-[var(--text-secondary)] bg-[var(--bg-secondary)] border border-[var(--border-default)] rounded-sm hover:border-[#006bfd]/30 hover:text-[var(--text-primary)] transition-all duration-200"
                 >
                   {techItem}
                 </span>
@@ -193,7 +193,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
           {/* Deliverables */}
           <div className="lg:col-span-2 p-8 rounded-lg border border-[var(--border-default)] bg-[var(--bg-tertiary)]">
             <h3 className="text-lg font-bold mb-6">
-              {t("deliverables") || (locale === "th" ? "สิ่งที่จะได้รับส่งมอบ" : "Engineering Deliverables")}
+              {t("deliverables") || (locale === "ar" ? "المخرجات الهندسية" : "Engineering Deliverables")}
             </h3>
             <ul className="flex flex-col gap-4">
               {service.deliverables.map((del) => (
@@ -221,7 +221,7 @@ export function ServiceDetailClient({ service }: { service: Service }) {
                 <Calendar className="w-5 h-5 text-[var(--text-secondary)]" />
               </div>
               <h3 className="text-[10px] tracking-[0.2em] text-[var(--text-muted)] uppercase font-mono mb-2">
-                {t("howWeWork") || (locale === "th" ? "ระยะเวลาดำเนินการ" : "Project Timeline")}
+                {t("howWeWork") || (locale === "ar" ? "الجدول الزمني للمشروع" : "Project Timeline")}
               </h3>
               <p
                 className="text-3xl font-black tracking-tight"
@@ -231,8 +231,8 @@ export function ServiceDetailClient({ service }: { service: Service }) {
               </p>
             </div>
             <p className="text-[11px] text-[var(--text-muted)] leading-relaxed mt-6">
-              {locale === "th"
-                ? "* ระยะเวลาประเมินขั้นต้น อาจปรับเปลี่ยนตามขอบข่ายที่ตกลงกัน"
+              {locale === "ar"
+                ? "* مدة التسليم تقديرية وقابلة للتعديل حسب نطاق العمل المتفق عليه."
                 : "* Estimated delivery time; subject to adjustment based on scope agreement."}
             </p>
           </div>
@@ -247,19 +247,19 @@ export function ServiceDetailClient({ service }: { service: Service }) {
             }}
           />
           <h3 className="text-2xl lg:text-3xl font-black mb-3">
-            {t("ctaQuestion") || (locale === "th" ? "พร้อมที่จะเริ่มต้นโครงการของคุณแล้วหรือยัง?" : "Ready to build something exceptional?")}
+            {t("ctaQuestion") || (locale === "ar" ? "جاهز لبناء شيء استثنائي؟" : "Ready to build something exceptional?")}
           </h3>
           <p className="text-[13px] text-[var(--text-secondary)] max-w-md mx-auto leading-relaxed mb-8">
-            {locale === "th"
-              ? "ร่วมมือกับทีมวิศวกรของเราเพื่อสร้างโซลูชันระบบที่มั่นคงและมีประสิทธิภาพสูงสุดสำหรับองค์กรของคุณ"
+            {locale === "ar"
+              ? "تعاون مع فريقنا الهندسي لبناء أنظمة متينة وعالية الأداء مصممة خصيصًا لمؤسستك."
               : "Collaborate with our engineering team to build highly resilient, high-performance systems customized for your enterprise."}
           </p>
           <Link
             href="/contact"
-            className="inline-flex bg-[#0ea5c8] hover:bg-[#22d3ee] px-8 py-3.5 rounded-sm text-[11px] font-bold tracking-[0.2em] uppercase text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0ea5c8] transition-all duration-200 shadow-[0_0_25px_rgba(14,165,200,0.3)] hover:shadow-[0_0_40px_rgba(14,165,200,0.5)]"
+            className="inline-flex bg-[#006bfd] hover:bg-[#4da3ff] px-8 py-3.5 rounded-sm text-[11px] font-bold tracking-[0.2em] uppercase text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006bfd] transition-all duration-200 shadow-[0_0_25px_rgba(0,107,253,0.3)] hover:shadow-[0_0_40px_rgba(0,107,253,0.5)]"
             style={{ backgroundColor: accentColor }}
           >
-            {t("startThisProject") || (locale === "th" ? "เริ่มโครงการนี้" : "Start this project")} →
+            {t("startThisProject") || (locale === "ar" ? "ابدأ هذا المشروع" : "Start this project")} →
           </Link>
         </section>
         </div>

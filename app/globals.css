@@ -48,62 +48,62 @@
 }
 
 :root {
-  /* ── Lochmara brand scale ── */
-  --cp-50:  #f2f8fd;
-  --cp-100: #e4f0fa;
-  --cp-200: #c2e1f5;
-  --cp-300: #8ccaed;
-  --cp-400: #4faee1;
-  --cp-500: #2894cf;
-  --cp-600: #1a7ab5;
-  --cp-700: #165f8e;
-  --cp-800: #165176;
-  --cp-900: #184462;
-  --cp-950: #102b41;
+  /* ── Code Plus brand scale ── */
+  --cp-50:  #f5f7fb;
+  --cp-100: #e6f0ff;
+  --cp-200: #c2dbff;
+  --cp-300: #8fc0ff;
+  --cp-400: #4da3ff;
+  --cp-500: #006bfd;
+  --cp-600: #0056d6;
+  --cp-700: #334155;
+  --cp-800: #1b2f4d;
+  --cp-900: #0d1f38;
+  --cp-950: #081528;
 
   /* ── LIGHT MODE (default) ── */
-  --bg-primary:     #f2f8fd;
+  --bg-primary:     #f5f7fb;
   --bg-secondary:   #ffffff;
-  --bg-tertiary:    #e4f0fa;
+  --bg-tertiary:    #e6f0ff;
   --bg-card:        #ffffff;
-  --bg-card-hover:  #f2f8fd;
-  --bg-brand:       rgba(26,122,181,0.08);
-  --bg-brand-dark:  rgba(22,95,142,0.12);
+  --bg-card-hover:  #f5f7fb;
+  --bg-brand:       rgba(0,107,253,0.08);
+  --bg-brand-dark:  rgba(0,86,214,0.12);
 
-  --border-default: #c2e1f5;
-  --border-brand:   rgba(26,122,181,0.35);
-  --border-subtle:  rgba(26,122,181,0.15);
+  --border-default: #d5e4fb;
+  --border-brand:   rgba(0,107,253,0.35);
+  --border-subtle:  rgba(0,107,253,0.15);
 
-  --text-primary:   #102b41;
-  --text-secondary: #165176;
-  --text-muted:     rgba(16, 43, 65, 0.68);
-  --text-ghost:     rgba(16, 43, 65, 0.65);
-  --text-brand:     #1a7ab5;
-  --text-brand-bright: #2894cf;
+  --text-primary:   #0d1f38;
+  --text-secondary: #334155;
+  --text-muted:     rgba(13,31,56,0.68);
+  --text-ghost:     rgba(13,31,56,0.65);
+  --text-brand:     #006bfd;
+  --text-brand-bright: #4da3ff;
 
-  --btn-primary:            #1a7ab5;
-  --btn-primary-hover:      #2894cf;
+  --btn-primary:            #006bfd;
+  --btn-primary-hover:      #0056d6;
   --btn-primary-text:       #ffffff;
-  --btn-ghost-border:       rgba(26,122,181,0.25);
-  --btn-ghost-text:         #165176;
-  --btn-ghost-hover-border: rgba(26,122,181,0.5);
-  --btn-ghost-hover-text:   #1a7ab5;
+  --btn-ghost-border:       rgba(0,107,253,0.25);
+  --btn-ghost-text:         #334155;
+  --btn-ghost-hover-border: rgba(0,107,253,0.5);
+  --btn-ghost-hover-text:   #006bfd;
 
   --input-bg:          #ffffff;
-  --input-border:      #c2e1f5;
-  --input-focus:       #1a7ab5;
-  --input-text:        #102b41;
-  --input-placeholder: rgba(16,43,65,0.55);
+  --input-border:      #d5e4fb;
+  --input-focus:       #006bfd;
+  --input-text:        #0d1f38;
+  --input-placeholder: rgba(13,31,56,0.55);
 
-  --navbar-bg:     rgba(242,248,253,0.90);
-  --navbar-border: rgba(194,225,245,0.9);
+  --navbar-bg:     rgba(245,247,251,0.90);
+  --navbar-border: rgba(213,228,251,0.9);
 
-  --shadow-brand:        rgba(26,122,181,0.20);
-  --shadow-brand-strong: rgba(26,122,181,0.40);
+  --shadow-brand:        rgba(0,107,253,0.20);
+  --shadow-brand-strong: rgba(0,107,253,0.40);
 
-  --grid-line: rgba(16,43,65,0.05);
-  --card-shadow: 0 1px 3px rgba(16,43,65,0.08),
-                 0 4px 16px rgba(16,43,65,0.06);
+  --grid-line: rgba(13,31,56,0.05);
+  --card-shadow: 0 1px 3px rgba(13,31,56,0.08),
+                 0 4px 16px rgba(13,31,56,0.06);
 
   /* ── Mapping to Tailwind defaults ── */
   --background: var(--bg-primary);
@@ -142,39 +142,39 @@
   --bg-tertiary:    #0c0c14;
   --bg-card:        #0f0f18;
   --bg-card-hover:  #111120;
-  --bg-brand:       rgba(26,122,181,0.08);
-  --bg-brand-dark:  rgba(16,43,65,0.5);
+  --bg-brand:       rgba(0,107,253,0.12);
+  --bg-brand-dark:  rgba(0,86,214,0.35);
 
   --border-default: rgba(255,255,255,0.06);
-  --border-brand:   rgba(26,122,181,0.30);
-  --border-subtle:  rgba(26,122,181,0.12);
+  --border-brand:   rgba(77,163,255,0.35);
+  --border-subtle:  rgba(77,163,255,0.14);
 
-  --text-primary:      rgba(255,255,255,0.92);
-  --text-secondary:    rgba(255,255,255,0.70);
+  --text-primary:      rgba(255,255,255,0.94);
+  --text-secondary:    rgba(255,255,255,0.72);
   --text-muted:        rgba(255,255,255,0.62);
   --text-ghost:        rgba(255,255,255,0.50);
-  --text-brand:        #4faee1;
-  --text-brand-bright: #8ccaed;
+  --text-brand:        #4da3ff;
+  --text-brand-bright: #8fc0ff;
 
-  --btn-primary:            #1a7ab5;
-  --btn-primary-hover:      #2894cf;
+  --btn-primary:            #006bfd;
+  --btn-primary-hover:      #4da3ff;
   --btn-primary-text:       #ffffff;
-  --btn-ghost-border:       rgba(255,255,255,0.12);
-  --btn-ghost-text:         rgba(255,255,255,0.50);
-  --btn-ghost-hover-border: rgba(26,122,181,0.40);
-  --btn-ghost-hover-text:   #4faee1;
+  --btn-ghost-border:       rgba(255,255,255,0.14);
+  --btn-ghost-text:         rgba(255,255,255,0.60);
+  --btn-ghost-hover-border: rgba(77,163,255,0.50);
+  --btn-ghost-hover-text:   #4da3ff;
 
   --input-bg:          #09090b;
-  --input-border:      rgba(255,255,255,0.08);
-  --input-focus:       #1a7ab5;
-  --input-text:        rgba(255,255,255,0.80);
+  --input-border:      rgba(255,255,255,0.10);
+  --input-focus:       #4da3ff;
+  --input-text:        rgba(255,255,255,0.85);
   --input-placeholder: rgba(255,255,255,0.45);
 
   --navbar-bg:     rgba(9,9,11,0.85);
-  --navbar-border: rgba(255,255,255,0.06);
+  --navbar-border: rgba(255,255,255,0.08);
 
-  --shadow-brand:        rgba(26,122,181,0.25);
-  --shadow-brand-strong: rgba(26,122,181,0.45);
+  --shadow-brand:        rgba(0,107,253,0.30);
+  --shadow-brand-strong: rgba(0,107,253,0.50);
 
   --grid-line: rgba(255,255,255,0.04);
   --card-shadow: none;
@@ -240,4 +240,11 @@
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+/* Arabic: letter-spacing breaks letter joining, and uppercase has no meaning */
+[dir="rtl"] *,
+[dir="rtl"] *::before,
+[dir="rtl"] *::after {
+  letter-spacing: normal !important;
+  text-transform: none !important;
 }

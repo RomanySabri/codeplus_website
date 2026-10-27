@@ -29,7 +29,7 @@ const ICON_MAP = {
 
 export function ServicesPageClient() {
   const t = useTranslations("services");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   return (
     <>

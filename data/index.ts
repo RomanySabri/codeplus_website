@@ -14,7 +14,7 @@ export const jobs = jobsData as Job[];
 
 export type LocalizedString = {
   en: string;
-  th: string;
+  ar: string;
 };
 
 export interface Project {

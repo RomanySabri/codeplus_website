@@ -20,7 +20,7 @@ type FormData = {
 
 export function InternshipDetailClient({ job }: { job: Job }) {
   const t = useTranslations("careers");
-  const locale = useLocale() as "en" | "th";
+  const locale = useLocale() as "en" | "ar";
 
   const [isSuccess, setIsSuccess] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -63,7 +63,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
       <div
         className="absolute top-0 right-0 w-[500px] h-[500px] pointer-events-none opacity-20 blur-[120px]"
         style={{
-          background: `radial-gradient(circle, #a855f7 0%, transparent 80%)`,
+          background: `radial-gradient(circle, #006bfd 0%, transparent 80%)`,
         }}
       />
 
@@ -72,7 +72,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
         <div className="mb-12">
           <Link
             href={`/careers`}
-            className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] text-[var(--text-muted)] uppercase hover:text-purple-400 hover:text-[var(--text-secondary)] transition-colors"
+            className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] text-[var(--text-muted)] uppercase hover:text-[#4da3ff] hover:text-[var(--text-secondary)] transition-colors"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             {t("back")}
@@ -87,7 +87,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                 ? "text-emerald-500 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/20" 
                 : "text-[var(--text-muted)] bg-[var(--bg-secondary)] border border-[var(--border-default)]"
             }`}>
-              {job.isOpen ? (locale === "th" ? "เปิดรับสมัคร" : "Hiring now") : (locale === "th" ? "ปิดรับสมัคร" : "Closed")}
+              {job.isOpen ? (locale === "ar" ? "التوظيف مفتوح" : "Hiring now") : (locale === "ar" ? "مغلق" : "Closed")}
             </span>
             <span className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-widest">
               {job.department[locale]}
@@ -100,12 +100,12 @@ export function InternshipDetailClient({ job }: { job: Job }) {
 
           <div className="flex flex-wrap gap-6 text-[var(--text-muted)] text-[12px] font-light">
             <span className="flex items-center gap-2">
-              <Calendar size={14} className="text-purple-500 dark:text-purple-400" />
+              <Calendar size={14} className="text-[#006bfd] dark:text-[#4da3ff]" />
               <strong>{t("duration")}:</strong> {job.duration[locale]}
             </span>
             <span className="flex items-center gap-2">
-              <MapPin size={14} className="text-purple-500 dark:text-purple-400" />
-              <strong>{locale === "th" ? "สถานที่ทำงาน" : "Location"}:</strong> {locale === "th" ? "รีโมท / กรุงเทพฯ" : "Remote / Cairo"}
+              <MapPin size={14} className="text-[#006bfd] dark:text-[#4da3ff]" />
+              <strong>{locale === "ar" ? "مكان العمل" : "Location"}:</strong> {locale === "ar" ? "عن بُعد / القاهرة" : "Remote / Cairo"}
             </span>
           </div>
         </section>
@@ -116,7 +116,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
           <div className="space-y-10">
             <div>
               <h2 className="text-[11px] tracking-[0.25em] text-[var(--text-muted)] uppercase font-mono mb-4">
-                {locale === "th" ? "เกี่ยวกับบทบาทนี้" : "About the Role"}
+                {locale === "ar" ? "عن الوظيفة" : "About the Role"}
               </h2>
               <p className="text-[15px] text-[var(--text-secondary)] leading-relaxed font-light">
                 {job.description?.[locale]}
@@ -131,7 +131,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                 <ul className="space-y-4">
                   {job.requirements.map((req) => (
                     <li key={req.en} className="flex items-start gap-3 text-[13px] text-[var(--text-secondary)] font-light">
-                      <span className="text-purple-500 dark:text-purple-400 mt-1 select-none">→</span>
+                      <span className="text-[#006bfd] dark:text-[#4da3ff] mt-1 select-none">→</span>
                       <span>{req[locale]}</span>
                     </li>
                   ))}
@@ -147,7 +147,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                 <ul className="space-y-4">
                   {job.responsibilities.map((resp) => (
                     <li key={resp.en} className="flex items-start gap-3 text-[13px] text-[var(--text-secondary)] font-light">
-                      <span className="text-purple-500 dark:text-purple-400 mt-1 select-none">✓</span>
+                      <span className="text-[#006bfd] dark:text-[#4da3ff] mt-1 select-none">✓</span>
                       <span>{resp[locale]}</span>
                     </li>
                   ))}
@@ -159,7 +159,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
           {/* RIGHT - Application Form */}
           <div>
             <div className="relative rounded-2xl border border-[var(--border-default)] bg-gradient-to-b from-[var(--bg-secondary)] to-[var(--bg-primary)] p-8 shadow-[var(--card-shadow)] relative overflow-hidden">
-              <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent pointer-events-none" />
+              <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#006bfd] to-transparent pointer-events-none" />
 
               {isSuccess ? (
                 <motion.div
@@ -209,7 +209,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                         aria-invalid={errors.name ? "true" : "false"}
                         aria-describedby={errors.name ? "intern-name-error" : undefined}
                         placeholder={t("form.namePlaceholder")}
-                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200"
+                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-[#006bfd] focus:ring-1 focus:ring-[#006bfd] rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200"
                       />
                       {errors.name && (
                         <p id="intern-name-error" className="text-[11px] text-red-500 dark:text-red-400/80 mt-1.5 flex items-center gap-1 font-light">
@@ -231,7 +231,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                         aria-invalid={errors.email ? "true" : "false"}
                         aria-describedby={errors.email ? "intern-email-error" : undefined}
                         placeholder={t("form.emailPlaceholder")}
-                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200"
+                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-[#006bfd] focus:ring-1 focus:ring-[#006bfd] rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200"
                       />
                       {errors.email && (
                         <p id="intern-email-error" className="text-[11px] text-red-500 dark:text-red-400/80 mt-1.5 flex items-center gap-1 font-light">
@@ -254,7 +254,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                         aria-invalid={errors.cvLink ? "true" : "false"}
                         aria-describedby={errors.cvLink ? "intern-cvLink-error" : undefined}
                         placeholder={t("form.cvLinkPlaceholder")}
-                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200"
+                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-[#006bfd] focus:ring-1 focus:ring-[#006bfd] rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200"
                       />
                       {errors.cvLink && (
                         <p id="intern-cvLink-error" className="text-[11px] text-red-500 dark:text-red-400/80 mt-1.5 flex items-center gap-1 font-light">
@@ -273,7 +273,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                         {...register("message")}
                         rows={4}
                         placeholder={t("form.messagePlaceholder")}
-                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200 resize-none font-light"
+                        className="w-full bg-[var(--input-bg)] border border-[var(--input-border)] hover:border-[var(--input-focus)]/30 focus:border-[#006bfd] focus:ring-1 focus:ring-[#006bfd] rounded px-4 py-3 text-[13px] text-[var(--input-text)] placeholder-[var(--input-placeholder)] focus:outline-none transition-all duration-200 resize-none font-light"
                       />
                     </div>
 
@@ -281,7 +281,7 @@ export function InternshipDetailClient({ job }: { job: Job }) {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full bg-purple-600 hover:bg-purple-700 py-3.5 rounded font-bold text-[11px] tracking-widest uppercase text-white transition-all shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:shadow-[0_0_30px_rgba(168,85,247,0.5)] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                      className="w-full bg-[#006bfd] hover:bg-[#0056d6] py-3.5 rounded font-bold text-[11px] tracking-widest uppercase text-white transition-all shadow-[0_0_20px_rgba(0,107,253,0.3)] hover:shadow-[0_0_30px_rgba(0,107,253,0.5)] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
                       {isSubmitting ? (
                         <>
